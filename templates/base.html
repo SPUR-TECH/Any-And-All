@@ -1,4 +1,5 @@
 {% load static %}
+<!-- template from code institute Boutique Ado -->
 
 <!doctype html>
 <html lang="en">
@@ -9,6 +10,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Any And All a site where people can shop for pretty much anything from mens clothes, women's clothes, kids clothes, bedroom ware to kitchen ware">
+    <meta name="keywords"
+        content="shop, mens clothes, women's clothes, kids clothes, bedroom ware, kitchen ware sign up, login, secure checkout email confirmation">
     {% endblock %}
 
     {% block extra_meta %}
@@ -45,7 +50,7 @@
 
 <body>
     <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-secondary pt-lg-2 d-none d-lg-flex">
+        <div id="topnav" class="row bg-nav-color pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-black my-0"><strong>Any And</strong><i> All</i></h2>
@@ -105,6 +110,21 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/mobile-top-header.html' %}
+                {% include 'includes/main-nav.html' %}
+            </nav>
+        </div>
+        <div id="delivery-banner" class="row text-center">
+            <div class="col bg-color text-info">
+                <h4 class="logo-font my-1 mt-4"><i>Free delivery on orders over £{{ free_shipping_threshold }}!</i></h4>
             </div>
         </div>
     </header>
