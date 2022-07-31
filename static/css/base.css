@@ -136,10 +136,25 @@ body {
     .container {
         max-width: 80%;
     }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
 }
 
 /* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -148,7 +163,46 @@ body {
         z-index: 1030;
     }
 
+    #main-header {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+
     .header-container {
-        padding-top: 164px;
+        padding-top: 100px;
+    }
+
+    i {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #main-header {
+        font-size: 30px;
+    }
+
+    li,
+    .navbar-toggler {
+        font-size: 10px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 340px) {
+
+    li {
+        font-size: 8px;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    #shop-button {
+        height: 50px;
+        margin-right: 20px;
+        margin-left: -15px;
     }
 }
