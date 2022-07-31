@@ -2,8 +2,7 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a href="{% url 'home' %}" class="logo-font font-weight-bold nav-link text-dark mr-5" id="homeware-link"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="{% url 'home' %}" class="logo-font font-weight-bold nav-link text-dark mr-5" id="home">
                 Home
             </a>
         </li>
@@ -16,7 +15,7 @@
                 <a href="" class="dropdown-item">By Price</a>
                 <a href="" class="dropdown-item ">By Rating</a>
                 <a href="" class="dropdown-item ">By Category</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
