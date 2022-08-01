@@ -57,6 +57,21 @@ i {
     text-shadow: 0 .3rem .3rem rgb(39, 39, 39);
 }
 
+.dropdown-menu {
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+}
+
+a.dropdown-item {
+    color: rgb(0, 212, 212);
+    text-shadow: 0 .2rem .2rem rgb(0, 0, 0);
+}
+
+a.dropdown-item:hover {
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(161, 250, 250);
+    border-radius: 5px;
+}
+
 body {
     background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
