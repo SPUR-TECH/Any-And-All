@@ -183,6 +183,10 @@ a.category-badge {
     z-index: -1;
 }
 
+#sort-selector {
+    margin-top: 15px;
+}
+
 #products-title {
     color: rgb(0, 238, 255);
     text-shadow: 0 .3rem .3rem rgb(0, 0, 0);
@@ -207,7 +211,20 @@ a.category-badge {
     padding-right: 10px;
     padding-bottom: 3px;
     border-radius: 5px;
+}
 
+.btt-button {
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(0, 238, 255);
+    height: 32px;
+    width: 32px;
+    position: fixed;
+    bottom: 10px;
+    left: 2.5px;
+}
+
+.btt-link {
+    cursor: pointer;
 }
 
 /* -------------------------------- Media Queries */
