@@ -45,7 +45,9 @@
                             <img class="img-fluid rounded" src="{{ item.product.image.url }}">
                         </td>
                         <td class="py-3">
-                            <p class="my-0 text-light">{{ item.product.name }}</p>
+                            <p class="my-0 text-light">Size:
+                                {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}
+                            </p>
                             <p class="my-0 text-light">SKU: {{ item.product.sku|upper }}</p>
                         </td>
                         <td class="py-3">
@@ -75,13 +77,13 @@
                     </tr>
                     <tr>
                         <td colspan="5" class="text-right">
-                            <a href="{% url 'products' %}" class="btn cart-button rounded btn-lg">
+                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded btn-lg">
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
                                 </span>
                                 <span class="text-uppercase">Keep Shopping</span>
                             </a>
-                            <a href="" class="btn cart-button rounded btn-lg">
+                            <a href="" class="btn btn-black rounded btn-lg">
                                 <span class="text-uppercase">Secure Checkout</span>
                                 <span class="icon">
                                     <i class="fas fa-lock"></i>
@@ -93,7 +95,7 @@
             </div>
             {% else %}
             <p class="lead mb-5">Your bag is empty.</p>
-            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+            <a href="{% url 'products' %}" class="btn btn-outline-black rounded btn-lg">
                 <span class="icon">
                     <i class="fas fa-chevron-left"></i>
                 </span>

@@ -134,12 +134,13 @@ a.dropdown-item:hover {
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
-.cart-button:hover,
 .btn-black:hover,
 .btn-black:active,
-.btn-black:focus {
+.btn-black:focus,
+.btn-outline-black:hover {
     background: rgb(132, 0, 255);
-    color: rgb(0, 206, 0);
+    color: rgb(0, 206, 0) !important;
+    transform: scale(1.1);
 }
 
 .text-light {
