@@ -26,14 +26,16 @@ class CategoryAdmin(admin.ModelAdmin):
 class OrderAdmin(admin.ModelAdmin):
     list_display = ['user',
                     'ordered',
+                    'shipping_address',
+                    'billing_address',
                     ]
 
 
 class AddressAdmin(admin.ModelAdmin):
     list_display = [
         'user',
-        'street_address',
         'house_number',
+        'street_address',
         'country',
         'postcode',
         'address_type',
