@@ -34,11 +34,12 @@
                 <p class="btn-color">
                     {% if product.discount_price %}
                     <span class="mr-1">
-                        <del>£{{ product.price }}</del>
+                        <del><strong>£{{ product.price }}</strong></del>
                     </span>
-                    <span><i>£{{ product.discount_price }}</i></span>
+                    <span><strong><i>£{{ product.discount_price }}</i></strong></span>
                     {% else %}
-                    <span>£{{ product.price }}</span>
+                    <span><strong>£{{ product.price }}</strong>
+                    </span>
                     {% endif %}
                 </p>
                 {% if product.category %}

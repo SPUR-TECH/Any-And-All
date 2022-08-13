@@ -15,6 +15,12 @@ body {
     font-family: 'Mochiy Pop One', sans-serif;
 }
 
+.discount-price i {
+    color: rgb(0, 238, 255);
+    text-shadow: 0 .2rem .2rem rgba(0, 0, 0);
+
+}
+
 p {
     color: rgb(22, 22, 22);
 }
