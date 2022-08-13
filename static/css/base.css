@@ -19,10 +19,19 @@ p {
     color: rgb(22, 22, 22);
 }
 
+.text-light {
+    color: rgb(0, 238, 255) !important;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+.text-dark {
+    color: rgb(136, 136, 136) !important;
+    text-shadow: 0 .2rem .2rem rgba(0, 0, 0);
+}
+
 .text-black {
     color: black;
 }
-
 
 p.my-0 {
     color: rgb(0, 238, 255);
@@ -32,7 +41,6 @@ p.my-0 {
 p.my-0:hover {
     color: rgb(191, 251, 255);
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
-
 }
 
 a:hover {
@@ -143,19 +151,23 @@ a.dropdown-item:hover {
     transform: scale(1.1);
 }
 
-.text-light {
+.update-link {
     color: rgb(0, 238, 255) !important;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
-.text-dark {
-    color: rgb(136, 136, 136) !important;
-    text-shadow: 0 .2rem .2rem rgba(0, 0, 0);
+a.update-link:hover {
+    color: rgb(0, 206, 0) !important;
 }
 
 .remove-item {
     color: rgb(175, 0, 0) !important;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+.remove-item:hover {
+    color: rgb(255, 0, 0) !important;
+    transform: scale(1) !important;
 }
 
 .small a {
@@ -255,8 +267,27 @@ a.category-badge {
     cursor: pointer;
 }
 
-a.update-link:hover {
-    color: rgb(0, 206, 0) !important;
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.close-text-danger {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.toast-capper {
+    height: 2px;
 }
 
 /* -------------------------------- Media Queries */
