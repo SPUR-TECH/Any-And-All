@@ -31,7 +31,16 @@
         <div class="col-12 col-md-6 col-lg-4">
             <div class="product-details-container mb-5 mt-md-5">
                 <p class="mb-0">{{ product.name }}</p>
-                <p class="lead mb-2 text-left font-weight-bold">£{{ product.price }}</p>
+                <p class="btn-color">
+                    {% if product.discount_price %}
+                    <span class="mr-1">
+                        <del>£{{ product.price }}</del>
+                    </span>
+                    <span><i>£{{ product.discount_price }}</i></span>
+                    {% else %}
+                    <span>£{{ product.price }}</span>
+                    {% endif %}
+                </p>
                 {% if product.category %}
                 <p class="mt-1 mb-2">
                     <a class="text-color" id="category-tag"

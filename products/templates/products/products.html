@@ -83,7 +83,16 @@
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
-                                    <p class="lead mb-2 text-left font-weight-bold">£{{ product.price }}</p>
+                                    <h4>
+                                        <del>{{ product.price }}</del>
+                                        <i>£ {% if product.discount_price %}
+                                            {{ product.discount_price }}</i>
+                                        {% else %}
+                                        <span>
+                                            {{ product.price }}
+                                        </span>
+                                        {% endif %}
+                                    </h4>
                                     {% if product.category %}
                                     <p class="mt-1 mb-2">
                                         <a class="text-color text-decoration-none" id="category-tag"
