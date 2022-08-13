@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Category, Order, Address
+from .models import Product, Category
 
 
 class ProductAdmin(admin.ModelAdmin):
@@ -23,29 +23,5 @@ class CategoryAdmin(admin.ModelAdmin):
     )
 
 
-class OrderAdmin(admin.ModelAdmin):
-    list_display = ['user',
-                    'ordered',
-                    'shipping_address',
-                    'billing_address',
-                    ]
-
-
-class AddressAdmin(admin.ModelAdmin):
-    list_display = [
-        'user',
-        'house_number',
-        'street_address',
-        'country',
-        'postcode',
-        'address_type',
-        'default'
-    ]
-    list_filter = ['default', 'address_type', 'country']
-    search_fields = ['user', 'street_address', 'house_number', 'postcode']
-
-
-admin.site.register(Address, AddressAdmin)
-admin.site.register(Order, OrderAdmin)
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)

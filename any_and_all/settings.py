@@ -42,14 +42,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'home',
-    'products',
-    'bag',
-
     'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+
+    'home',
+    'products',
+    'bag',
+    'checkout',
 ]
 
 SITE_ID = 1
