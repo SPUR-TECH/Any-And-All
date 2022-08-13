@@ -1,7 +1,10 @@
 from django.db import models
+from django.conf import settings
+from django_countries.fields import CountryField
 
 
 # model from code institute Boutique Ado
+
 class Category(models.Model):
 
     class Meta:
@@ -17,6 +20,8 @@ class Category(models.Model):
         return self.friendly_name
 
 
+# model from code institute Boutique Ado
+
 class Product(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
@@ -31,3 +36,48 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class OrderItem(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL,
+                             on_delete=models.CASCADE)
+    ordered = models.BooleanField(default=False)
+    item = models.ForeignKey(Product, on_delete=models.CASCADE)
+    quantity = models.IntegerField(default=1)
+
+    def __str__(self):
+        return f"{self.quantity} of {self.item.title}"
+
+    def get_total_item_price(self):
+        return self.quantity * self.item.price
+
+
+class Order(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL,
+                             on_delete=models.CASCADE)
+    ordered = models.BooleanField(default=False)
+    items = models.ManyToManyField(OrderItem)
+
+    def __str__(self):
+        return self.user.username
+
+
+ADDRESS_CHOICES = (
+    ('B', 'Billing'),
+    ('S', 'Shipping'),
+)
+
+
+class Address(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Addresses'
+
+    user = models.ForeignKey(settings.AUTH_USER_MODEL,
+                             on_delete=models.CASCADE)
+    street_address = models.CharField(max_length=100)
+    house_number = models.CharField(max_length=100)
+    country = CountryField(multiple=False)
+    postcode = models.CharField(max_length=100)
+    address_type = models.CharField(max_length=1, choices=ADDRESS_CHOICES)
+    default = models.BooleanField(default=False)
