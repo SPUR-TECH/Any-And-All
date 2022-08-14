@@ -2,6 +2,8 @@
 {% load static %}
 {% load bag_tools %}
 
+<!-- template from code institute Boutique Ado -->
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
@@ -98,8 +100,9 @@
                             checked>
                         {% else %}
                         <label class="form-check-label" for="id-save-info">
-                            <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or
-                            <a class="text-info" href="{% url 'account_login' %}">login</a> to save this information
+                            <a href="{% url 'account_signup' %}"><i>Create an account </i></a> or
+                            <a href="{% url 'account_login' %}"><i>login </i></a> to save this
+                            information
                         </label>
                         {% endif %}
                     </div>
@@ -138,4 +141,11 @@
         </div>
     </div>
 </div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{{ stripe_public_key|json_script:"id_stripe_public_key" }}
+{{ client_secret|json_script:"id_client_secret" }}
+<script src="{% static 'checkout/js/stripe_elements.js' %}"></script>
 {% endblock %}
