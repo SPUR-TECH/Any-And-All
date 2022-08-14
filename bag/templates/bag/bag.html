@@ -94,7 +94,7 @@
                     </tr>
                     {% endfor %}
                     <tr>
-                        <td colspan="5" class="pt-5 text-right">
+                        <td colspan="5" class="pt-5 text-right text-black">
                             <h6><strong>Bag Total: £{{ total|floatformat:2 }}</strong></h6>
                             <h6>Delivery: £{{ delivery|floatformat:2 }}</h6>
                             <h4 class="mt-4"><strong>Grand Total:
@@ -115,7 +115,7 @@
                                 </span>
                                 <span class="text-uppercase">Keep Shopping</span>
                             </a>
-                            <a href="" class="btn btn-black rounded btn-lg">
+                            <a href="{% url 'checkout' %}" class="btn btn-black rounded btn-lg">
                                 <span class="text-uppercase">Secure Checkout</span>
                                 <span class="icon">
                                     <i class="fas fa-lock"></i>

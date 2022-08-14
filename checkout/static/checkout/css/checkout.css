@@ -1,0 +1,16 @@
+.StripeElement,
+.stripe-style-input {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 12px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0 .3rem .5rem #000000;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.fieldset-label {
+    position: relative;
+    right: .5rem;
+}
