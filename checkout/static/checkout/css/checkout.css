@@ -33,4 +33,10 @@
 #card-element {
     color: #000;
     border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.text-danger {
+    color: rgb(228, 0, 0) !important;
+    text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
 }
