@@ -26,6 +26,11 @@ body {
     text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
 }
 
+.text-danger {
+    color: rgb(197, 0, 0) !important;
+    text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+}
+
 .text-dark {
     color: rgb(136, 136, 136) !important;
 }
@@ -36,7 +41,6 @@ body {
 
 p.my-0 {
     color: rgb(0, 238, 255);
-
 }
 
 p.my-0:hover {
@@ -58,6 +62,16 @@ i {
 
 .bg-color {
     background-image: linear-gradient(rgb(0, 0, 0), rgb(175, 59, 241));
+}
+
+.text-color {
+    color: rgb(0, 238, 255);
+    text-shadow: 0.2rem .2rem rgba(0, 0, 0);
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding-left: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    border-radius: 5px;
 }
 
 .navbar-toggler {
@@ -181,16 +195,6 @@ a.update-link:hover {
     width: 20%;
 }
 
-.text-color {
-    color: rgb(0, 238, 255);
-    text-shadow: 0.2rem .2rem rgba(0, 0, 0);
-    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
-    padding-left: 3px;
-    padding-right: 10px;
-    padding-bottom: 3px;
-    border-radius: 5px;
-}
-
 #all-products-link:hover {
     color: rgb(255, 255, 255) !important;
 }
@@ -288,6 +292,7 @@ a.category-badge {
 
 .toast-capper {
     height: 2px;
+    background-color: rgb(197, 0, 0);
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -316,7 +321,11 @@ a.category-badge {
 }
 
 .arrow-danger {
-    border-bottom-color: #dc3545 !important;
+    border-bottom-color: rgb(197, 0, 0) !important;
+}
+
+.bg-danger {
+    border-bottom-color: rgb(197, 0, 0) !important;
 }
 
 .arrow-warning {
