@@ -70,6 +70,16 @@
     height: 100%;
 }
 
+select,
+select option {
+    color: #000000;
+}
+
+select:invalid,
+select option[value=""] {
+    color: #aab7c4 !important;
+}
+
 @media (min-width: 600px) {
     .box {
         inline-size: 480px;
