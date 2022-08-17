@@ -52,10 +52,34 @@
     z-index: 9999;
 }
 
+.box {
+    inline-size: 280px;
+    overflow-wrap: break-word;
+}
+
+.toast-box {
+    inline-size: 300px;
+    overflow-wrap: break-word;
+}
+
 .loading-spinner {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
     height: 100%;
+}
+
+@media (min-width: 600px) {
+    .box {
+        inline-size: 480px;
+        overflow-wrap: break-word;
+    }
+}
+
+@media (max-width: 400px) {
+    .box {
+        inline-size: 180px;
+        overflow-wrap: break-word;
+    }
 }
