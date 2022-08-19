@@ -29,6 +29,7 @@ body {
 .text-danger {
     color: rgb(197, 0, 0) !important;
     text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+    font-size: 20px;
 }
 
 .text-dark {
@@ -348,6 +349,14 @@ a.category-badge {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+#id_country {
+    height: 50px;
+}
+
+.order-info {
+    font-size: 30px;
 }
 
 /* -------------------------------- Media Queries */
