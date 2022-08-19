@@ -55,9 +55,19 @@
                             {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</i></p>
                     <p class="my-0 mb-4 small"><i>Qty: {{ item.quantity }}</i></p>
                 </div>
+
+                {% if item.product.discount_price. %}
+                <div class="col-3 text-right pl-0 pr-4">
+                    <p class="my-0 small"><i>£{{ item.product.discount_price | calculate_subtotal:item.quantity }}</i>
+                    </p>
+                </div>
+                {% else %}
+
                 <div class="col-3 text-right pl-0 pr-4">
                     <p class="my-0 small"><i>£{{ item.product.price | calc_subtotal:item.quantity }}</i></p>
                 </div>
+                {% endif %}
+
             </div>
             {% endfor %}
             <hr class="my-0">

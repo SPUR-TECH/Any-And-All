@@ -35,6 +35,7 @@
                             <th scope="col">Product Info</th>
                             <th scope="col"></th>
                             <th scope="col">Price</th>
+                            <th scope="col">Discount Price</th>
                             <th scope="col">Qty</th>
                             <th scope="col">Subtotal</th>
                         </tr>
@@ -49,10 +50,12 @@
                             <p class="my-0 text-light">Size:
                                 {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}
                             </p>
-                            <p class="my-0 text-light">SKU: {{ item.product.sku|upper }}</p>
                         </td>
                         <td class="py-3">
-                            <p class="my-0 text-light">£{{ item.product.price }}</p>
+                            <span class="my-0"><strong>£<del>{{ item.product.price }}</del></strong></span>
+                        </td>
+                        <td class="py-3">
+                            <p class="my-0 text-light">£{{ item.product.discount_price }}</p>
                         </td>
                         <td class="py-3 w-25">
                             <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
@@ -88,9 +91,18 @@
                             <a class="remove-item float-right" id="remove_{{ item.item_id }}"
                                 data-product_size="{{ item.size }}">Remove</a>
                         </td>
+                        {% if item.product.discount_price %}
                         <td class="py-3">
-                            <p class="my-0 text-light">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
+                            <p class="my-0 ml-4 text-light">
+                                £{{ item.product.discount_price | calculate_subtotal:item.quantity }}
+                            </p>
                         </td>
+                        {% else %}
+                        <td class="py-3">
+                            <p class="my-0 ml-4 text-light">
+                                £{{ item.product.price | calc_subtotal:item.quantity }}</p>
+                        </td>
+                        {% endif %}
                     </tr>
                     {% endfor %}
                     <tr>
