@@ -1,6 +1,13 @@
+/* css from code institute Boutique Ado */
+
+.order-history {
+    max-height: 416px;
+    /* height of profile form + submit button */
+    overflow-y: auto;
+}
+
 #profile-update-form .form-control {
     color: #000;
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
 #profile-update-form input::placeholder {
@@ -14,4 +21,9 @@
 
 #id_default_country option:first-child {
     color: #aab7c4;
+}
+
+select:invalid,
+select option[value=""] {
+    color: #aab7c4 !important;
 }

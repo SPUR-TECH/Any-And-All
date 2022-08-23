@@ -376,6 +376,18 @@ input[name='q']::placeholder {
     height: 50px;
 }
 
+#id_product_size {
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+.qty_input {
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+a.order_number:hover {
+    color: rgb(0, 206, 0) !important;
+}
+
 .order-info {
     font-size: 30px;
 }
