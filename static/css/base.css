@@ -380,12 +380,16 @@ input[name='q']::placeholder {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
-.qty_input {
+a.order_number:hover {
+    color: rgb(0, 206, 0) !important;
+}
+
+.profile-form-input {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
-a.order_number:hover {
-    color: rgb(0, 206, 0) !important;
+input {
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
 .order-info {
