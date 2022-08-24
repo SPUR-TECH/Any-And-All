@@ -299,6 +299,10 @@ a.category-badge {
     cursor: pointer;
 }
 
+.input-boxes {
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
 input[name='q']::placeholder {
     color: #aab7c4;
 }
