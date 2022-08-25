@@ -32,6 +32,15 @@ body {
     font-size: 20px;
 }
 
+.delete-text-danger {
+    color: rgb(197, 0, 0) !important;
+    text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+}
+
+.delete-text-danger:hover {
+    color: rgb(255, 0, 0) !important;
+}
+
 .delivery-info-text-light {
     color: rgb(0, 238, 255) !important;
     text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
