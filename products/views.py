@@ -7,7 +7,8 @@ from django.db.models.functions import Lower
 from .forms import ProductForm
 
 
-#  view from code institute Boutique Ado
+#  product view from code institute Boutique Ado
+
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -60,7 +61,6 @@ def all_products(request):
     return render(request, 'products/products.html', context)
 
 
-#  view from code institute Boutique Ado
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
@@ -85,7 +85,7 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-
+        
     template = 'products/add_product.html'
     context = {
         'form': form,
