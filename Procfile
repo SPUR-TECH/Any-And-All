@@ -1,1 +1,1 @@
-web: gunicorn home.wsgi:application
+web: gunicorn anyandall.wsgi:application
