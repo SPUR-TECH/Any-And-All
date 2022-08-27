@@ -22,6 +22,7 @@ class StripeWH_Handler:
 
     def _send_confirmation_email(self, order):
         """Send the user a confirmation email"""
+        print("ORDER EMAIL FUNCTION")
         cust_email = order.email
         subject = render_to_string(
             'checkout/confirmation_emails/confirmation_email_subject.txt',
@@ -49,6 +50,7 @@ class StripeWH_Handler:
         """
         Handle the payment_intent.succeeded webhook from Stripe
         """
+        print("PAYMENT INTENT SUCCESS FUNCTION")
         intent = event.data.object
         pid = intent.id
         bag = intent.metadata.bag
