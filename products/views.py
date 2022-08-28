@@ -1,9 +1,13 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.views.generic import DetailView, CreateView, UpdateView, DeleteView
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib import messages
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
-from .models import Product, Category
+from .models import Product, Category, Review
 from django.db.models.functions import Lower
+from django.urls import reverse_lazy
+from . forms import ReviewForm
 
 from .forms import ProductForm
 
@@ -140,3 +144,50 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+
+class ReviewCreateView(LoginRequiredMixin, CreateView):
+    """Product Reviews form
+    """
+    model = Review
+    context_object_name = 'Review'
+    form_class = ReviewForm
+
+    def form_valid(self, form):
+        """Assign Primary Key if form is valid
+        """
+        form.instance.product = Product.objects.get(pk=self.kwargs['pk'])
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        """Redirect to product Detail page
+        """
+        pk = self.kwargs['pk']
+        return reverse_lazy('product_detail', kwargs={'pk': pk})
+
+
+class ReviewUpdateView(LoginRequiredMixin, UpdateView):
+    """product Reviews editing function
+    """
+    model = Review
+    context_object_name = 'Review'
+    form_class = ReviewForm
+
+    def get_success_url(self):
+        """Redirect to product Detail page
+        """
+        pk = self.kwargs['id']
+        return reverse_lazy('product_detail', kwargs={'pk': pk})
+
+
+class ReviewDeleteView(LoginRequiredMixin, DeleteView):
+    """product Reviews deleting function
+    """
+    model = Review
+    context_object_name = 'Review'
+
+    def get_success_url(self):
+        """Redirect to product Detail page
+        """
+        pk = self.kwargs['id']
+        return reverse_lazy('product_detail', kwargs={'pk': self.object.product.pk})

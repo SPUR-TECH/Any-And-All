@@ -411,6 +411,10 @@ a.order_number:hover {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
+.form-control {
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
 .order-info {
     font-size: 30px;
 }

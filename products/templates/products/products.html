@@ -101,11 +101,13 @@
                                         </a>
                                     </p>
                                     {% endif %}
-                                    {% if product.rating %}
-                                    <i class="text-color"><i class="fas fa-star mr-1"></i>{{ product.rating }} /
+                                    {% if product.review %}
+                                    <i class="text-color"><i class="fas fa-star mr-1"></i>{{ product.review }} /
                                         5</i>
                                     {% else %}
-                                    <i class="text-color">No Rating</i>
+                                    <a href="{% url 'product_detail' product.id %}">
+                                        <i class="text-color">No Review</i>
+                                    </a>
                                     {% endif %}
                                     {% if request.user.is_superuser %}
                                     <small class="ml-3">

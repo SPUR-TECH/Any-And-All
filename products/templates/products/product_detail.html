@@ -16,14 +16,15 @@
 <div class="container-fluid mt-4">
     <div class="row">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-            <div class="image-container my-5">
+            <div class="image-container my-5 ">
                 {% if product.image %}
                 <a href="{{ product.image.url }}" target="_blank">
-                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                    <img class="card-img-top img-fluid rounded" src="{{ product.image.url }}" alt="{{ product.name }}">
                 </a>
                 {% else %}
                 <a href="">
-                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                    <img class="card-img-top img-fluid rounded" src="{{ MEDIA_URL }}noimage.png"
+                        alt="{{ product.name }}">
                 </a>
                 {% endif %}
             </div>
@@ -106,7 +107,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col{% if s %}-12 mt-2{% endif %}">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded mt-5">
                                     <span class="icon">
@@ -124,6 +124,33 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid review-area">
+        <div class="row">
+            <hr>
+            </span>
+            <div class="col-12 text-center mb-4">
+                <br>
+                <i>
+                    <h3>Please leave your review here :</h3>
+                </i>
+                <form method="post">
+                    {% csrf_token %}
+
+                    {{ form.review }}
+                    <input type="hidden" name="review_writer" value="{{ request.user.id }}" id="review_writer">
+                    <div class="form-outline col-12 col-md-4 col-lg-4 offset-4">
+                        <textarea class="form-control" id="textAreaExample1" placeholder="Write your Review here:"
+                            rows="6"></textarea>
+                        <label class="form-label" for="textAreaExample"></label>
+                    </div>
+                    <input class="save-button btn-purple rounded border-0 pl-2 pr-2 pb-1 mb-4" type="submit"
+                        value="Save">
+                </form>
+            </div>
+        </div>
+    </div>
+
 </div>
 {% endblock %}
 

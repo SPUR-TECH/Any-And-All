@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}Product review form{% endblock %}
+
+{% block content %}
+
+{% load static %}
+
+<div class="container-fluid comment-area">
+    <div class=" row">
+        <div class="ml-4"></div>
+
+        <span class="review-title">
+            <h3>Please leave your review here</h3>
+        </span>
+
+        <div class="col-md-12">
+
+            <form method="post">
+                {% csrf_token %}
+
+                {{ form.review }}
+                <input type="hidden" name="review_writer" value="{{ request.user.id }}" id="review_writer">
+                <input class="save-button" type="submit" value="Save">
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<!-- Footer section -->
+
+<footer>
+    <div class="footer">
+        <p class="copyright">
+            &copy; Copyright SPUR-<b>TECH </b> Web Designs @ 2021
+        </p>
+    </div>
+</footer>
+
+{% endblock %}

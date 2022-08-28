@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 
 # model from code institute Boutique Ado
@@ -28,7 +29,6 @@ class Product(models.Model):
     has_sizes = models.BooleanField(default=False, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     discount_price = models.DecimalField(max_digits=6, decimal_places=2, blank=True, null=True)
-    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
@@ -36,5 +36,15 @@ class Product(models.Model):
         return self.name
 
 
-# class review(models.Model):
-#     user = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+class Review(models.Model):
+    review = models.TextField()
+    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    product = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    review_writer = models.ForeignKey(User, on_delete=models.CASCADE)
+    created_on = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.review_writer
+
+        def __str__(self):
+            return self.created_on

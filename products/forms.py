@@ -1,6 +1,6 @@
 from django import forms
 from .widgets import CustomClearableFileInput
-from .models import Product, Category
+from .models import Product, Category, Review
 
 # product form from code institute Boutique Ado
 
@@ -22,3 +22,16 @@ class ProductForm(forms.ModelForm):
         self.fields['category'].choices = friendly_names
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded input-boxes'
+
+
+class ReviewForm(forms.ModelForm):
+    class Meta:
+        model = Review
+        fields = ('review', 'rating', 'product', 'review_writer')
+
+        widgets = {
+
+            'review': forms.Textarea(attrs={
+                'class': 'form-control', 'placeholder': ' Write review here.....'}),
+            'review_writer': forms.HiddenInput()
+        }
