@@ -1,1 +1,1 @@
-web: gunicorn home.wsgi:application
+web: gunicorn any_and_all.wsgi:application
