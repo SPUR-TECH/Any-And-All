@@ -34,3 +34,7 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+
+# class review(models.Model):
+#     user = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
