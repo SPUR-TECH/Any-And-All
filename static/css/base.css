@@ -644,3 +644,9 @@ a img.rounded {
         margin-left: -15px;
     }
 }
+
+@media (max-width: 260px) {
+    li {
+        font-size: 6px;
+    }
+}
