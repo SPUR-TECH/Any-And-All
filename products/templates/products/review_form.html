@@ -4,31 +4,45 @@
 
 {% block title %}Product review form{% endblock %}
 
-{% block content %}
 
 {% load static %}
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
 
-<div class="container-fluid comment-area">
-    <div class=" row">
-        <div class="ml-4"></div>
-
-        <span class="review-title">
-            <h3>Please leave your review here</h3>
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="col-sm-12 col-md-8 offset-md-2 col-lg-6 col-xl-6 offset-lg-3 text-center mb-4">
         </span>
-
-        <div class="col-md-12">
-
+        <div class="review-area">
+            <br>
+            <i>
+                <p class="col-12 text-center text-light mb-4">
+                    <h3 class="review-title">Please leave your review here:</h3>
+                </p>
+            </i>
             <form method="post">
                 {% csrf_token %}
 
                 {{ form.review }}
                 <input type="hidden" name="review_writer" value="{{ request.user.id }}" id="review_writer">
-                <input class="save-button" type="submit" value="Save">
-            </form>
+                <div class="form-outline">
+                    <label for="rating"><i>Add Your rating here : </i></label>
+                    <input class="rounded text-center ml-2 mt-4 mb-4" type="number" name="rating" step="0.01" value="0"
+                        min="0" max="5" aria-label="Add Your rating here :" id="id_rating">
+                </div>
+                <input class="save-button btn-purple rounded border-0 pl-2 pr-2 pb-1 mb-4" type="submit" value="Save">
 
+            </form>
         </div>
     </div>
 </div>
+
 
 <!-- Footer section -->
 

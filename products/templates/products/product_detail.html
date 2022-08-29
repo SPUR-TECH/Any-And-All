@@ -130,22 +130,23 @@
             <hr>
             </span>
             <div class="col-12 text-center mb-4">
-                <br>
-                <i>
-                    <h3>Please leave your review here :</h3>
-                </i>
-                <form method="post">
-                    {% csrf_token %}
 
-                    {{ form.review }}
-                    <input type="hidden" name="review_writer" value="{{ request.user.id }}" id="review_writer">
-                    <div class="form-outline col-12 col-md-4 col-lg-4 offset-4">
-                        <textarea class="form-control" id="textAreaExample1" placeholder="Write your Review here:"
-                            rows="6"></textarea>
-                        <label class="form-label" for="textAreaExample"></label>
+                <div class="review">
+
+                    {% if reviews %}
+                    {% for review in reviews %}
+
+                    <p> - {{ review.review }} - </p>
+
+                    <div class="product-edit-delete">
+                        {% if request.user == review.review_writer %}
+                        <a href="{% url 'review_update' review.pk product.pk %} ">Edit</a>
+                        <a href="{% url 'review_delete' review.pk product.pk %} ">Delete</a>
                     </div>
-                    <input class="save-button btn-purple rounded border-0 pl-2 pr-2 pb-1 mb-4" type="submit"
-                        value="Save">
+                    {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </div>
                 </form>
             </div>
         </div>

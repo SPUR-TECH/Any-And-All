@@ -24,11 +24,11 @@ class CategoryAdmin(admin.ModelAdmin):
 
 class ReviewAdmin(admin.ModelAdmin):
     list_display = (
-        'review_writer',
-        'review',
-        'created_on',
-        'rating',
         'product',
+        'review_writer',
+        'created_on',
+        'review',
+        'rating',
     )
 
 

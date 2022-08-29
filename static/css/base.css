@@ -35,10 +35,28 @@ body {
 .delete-text-danger {
     color: rgb(197, 0, 0) !important;
     text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+    font-size: 16px;
 }
 
 .delete-text-danger:hover {
     color: rgb(255, 0, 0) !important;
+}
+
+.invalid-feedback {
+    color: rgb(255, 0, 0) !important;
+    text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+    font-size: 16px;
+}
+
+.text-light-link {
+    color: rgb(0, 238, 255) !important;
+    text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+    font-size: 16px;
+}
+
+.text-light-link:hover {
+    color: rgb(0, 206, 0) !important;
+    text-decoration: none;
 }
 
 .delivery-info-text-light {
@@ -65,16 +83,6 @@ p.my-0 {
 
 p.my-0:hover {
     color: rgb(0, 206, 0) !important;
-}
-
-.text-light-link {
-    color: rgb(0, 238, 255) !important;
-    text-shadow: 0 .2rem .2rem rgba(0, 0, 0);
-}
-
-.text-light-link:hover {
-    color: rgb(0, 206, 0) !important;
-    text-decoration: none;
 }
 
 a:hover {
@@ -273,6 +281,10 @@ a.category-badge {
     color: rgb(0, 206, 0) !important;
 }
 
+a.order_number:hover {
+    color: rgb(0, 206, 0) !important;
+}
+
 .overlay {
     height: 100%;
     width: 100%;
@@ -403,10 +415,6 @@ input[name='q']::placeholder {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
-a.order_number:hover {
-    color: rgb(0, 206, 0) !important;
-}
-
 .profile-form-input {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
@@ -418,6 +426,31 @@ a.order_number:hover {
 .order-info {
     font-size: 30px;
 }
+
+/* Footer styling */
+
+.footer {
+    width: 100%;
+    position: sticky;
+    margin-top: 250px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.copyright {
+    color: rgb(0, 0, 0);
+    background-color: rgba(131, 131, 131, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    z-index: 100;
+}
+
+b {
+    color: rgb(168, 0, 0);
+}
+
 
 /* -------------------------------- Media Queries */
 
@@ -542,6 +575,12 @@ a img.rounded {
     }
 }
 
+@media (max-width: 700px) {
+    .review-title {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 600px) {
 
     .header-container {
@@ -556,6 +595,11 @@ a img.rounded {
         font-size: 45px !important;
         text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
     }
+
+    .copyright {
+        font-size: 10px;
+
+    }
 }
 
 @media (max-width: 500px) {
@@ -569,6 +613,11 @@ a img.rounded {
         font-size: 10px;
         margin: 0px;
     }
+
+    /* .review-area {
+        width: 180%;
+        margin-left: -20%;
+    } */
 }
 
 @media (max-width: 340px) {
