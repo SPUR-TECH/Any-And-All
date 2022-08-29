@@ -427,6 +427,16 @@ input[name='q']::placeholder {
     font-size: 30px;
 }
 
+.reviews {
+    text-align: center;
+    background: linear-gradient(rgba(99, 99, 99, 1), rgba(0, 0, 0, 1));
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(228, 3, 3);
+    width: 100%;
+}
+
 /* Footer styling */
 
 .footer {
@@ -575,7 +585,7 @@ a img.rounded {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 766px) {
     .review-title {
         font-size: 20px;
     }

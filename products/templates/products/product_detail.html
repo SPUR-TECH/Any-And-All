@@ -51,11 +51,7 @@
                     </a>
                 </p>
                 {% endif %}
-                {% if product.rating %}
-                <i class="text-color"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</i>
-                {% else %}
-                <i class="text-color">No Rating</i>
-                {% endif %}
+
                 {% if request.user.is_superuser %}
                 <small class="ml-3">
                     <a class="text-light-link" href="{% url 'edit_product' product.id %}">Edit</a> |
@@ -119,36 +115,28 @@
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
+                            <div class="reviews mt-4">
+                                <a href="{% url 'review_create' product.pk %} "><i>~ Reviews ~</i></a>
+
+                                {% if reviews %}
+                                {% for review in reviews %}
+
+                                <p> - {{ review.review }} - </p>
+
+                                <div class="product-edit-delete">
+                                    {% if request.user == review.review_writer %}
+                                    <a href="{% url 'review_update' review.pk product.pk %} ">Edit</a>
+                                    <a href="{% url 'review_delete' review.pk product.pk %} ">Delete</a>
+                                </div>
+                                {% endif %}
+                                {% endfor %}
+                                {% endif %}
+                            </div>
                         </div>
                 </form>
+
             </div>
-        </div>
-    </div>
 
-    <div class="container-fluid review-area">
-        <div class="row">
-            <hr>
-            </span>
-            <div class="col-12 text-center mb-4">
-
-                <div class="review">
-
-                    {% if reviews %}
-                    {% for review in reviews %}
-
-                    <p> - {{ review.review }} - </p>
-
-                    <div class="product-edit-delete">
-                        {% if request.user == review.review_writer %}
-                        <a href="{% url 'review_update' review.pk product.pk %} ">Edit</a>
-                        <a href="{% url 'review_delete' review.pk product.pk %} ">Delete</a>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                    {% endif %}
-                </div>
-                </form>
-            </div>
         </div>
     </div>
 

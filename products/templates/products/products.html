@@ -39,10 +39,6 @@
                             to high)</option>
                         <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price
                             (high to low)</option>
-                        <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>Rating
-                            (low to high)</option>
-                        <option value="rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>Rating
-                            (high to low)</option>
                         <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)
                         </option>
                         <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)
@@ -119,7 +115,7 @@
                                     <small class="ml-3">
                                         <a class="text-light-link" href="{% url 'edit_product' product.id %}">Edit
                                             Product</a> |
-                                        <a class="delete-text-danger text-decoration-none"
+                                        <a class="delete-text-danger"
                                             href="{% url 'delete_product' product.id %}">Delete Product</a>
                                     </small>
                                     {% endif %}
