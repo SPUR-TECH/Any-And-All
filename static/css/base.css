@@ -623,17 +623,12 @@ a img.rounded {
         font-size: 10px;
         margin: 0px;
     }
-
-    /* .review-area {
-        width: 180%;
-        margin-left: -20%;
-    } */
 }
 
 @media (max-width: 340px) {
 
     li {
-        font-size: 8px;
+        font-size: 80px;
         padding: 0px !important;
         margin: 0px !important;
     }
@@ -645,8 +640,4 @@ a img.rounded {
     }
 }
 
-@media (max-width: 260px) {
-    li {
-        font-size: 6px;
-    }
-}
+@media (max-width: 260px) {}
