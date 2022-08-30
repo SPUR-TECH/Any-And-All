@@ -98,17 +98,9 @@
                                     </p>
                                     {% endif %}
 
-                                    {% if product.review %}
-                                    <i class="fas fa-star mr-1">{{ product.review }} / 5</i>
-
-                                    {% else %}
-                                    <i>
-                                        <a class="update-link text-decoration-none text-color"
-                                            href="{% url 'review_create' product.pk %} ">Write A
-                                            Review :</i>
-                                    <i class=" fas fa-star mr-1">{{ product.review }}/0</i>
+                                    <a class="update-link text-decoration-none text-light bg-color pl-1 pr-2 pb-1 pt-1 rounded"
+                                        href="{% url 'review_create' product.pk %} "><i>Reviews</i>
                                     </a>
-                                    {% endif %}
 
                                     <hr>
                                     {% if request.user.is_superuser %}

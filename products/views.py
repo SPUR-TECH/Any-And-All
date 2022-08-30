@@ -70,9 +70,12 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    reviews = Review.objects.filter(product=product)
+    reviews = product.review_set.all()
 
     context = {
         'product': product,
+        'reviews': reviews,
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -163,7 +166,7 @@ class ReviewCreateView(LoginRequiredMixin, CreateView):
         """Redirect to product Detail page
         """
         pk = self.kwargs['pk']
-        return reverse_lazy('product_detail', kwargs={'pk': pk})
+        return reverse_lazy('product_detail', kwargs={'product_id': pk})
 
 
 class ReviewUpdateView(LoginRequiredMixin, UpdateView):
@@ -177,7 +180,7 @@ class ReviewUpdateView(LoginRequiredMixin, UpdateView):
         """Redirect to product Detail page
         """
         pk = self.kwargs['id']
-        return reverse_lazy('product_detail', kwargs={'pk': pk})
+        return reverse_lazy('product_detail', kwargs={'product_id': pk})
 
 
 class ReviewDeleteView(LoginRequiredMixin, DeleteView):
@@ -190,4 +193,4 @@ class ReviewDeleteView(LoginRequiredMixin, DeleteView):
         """Redirect to product Detail page
         """
         pk = self.kwargs['id']
-        return reverse_lazy('product_detail', kwargs={'pk': self.object.product.pk})
+        return reverse_lazy('product_detail', kwargs={'product_id': pk})

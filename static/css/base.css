@@ -26,6 +26,30 @@ body {
     text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
 }
 
+.edit-text-light {
+    color: rgb(0, 238, 255) !important;
+    text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+    font-size: 12px;
+}
+
+.edit-text-light:hover {
+    color: rgb(0, 206, 0) !important;
+}
+
+.review-text-danger {
+    color: rgb(197, 0, 0) !important;
+    text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+    font-size: 12px;
+}
+
+.review-text-danger:hover {
+    color: rgb(255, 0, 0) !important;
+}
+
+.review-date {
+    font-size: 12px;
+}
+
 .text-danger {
     color: rgb(197, 0, 0) !important;
     text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
@@ -36,6 +60,12 @@ body {
     color: rgb(197, 0, 0) !important;
     text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
     font-size: 16px;
+}
+
+.delete-text-danger {
+    color: rgb(197, 0, 0) !important;
+    text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+    font-size: 12px;
 }
 
 .delete-text-danger:hover {
@@ -427,9 +457,21 @@ input[name='q']::placeholder {
     font-size: 30px;
 }
 
+.reviews-title {
+    font-size: 20px;
+}
+
+.reviews-title:hover {
+    font-size: 25px;
+    text-decoration: none;
+}
+
 .reviews {
     text-align: center;
-    background: linear-gradient(rgba(99, 99, 99, 1), rgba(0, 0, 0, 1));
+    background: linear-gradient(rgb(134, 134, 134), rgba(0, 0, 0, 1));
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 5px;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
@@ -514,6 +556,22 @@ b {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 5px;
+}
+
+@media (max-width: 1240px) {
+    .add-to-bag-button {
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .keep-shopping-button {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        height: 30px;
+        width: 150px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -628,7 +686,7 @@ a img.rounded {
 @media (max-width: 340px) {
 
     li {
-        font-size: 80px;
+        font-size: 8px;
         padding: 0px !important;
         margin: 0px !important;
     }
@@ -640,4 +698,8 @@ a img.rounded {
     }
 }
 
-@media (max-width: 260px) {}
+@media (max-width: 260px) {
+    .navbar-expand {
+        padding: 0px;
+    }
+}
