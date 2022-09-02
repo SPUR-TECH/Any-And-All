@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}Delete review{% endblock %}
+
+
+{% load static %}
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="col-sm-12 col-md-8 offset-md-2 col-lg-6 col-xl-6 offset-lg-3 text-center mb-4">
+        </span>
+        <div class="review-area">
+            <br>
+            <i>
+                <p class="col-12 text-center text-light">
+                    <h3 class="delete-review-title pb-2 rounded mt-5 bg-color">Are you sure you want to delete
+                        your
+                        review ?
+                    </h3>
+                </p>
+            </i>
+            <form method="post">
+                {% csrf_token %}
+
+                <input class=" btn delete-review-btn-outline-black text-center rounded mr-3" type="submit"
+                    value="Delete">
+                <a href="{% url 'products' %}" class="btn cancel-btn-outline-black text-center rounded">Cancel</a>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer section -->
+
+<footer>
+    <div class="footer">
+        <p class="copyright">
+            &copy; Copyright SPUR-<b>TECH </b> Web Designs @ 2021
+        </p>
+    </div>
+</footer>
+
+{% endblock %}

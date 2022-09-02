@@ -97,10 +97,11 @@
                                         </a>
                                     </p>
                                     {% endif %}
-
-                                    <a class="update-link text-decoration-none text-light bg-color pl-1 pr-2 pb-1 pt-1 rounded"
-                                        href="{% url 'review_create' product.pk %} "><i>Reviews</i>
-                                    </a>
+                                    <i>
+                                        <a class="text-light-link text-decoration-none text-light bg-color pl-1 pr-2 pb-1 rounded"
+                                            href="{% url 'product_detail' product.pk %}">Reviews
+                                        </a>
+                                    </i>
 
                                     <hr>
                                     {% if request.user.is_superuser %}

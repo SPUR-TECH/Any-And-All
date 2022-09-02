@@ -36,6 +36,11 @@ body {
     color: rgb(0, 206, 0) !important;
 }
 
+.delete-review-title {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
 .review-text-danger {
     color: rgb(197, 0, 0) !important;
     text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
@@ -217,6 +222,27 @@ input {
     background: white;
     color: black !important;
     border: 1px solid black;
+}
+
+.delete-review-btn-outline-black {
+    background: white;
+    color: rgb(206, 0, 0) !important;
+    border: 1px solid rgb(206, 0, 0);
+    margin-bottom: 100px;
+}
+
+.delete-review-btn-outline-black:hover {
+    color: rgb(255, 255, 255) !important;
+    background: rgb(206, 0, 0) !important;
+    border: 1px solid rgb(255, 0, 0);
+    transform: scale(1.1);
+}
+
+.cancel-btn-outline-black {
+    background: white;
+    color: black !important;
+    border: 1px solid black;
+    margin-bottom: 100px;
 }
 
 .border-black {
@@ -709,7 +735,7 @@ a img.rounded {
     }
 }
 
-@media (max-width: 290px) {
+@media (max-width: 300px) {
 
     .navbar-toggler {
         font-size: 6px;
