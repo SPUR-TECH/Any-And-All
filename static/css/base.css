@@ -735,7 +735,7 @@ a img.rounded {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
 
     .navbar-toggler {
         font-size: 6px;
