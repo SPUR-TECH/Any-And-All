@@ -163,7 +163,6 @@ a.dropdown-item {
 a.dropdown-item:hover {
     background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     color: rgb(0, 206, 0);
-    border-radius: 5px;
 }
 
 /* from Bulma */
@@ -234,7 +233,7 @@ input {
 .delete-review-btn-outline-black:hover {
     color: rgb(255, 255, 255) !important;
     background: rgb(206, 0, 0) !important;
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     transform: scale(1.1);
 }
 
@@ -243,6 +242,11 @@ input {
     color: black !important;
     border: 1px solid black;
     margin-bottom: 100px;
+}
+
+.cancel-btn-outline-black:hover {
+    color: rgb(0, 206, 0) !important;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
 }
 
 .border-black {

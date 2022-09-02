@@ -190,8 +190,13 @@ class ReviewDeleteView(LoginRequiredMixin, DeleteView):
     model = Review
     context_object_name = 'Review'
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['product'] = self.object.product.pk
+        return context
+
     def get_success_url(self):
         """Redirect to product Detail page
         """
         pk = self.kwargs['id']
-        return reverse_lazy('product_detail', kwargs={'product_id': pk})
+        return reverse_lazy('product_detail', kwargs={'product_id': self.object.product.pk})
