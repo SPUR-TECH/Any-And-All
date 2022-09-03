@@ -1,0 +1,11 @@
+<h6 class="text-black">Bag Subtotal: <i>£{{ total|floatformat:2 }}</i></h6>
+<h6 class="text-black">Delivery: <i>£{{ delivery|floatformat:2 }}</h6></i>
+<h4 class="text-black">Grand Total: <i><b>~ </b>£{{ grand_total|floatformat:2 }}<b> ~</b></i></h4>
+
+{% if free_delivery_delta > 0 %}
+<p class="mb-1 delivery-info-text-light"><b>~ </b><i>
+        You could get free delivery by spending just £{{ free_delivery_delta }}
+        more!</i><b> ~</b>
+</p>
+<br>
+{% endif %}

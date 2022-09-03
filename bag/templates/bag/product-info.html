@@ -1,0 +1,5 @@
+<p class="text-black">{{ item.product.name }}</p>
+<br>
+<p class="text-black">Size:
+    {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}
+</p>

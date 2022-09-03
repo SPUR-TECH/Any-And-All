@@ -17,9 +17,9 @@ def bag_contents(request):
         if isinstance(item_data, int):
             product = get_object_or_404(Product, pk=item_id)
             if product.discount_price:
-                total = item_data * product.discount_price
+                total += item_data * product.discount_price
             else:
-                total = item_data * product.price
+                total += item_data * product.price
             product_count += item_data
             bag_items.append({
                 'item_id': item_id,
@@ -32,7 +32,7 @@ def bag_contents(request):
                 if product.discount_price:
                     total = quantity * product.discount_price
                 else:
-                    total += quantity * product.price
+                    total = quantity * product.price
                 product_count += quantity
                 bag_items.append({
                     'item_id': item_id,
