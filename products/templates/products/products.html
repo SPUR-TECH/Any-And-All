@@ -83,8 +83,8 @@
                                     </p>
                                     <h4 class="font-weight-bold">
                                         {% if product.discount_price %}
-                                        <strong class="discount-price">£<del>{{ product.price }}</del>
-                                            <i>£{{ product.discount_price }}</i>
+                                        <i class="discount-price">£{{ product.discount_price }}</i>
+                                        <strong>£<del>{{ product.price }}</del>
                                             {% else %}
                                             £<strong>{{ product.price }}</strong>
                                             {% endif %}
@@ -98,12 +98,9 @@
                                         </a>
                                     </p>
                                     {% endif %}
-                                    <i>
-                                        <a class="text-light-link text-decoration-none text-light bg-color pl-1 pr-2 pb-1 rounded"
-                                            href="{% url 'product_detail' product.pk %}">Reviews
-                                        </a>
-                                    </i>
-
+                                    <a class="reviews-text-light-link text-decoration-none bg-color pl-1 pr-2 pb-1 rounded"
+                                        href="{% url 'product_detail' product.pk %}"><i>Reviews</i>
+                                    </a>
                                     <hr>
                                     {% if request.user.is_superuser %}
                                     <small class="ml-3">

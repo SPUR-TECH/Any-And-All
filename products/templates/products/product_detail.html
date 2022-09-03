@@ -118,8 +118,9 @@
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
                             <div class="reviews mt-4">
-                                <a class='reviews-title' href="{% url 'review_create' product.pk %} "><i><b> ~
-                                        </b>Write A Review<b> ~ </b></i></a>
+                                <a href="{% url 'review_create' product.pk %} ">
+                                    <i class='reviews-title'><b> ~ </b>Write A Review<b> ~ </b></i>
+                                </a>
                                 <hr />
 
                                 {% if reviews %}
