@@ -737,10 +737,6 @@ a img.rounded {
         font-size: 1rem;
     }
 
-    .nav-item:hover {
-        color: #f8f9fa;
-    }
-
     .navbar-toggler {
         font-size: 8px;
         padding: 8px;
