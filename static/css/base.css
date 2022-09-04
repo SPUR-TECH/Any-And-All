@@ -529,14 +529,28 @@ input[name='q']::placeholder {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
-/* Footer styling */
+/* footer */
 
 .footer {
+    height: 150px;
     width: 100%;
-    position: sticky;
-    margin-top: 250px;
+    /* position: sticky; */
     background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    margin: 20px;
+    font-size: 160%;
+    color: rgb(0, 238, 255);
 }
 
 .copyright {
@@ -544,9 +558,7 @@ input[name='q']::placeholder {
     background-color: rgba(131, 131, 131, 0.9);
     text-align: center;
     padding: 10px;
-    margin: 0;
     font-size: 18px;
-    z-index: 100;
 }
 
 b {
@@ -725,6 +737,10 @@ a img.rounded {
         font-size: 1rem;
     }
 
+    .nav-item:hover {
+        color: #f8f9fa;
+    }
+
     .navbar-toggler {
         font-size: 8px;
         padding: 8px;
@@ -782,7 +798,6 @@ a img.rounded {
 
     .copyright {
         font-size: 10px;
-
     }
 
     .discount-price {
