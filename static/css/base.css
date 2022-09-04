@@ -15,6 +15,18 @@ body {
     font-family: 'Mochiy Pop One', sans-serif;
 }
 
+#page-blurb {
+    border-radius: 15px;
+}
+
+#page-blurb-header h1 {
+    font-size: 30px;
+}
+
+#page-blurb-text h2 {
+    font-size: 20px;
+}
+
 .discount-price i {
     color: rgb(0, 238, 255);
     text-shadow: 0 .2rem .2rem rgba(0, 0, 0);
@@ -668,7 +680,7 @@ a img.rounded {
 }
 
 /* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
+@media (min-width: 800px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -683,7 +695,20 @@ a img.rounded {
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+
+    #page-blurb {
+        border-radius: 10px;
+    }
+
+    #page-blurb-header h1 {
+        font-size: 20px;
+    }
+
+    #page-blurb-text h2 {
+        font-size: 15px;
+    }
+
     .header-container {
         padding-top: 116px;
     }
