@@ -804,13 +804,7 @@ a img.rounded {
         font-size: 12px;
     }
 
-    .grand-total-text-light {
-        font-size: 25px;
-        color: rgb(0, 238, 255);
-        text-shadow: 0 .2rem .2rem rgba(0, 0, 0);
-    }
-
-    .discount-price-text-light {
+    .grand-total {
         font-size: 25px;
         color: rgb(0, 238, 255);
         text-shadow: 0 .2rem .2rem rgba(0, 0, 0);
