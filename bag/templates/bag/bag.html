@@ -70,9 +70,8 @@
                         </h4>
                         <strong class="text-black">Subtotal: </strong>
                         <i class="ml-2">
-                            <b> ~ </b>£{{ item.product.discount_price | calculate_subtotal:item.quantity }}
-                            </h6>
-                        </i><b>~</b>
+                            £{{ item.product.discount_price | calculate_subtotal:item.quantity }}
+                        </i>
                         {% else %}
                     </div>
                     <div class="col-12 col-sm-6 mb-4">
@@ -85,9 +84,8 @@
                         </h4>
                         <strong class="text-black">Subtotal: </strong>
                         <i class="ml-2">
-                            <b> ~ </b>£{{ item.product.price | calculate_subtotal:item.quantity }}
-                            </h6>
-                        </i><b>~</b>
+                            £{{ item.product.price | calculate_subtotal:item.quantity }}
+                        </i>
                     </div>
                 </div>
                 <br>
@@ -140,7 +138,7 @@
                     </td>
 
                     <td class="py-3">
-                        <p class=" text-light"><b> ~ </b>£{{ item.product.discount_price }}<b> ~ </b></p>
+                        <p class=" text-light">£{{ item.product.discount_price }}</p>
                     </td>
 
                     <td class="py-3 w-25">

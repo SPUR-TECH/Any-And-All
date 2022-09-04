@@ -683,7 +683,7 @@ a img.rounded {
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
+@media (max-width: 600px) {
     .header-container {
         padding-top: 116px;
     }
