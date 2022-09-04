@@ -795,4 +795,12 @@ a img.rounded {
     .logo-font {
         font-size: 18px;
     }
+
+    .text-light-link {
+        font-size: 12px;
+    }
+
+    .delete-text-danger {
+        font-size: 12px;
+    }
 }

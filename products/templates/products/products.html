@@ -103,11 +103,12 @@
                                     </a>
                                     <hr>
                                     {% if request.user.is_superuser %}
-                                    <small class="ml-3">
-                                        <a class="text-light-link" href="{% url 'edit_product' product.id %}">Edit
-                                            Product</a> |
+                                    <div>Edit Product</div>
+
+                                    <small>
+                                        <a class="text-light-link" href="{% url 'edit_product' product.id %}">Edit</a> |
                                         <a class="delete-text-danger"
-                                            href="{% url 'delete_product' product.id %}">Delete Product</a>
+                                            href="{% url 'delete_product' product.id %}">Delete</a>
                                     </small>
                                     {% endif %}
 
