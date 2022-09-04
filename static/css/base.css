@@ -718,7 +718,7 @@ a img.rounded {
 
     .increment-qty,
     .decrement-qty {
-        padding: .25rem .5rem !important;
+        padding: .15rem .15rem !important;
     }
 
     #main-header {
@@ -737,15 +737,14 @@ a img.rounded {
     .header-container {
         padding-top: 164px;
     }
-}
 
-@media (max-width: 766px) {
+    #delivery-banner h4 {
+        font-size: .7rem;
+    }
+
     .review-title {
         font-size: 20px;
     }
-}
-
-@media (max-width: 600px) {
 
     .header-container {
         padding-top: 150px;
@@ -764,20 +763,10 @@ a img.rounded {
     .discount-price {
         font-size: 24px;
     }
-}
-
-@media (max-width: 500px) {
 
     #main-header {
         font-size: 30px;
     }
-
-    .logo-font {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 340px) {
 
     body {
         width: 100%;
