@@ -532,7 +532,7 @@ input[name='q']::placeholder {
 /* footer */
 
 .footer {
-    height: 150px;
+    height: 250px;
     width: 100%;
     position: sticky;
     background-color: rgba(0, 0, 0, 0.9);
@@ -556,7 +556,6 @@ input[name='q']::placeholder {
 #privicy-policy:hover {
     color: rgb(255, 255, 255) !important;
     text-decoration: none;
-    font-size: 20px;
 }
 
 .copyright {

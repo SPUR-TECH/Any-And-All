@@ -20,15 +20,15 @@ def add_to_wishlist(request, item_id):
 
     if request.user.is_authenticated:
         if request.POST:
-            if product.likes.filter(id=request.user.id).exists():
-                product.likes.remove(request.user)
+            if product.wishlist.filter(id=request.user.id).exists():
+                product.wishlist.remove(request.user)
                 wishlist.pop(item_id)
                 messages.success(
                     request,
                     f'{product.name} has been removed from your wishlist'
                 )
             else:
-                product.likes.add(request.user)
+                product.wishlist.add(request.user)
                 messages.success(
                     request, f'{product.name} has been added to your wishlist'
                     )
@@ -54,7 +54,7 @@ def remove_from_wishlist(request, item_id):
 
     product = get_object_or_404(Product, pk=item_id)
     wishlist.pop(item_id)
-    product.likes.remove(request.user)
+    product.wishlist.remove(request.user)
     messages.success(request, f'{ product.name } has been deleted!')
 
     request.session['wishlist'] = wishlist

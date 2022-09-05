@@ -74,10 +74,6 @@ def product_detail(request, product_id):
     reviews = Review.objects.filter(product=product)
     reviews = product.review_set.all()
 
-    liked = False
-    if product.likes.filter(id=request.user.id).exists():
-        liked = True
-
     if request.method == 'POST':
 
         review_form = ReviewForm(data=request.POST or None)
@@ -100,7 +96,6 @@ def product_detail(request, product_id):
     context = {
         'product': product,
         'reviews': reviews,
-        'liked': liked,
     }
 
     return render(request, 'products/product_detail.html', context)
