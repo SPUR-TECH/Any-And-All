@@ -248,14 +248,14 @@ input {
     border: 1px solid black;
 }
 
-.delete-review-btn-outline-black {
+.delete-btn-outline-black {
     background: white;
     color: rgb(206, 0, 0) !important;
     border: 1px solid rgb(206, 0, 0);
     margin-bottom: 100px;
 }
 
-.delete-review-btn-outline-black:hover {
+.delete-btn-outline-black:hover {
     color: rgb(255, 255, 255) !important;
     background: rgb(206, 0, 0) !important;
     border: 1px solid rgb(0, 0, 0);
@@ -389,6 +389,11 @@ a.order_number:hover {
 }
 
 #products-title {
+    color: rgb(0, 238, 255);
+    text-shadow: 0 .3rem .3rem rgb(0, 0, 0);
+}
+
+#wishlist-title {
     color: rgb(0, 238, 255);
     text-shadow: 0 .3rem .3rem rgb(0, 0, 0);
 }

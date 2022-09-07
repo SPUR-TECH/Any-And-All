@@ -33,8 +33,7 @@
                 {% csrf_token %}
 
                 <input type="hidden" name="product" value="{{ request.product.id }}" id="product">
-                <input class=" btn delete-review-btn-outline-black text-center rounded mr-3" type="submit"
-                    value="Delete">
+                <input class=" btn delete-btn-outline-black text-center rounded mr-3" type="submit" value="Delete">
                 <a href="{% url 'product_detail' product %}"
                     class="btn cancel-btn-outline-black text-center rounded">Cancel</a>
 

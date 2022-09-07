@@ -1,0 +1,5 @@
+{% if wish.image %}
+<img class="img-fluid rounded border border-dark" src="{{ wish.image.url }}" alt="{{ wish.name }}">
+{% else %}
+<img class="img-fluid rounded border border-dark" src="{{ MEDIA_URL }}noimage.png" alt="{{ wish.name }}">
+{% endif %}
