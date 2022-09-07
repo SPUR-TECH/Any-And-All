@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
-<!-- template from code institute Boutique Ado -->
+<!-- modified products template from code institute Boutique Ado -->
 
 {% block extra_title %}/Products{% endblock %}
 
@@ -101,6 +101,7 @@
                                     <a class="reviews-text-light-link text-decoration-none bg-color pl-1 pr-2 pb-1 rounded"
                                         href="{% url 'product_detail' product.pk %}"><i>Reviews</i>
                                     </a>
+                                    <br>
                                     <hr>
                                     {% if request.user.is_superuser %}
                                     <div>Edit Product</div>

@@ -73,14 +73,18 @@
             <hr class="my-0">
             <div class="row text-black text-right mt-4 pr-4">
                 <div class="col-7 offset-2">
-                    <p><b>Order Total:</b></p>
-                    <p><b>Delivery:</b></p>
-                    <p><b>Grand Total:</b></p>
+                    <p>Order Total:</p>
+                    <p>Delivery:</p>
+                    <p>
+                        <h4>Grand Total:</h4>
+                    </p>
                 </div>
                 <div class="col-3">
-                    <p><b>£{{ total | floatformat:2 }}</b></p>
-                    <p><b>£{{ delivery | floatformat:2 }}</b></p>
-                    <p><b>£{{ grand_total | floatformat:2 }}</b></p>
+                    <p><i>£{{ total | floatformat:2 }}</i></p>
+                    <p><i>£{{ delivery | floatformat:2 }}</i></p>
+                    <p><i>
+                            <h4>£{{ grand_total | floatformat:2 }}</h4>
+                        </i></p>
                 </div>
             </div>
         </div>
