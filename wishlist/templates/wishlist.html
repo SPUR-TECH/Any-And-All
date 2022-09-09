@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
+
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -11,73 +12,155 @@
 
 {% block content %}
 <div class="overlay"></div>
-<section class="pb-3">
-    <div class="container">
-        <div class="row">
-            <div class="col text-center mt-5 mb-3 pt-3" id="wishlist-title">
-                <h2>My Wishlist</h2>
-                <hr class="w-50 m-auto">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                {% if request.user.is_authenticated %}
-                {% if wishlist.products.all %}
-                <div class="table-responsive rounded">
-                    <table class="table table-sm table-borderless">
-                        <thead class="text-light">
-                            <tr>
-                                <th scope="col "><i>Product Image</th></i>
-                                <th scope="col"><i>Description</i></th>
-                                <th scope="col"><i>Price</i></th>
-                                <th scope="col"><i>Discount Price</i></th>
-                            </tr>
-                        </thead>
-
-                        {% for wish in wishlist.products.all %}
-                                <tr class="wishlist-row">
-                                    <td class="wishlist-image w-25">
-                                        {% include "includes/wishlist-image.html" %}
-                                    </td>
-                                    <td class="py-3">
-                                        {% include "includes/wishlist-info.html" %}
-                                    </td>
-                                    <td class="py-3">
-                                        <p><i>£{{ wish.price }}</i></p>
-                                    </td>
-                                    <td class="py-3 w-10 pl-4">
-                                        <a class="btn delete-btn-outline-black"
-                                            href="{% url 'remove_from_wishlist' wish.id %}">Remove</a>
-                                    </td>
-                                </tr>
-                                {% endfor %}
-                                <tr>
-                                    <td class="wishlist-browsing text-right" colspan="5">
-                                        {% include 'includes/wishlist-buttons.html' %}
-                                    </td>
-                                </tr>
-                    </table>
-                </div>
-                {% else %}
-                <p class="lead my-5">Your wishlist is currently empty.</p>
-                <a href="{% url 'products' %}" class="btn btn-outline-warning rounded-0 btn-lg">
-                    <span>
-                        <i class="fa fa-chevron-left text-white"></i>
-                    </span>
-                    <span>Keep Browsing</span>
-                </a>
-                {% endif %}
-                {% else %}
-                <p class="lead my-5">Please Sign In To View Your Wishlist.</p>
-                <a href="{% url 'account_login' %}" class="btn btn-outline-warning rounded-0 btn-lg">
-                    <span>Sign In</span>
-                    <span>
-                        <i class="fa fa-chevron-right text-white"></i>
-                    </span>
-                </a>
-                {% endif %}
-            </div>
+<div class="container mb-2">
+    <div class="row">
+        <div class="col">
+            <hr>
+            <i>
+                <h2 class="logo-font text-light bg-color rounded pl-2 pr-2 pt-1 pb-2 mb-4 mt-5" id="shopping-bag-title">
+                    My Wish List</h2>
+            </i>
+            <p class="text-light mt-3 mb-5">
+                <i>A summary of your Wish List contents is below </i>
+            </p>
+            <hr>
         </div>
     </div>
-</section>
+
+    <div class="row">
+        <div class="col">
+            {% if wishlist.products.all %}
+            <div class="d-block d-md-none">
+
+                <div class="row">
+                    <div class="col">
+                        <hr>
+                    </div>
+                </div>
+
+                {% for wish in wishlist.products.all %}
+                <div class="row">
+                    <div class="col-12 col-sm-6 mb-2">
+                        {% include "includes/wishlist-image.html" %}
+                    </div>
+                    <div class="col-12 col-sm-6 mb-2">
+                        {% include "includes/wishlist-info.html" %}
+                    </div>
+                    <div class="col-12 col-sm-6 order-sm-last mb-4">
+                        {% if wish.discount_price %}
+                        <p class="text-black">Price Each: £<del>{{ wish.price }}</del></p>
+                        <h4 class="text-light">Discount Price :</h4>
+                        <h4 class="discount-price-text-light">
+                            <i><b>~</b>£{{ wish.discount_price }}<b>~</b></i>
+                        </h4>
+                        {% else %}
+                    </div>
+                    <div class="col-12 col-sm-6 mb-4">
+                        <p class="text-black">Price Each: £{{ wish.price }}</p>
+                        <h4 class="text-light">Discount Price :</h4>
+                        <h4 class="text-light">
+                            <b>~</b>£<i></i>0</i><b>~</b>
+                        </h4>
+                        {% endif %}
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col">
+                        <hr>
+                    </div>
+                </div>
+
+                {% endfor %}
+                <div class="btt-button shadow-sm rounded-0 border border-black">
+                    <a class="btt-link d-flex h-100">
+                        <i class="fas fa-arrow-up text-light mx-auto my-auto"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Larger screens -->
+
+            <div class="table-responsive rounded d-none d-md-block">
+                <table class="table table-sm table-borderless">
+                    <thead class="text-light">
+                        <tr>
+                            <th scope="col "><i>Product Image</th></i>
+                            <th scope="col"><i>Description</i></th>
+                            <th scope="col"><i>Price</i></th>
+                            <th scope="col"><i>Discount Price</i></th>
+                        </tr>
+                    </thead>
+
+                    {% for wish in wishlist.products.all %}
+                    <tr>
+                        <td class="p-3 w-25">
+                            {% include "includes/wishlist-image.html" %}
+                        </td>
+
+                        <td class="py-3 pr-3">
+                            {% include "includes/wishlist-info.html" %}
+                        </td>
+
+                        {% if wish.discount_price %}
+
+                        <td>
+                            <p>
+                                <h4 class="text-black">
+                                    <del>£{{ wish.price }}</del>
+                                </h4>
+                            </p>
+                        </td>
+
+                        <td>
+                            <p class="mb-3 text-light">
+                                <h4>
+                                    <i><b>~</b>£{{ wish.discount_price }}<b>~</b></i>
+                                </h4>
+                            </p>
+                        </td>
+                        {% else %}
+                        <td>
+                            <p>
+                                <h4 class="mr-3 text-black">£{{ wish.price }}</h4>
+                            </p>
+                        </td>
+
+                        <td class="pt-3">
+                            <h4 class="text-light">
+                                <b>~</b>£<i></i>0</i><b>~</b>
+                            </h4>
+                        </td>
+                        {% endif %}
+                    </tr>
+                    {% endfor %}
+                    <div class="btt-button shadow-sm rounded-0 border border-black">
+                        <a class="btt-link d-flex h-100">
+                            <i class="fas fa-arrow-up text-light mx-auto my-auto"></i>
+                        </a>
+                    </div>
+                </table>
+            </div>
+            {% else %}
+            <p class="lead mb-5">Your Wish List is empty.</p>
+            <a href="{% url 'products' %}" class="btn btn-outline-black rounded btn-lg">
+                <span class="icon">
+                    <i class="fas fa-chevron-left"></i>
+                </span>
+                <span class="text-uppercase">Keep Shopping</span>
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript">
+    $('.btt-link').click(function (e) {
+        window.scrollTo(0, 0)
+    })
+</script>
 {% endblock %}

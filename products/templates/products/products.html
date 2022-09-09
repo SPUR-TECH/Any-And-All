@@ -90,13 +90,20 @@
                                             {% endif %}
                                         </strong>
                                     </h4>
+                                    <hr>
                                     {% if product.category %}
-                                    <p class="mt-1 mb-2">
-                                        <a class="text-color text-decoration-none" id="category-tag"
-                                            href="{% url 'products' %}?category={{ product.category.name }}">
-                                            <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
-                                        </a>
-                                    </p>
+                                    <div class="bg-color pt-1 pr-2 pl-2 pb-1 rounded">
+                                        <p class="mt-1 mb-2">
+
+                                            <h5><i>Category</i></h5 class="textlight">
+                                            <a class="text-black text-decoration-none" id="category-tag"
+                                                href="{% url 'products' %}?category={{ product.category.name }}">
+                                                <i
+                                                    class="fas fa-tag mr-1"></i><i>{{ product.category.friendly_name }}</i>
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <hr>
                                     {% endif %}
                                     <a class="reviews-text-light-link text-decoration-none bg-color pl-1 pr-2 pb-1 rounded"
                                         href="{% url 'product_detail' product.pk %}"><i>Reviews</i>
@@ -121,15 +128,16 @@
                                     {% endif %}
                                     <hr>
                                     {% if request.user.is_superuser %}
-                                    <div>Edit Product</div>
-
-                                    <small>
-                                        <a class="text-light-link" href="{% url 'edit_product' product.id %}">Edit</a> |
-                                        <a class="delete-text-danger"
-                                            href="{% url 'delete_product' product.id %}">Delete</a>
-                                    </small>
-                                    {% endif %}
-
+                                    <section class="edit-bg-color pt-1 pb-1 pr-2 pl-2 rounded">
+                                        <p><i>Edit Product</i></p>
+                                        <small>
+                                            <a class="text-light-link"
+                                                href="{% url 'edit_product' product.id %}">Edit</a> |
+                                            <a class="delete-text-danger"
+                                                href="{% url 'delete_product' product.id %}">Delete</a>
+                                        </small>
+                                        {% endif %}
+                                    </section>
                                 </div>
                             </div>
                         </div>

@@ -27,10 +27,17 @@ body {
     font-size: 20px;
 }
 
+/* Text colors */
+
 .discount-price i {
     color: rgb(0, 238, 255);
     text-shadow: 0 .2rem .2rem rgba(0, 0, 0);
 
+}
+
+.nav-item {
+    color: rgb(0, 212, 212);
+    text-shadow: 0 .3rem .3rem rgb(39, 39, 39);
 }
 
 .text-light {
@@ -119,10 +126,6 @@ body {
     font-size: 20px;
 }
 
-.bg-dark {
-    background-color: black !important;
-}
-
 .text-dark {
     color: rgb(136, 136, 136) !important;
 }
@@ -149,12 +152,38 @@ i {
     text-shadow: 0 .2rem .2rem rgba(0, 0, 0);
 }
 
+/* Background colors */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-image: linear-gradient(rgb(177, 177, 177), rgb(110, 110, 110));
+    z-index: -1;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
 .bg-nav-color {
     background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
 }
 
 .bg-color {
     background-image: linear-gradient(rgb(0, 0, 0), rgb(175, 59, 241));
+}
+
+.edit-bg-color {
+    text-align: center;
+    background: linear-gradient(rgb(134, 134, 134), rgba(0, 0, 0, 1));
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(228, 3, 3);
 }
 
 .text-color {
@@ -169,11 +198,6 @@ i {
 
 .navbar-toggler {
     background-color: rgb(0, 212, 212);
-}
-
-.nav-item {
-    color: rgb(0, 212, 212);
-    text-shadow: 0 .3rem .3rem rgb(39, 39, 39);
 }
 
 .dropdown-menu {
@@ -359,11 +383,6 @@ a.update-link:hover {
     color: rgb(0, 206, 0) !important;
 }
 
-a.category-badge>span.badge:hover {
-    color: rgb(0, 206, 0) !important;
-    transform: scale(1.1);
-}
-
 a.category-badge {
     font-size: 25px;
     letter-spacing: 2px;
@@ -372,16 +391,6 @@ a.category-badge {
 
 a.order_number:hover {
     color: rgb(0, 206, 0) !important;
-}
-
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-image: linear-gradient(rgb(177, 177, 177), rgb(110, 110, 110));
-    z-index: -1;
 }
 
 #sort-selector {
