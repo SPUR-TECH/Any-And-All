@@ -116,7 +116,7 @@
                                             class="btn text-color text-light-link rounded border-0 mt-3"
                                             data-toggle="tooltip" data-placement="top" title="Add to wishlist">
                                             <small><i class="fas fa-heart fa-lg"></i></small>
-                                            <strong>Add To Wishlist!</strong>
+                                            <strong>Add To Wishlist !</strong>
                                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                                         </button>
                                     </form>
@@ -125,13 +125,14 @@
                                         class="btn text-color text-light-link rounded border-0 mt-3"
                                         data-toggle="tooltip" data-placement="top" title="Add to wishlist">
                                         <small><i class="fas fa-heart fa-lg"></i></small>
-                                        <strong>Add To Wishlist!</strong>
+                                        <strong>Add To Wishlist !</strong>
                                     </a>
                                     {% endif %}
                                     <hr>
                                     {% if request.user.is_superuser %}
                                     <section class="edit-bg-color pt-1 pb-1 pr-2 pl-2 rounded">
                                         <p><i>Edit Product</i></p>
+                                        <section class="edit-red-line"></section>
                                         <small>
                                             <a class="text-light-link"
                                                 href="{% url 'edit_product' product.id %}">Edit</a> |

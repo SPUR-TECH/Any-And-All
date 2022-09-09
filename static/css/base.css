@@ -186,6 +186,12 @@ i {
     border-color: rgb(228, 3, 3);
 }
 
+.edit-red-line {
+    border-top-style: dashed;
+    border-width: 1px;
+    border-color: rgb(228, 3, 3);
+}
+
 .text-color {
     color: rgb(0, 238, 255);
     text-shadow: 0.2rem .2rem rgba(0, 0, 0);
@@ -856,7 +862,7 @@ a img.rounded {
     }
 
     .logo-font {
-        font-size: 18px;
+        font-size: 28px;
     }
 
     .text-light-link {
