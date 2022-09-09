@@ -53,11 +53,15 @@
                 {% endif %}
 
                 {% if request.user.is_superuser %}
-                <small class="ml-3">
-                    <a class="text-light-link" href="{% url 'edit_product' product.id %}">Edit</a> |
-                    <a class="delete-text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
-                </small>
-                {% endif %}
+                <section class="edit-bg-color pt-1 pb-1 pr-2 pl-2 w-50">
+                    <p><i>Edit Product</i></p>
+                    <section class="red-dotted-line"></section>
+                    <small>
+                        <a class="text-light-link" href="{% url 'edit_product' product.id %}">Edit</a> |
+                        <a class="delete-text-danger" href="{% url 'edit_product' product.id %}">Delete</a>
+                    </small>
+                    {% endif %}
+                </section>
                 <p class="mt-3">{{ product.description }}</p>
                 {% if user.is_authenticated %}
                 <form class="form" action="{% url 'add_to_wishlist' product.id %}" method="POST">
@@ -138,7 +142,7 @@
                                 <a href="{% url 'review_create' product.pk %} ">
                                     <i class='reviews-title'><b> ~ </b>Write A Review<b> ~ </b></i>
                                 </a>
-                                <hr />
+                                <hr>
 
                                 {% if reviews %}
                                 {% for review in reviews %}
