@@ -121,10 +121,12 @@
                                         </button>
                                     </form>
                                     {% else %}
-                                    <a href="{% url 'account_login' %}" class="btn" data-toggle="tooltip"
-                                        data-placement="top" title="Add to wishlist">
-                                        <i class="fas fa-heart fa-lg"></i>
-                                    </a></p>
+                                    <a href="{% url 'account_login' %}"
+                                        class="btn text-color text-light-link rounded border-0 mt-3"
+                                        data-toggle="tooltip" data-placement="top" title="Add to wishlist">
+                                        <small><i class="fas fa-heart fa-lg"></i></small>
+                                        <strong>Add To Wishlist!</strong>
+                                    </a>
                                     {% endif %}
                                     <hr>
                                     {% if request.user.is_superuser %}
