@@ -769,14 +769,8 @@ a img.rounded {
         padding: 8px;
     }
 
-    .btn.btn-outline-black.rounded,
-    .btn.btn-black.rounded {
-        padding: .375rem .375rem;
-    }
-
     .btn.btn-outline-black.rounded.btn-lg,
     .btn.btn-black.rounded.btn-lg {
-        padding: .375rem .375rem;
         font-size: .65rem;
     }
 
