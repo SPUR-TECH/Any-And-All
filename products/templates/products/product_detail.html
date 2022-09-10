@@ -124,17 +124,18 @@
                                 </div>
                             </div>
                             <div class="col{% if s %}-12 mt-2{% endif %}">
+
+                                <input type="submit"
+                                    class=" add-to-bag-button btn btn-black rounded border-0 text-uppercase mt-3 ml-2 mb-2"
+                                    value="Add to Bag">
+
                                 <a href="{% url 'products' %}"
-                                    class=" keep-shopping-button btn btn-outline-black rounded mt-2">
+                                    class=" keep-shopping-button btn btn-outline-black rounded ml-2 mt-2">
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
-                                <input type="submit"
-                                    class=" add-to-bag-button btn btn-black rounded border-0 text-uppercase mt-2"
-                                    value="Add to Bag">
-                                <br>
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}

@@ -576,6 +576,10 @@ input[name='q']::placeholder {
     color: rgb(0, 238, 255);
 }
 
+.social-networks i:hover {
+    color: rgb(9, 255, 0);
+}
+
 #privicy-policy:hover {
     color: rgb(255, 255, 255) !important;
     text-decoration: none;
@@ -698,7 +702,7 @@ a img.rounded {
         align-items: center;
         font-size: 10px;
         height: 30px;
-        width: 150px;
+        width: 160px;
     }
 }
 
