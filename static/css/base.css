@@ -782,7 +782,14 @@ a img.rounded {
 
     .btn.btn-outline-black.rounded.btn-lg,
     .btn.btn-black.rounded.btn-lg {
-        font-size: .65rem;
+        font-size: 10px;
+        padding: 8px;
+        width: 180px;
+    }
+
+    .keep-shopping-button {
+        height: 32px;
+        width: 180px;
     }
 
     .increment-qty,
