@@ -35,8 +35,9 @@
                 {{ field }}
                 {% endif %}
                 {% endfor %}
-                <a class="delete-text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
-                <div class="text-right">
+                <a class="delete-text-danger delete-btn-outline-black pt-1 pb-1 pr-2 pl-2 rounded"
+                    href="{% url 'delete_product' product.id %}">Delete Product</a>
+                <div class="text-center mt-2">
                     <a class="btn btn-outline-black rounded mb-4 mr-2" href="{% url 'products' %}">Cancel</a>
                     <button class="btn btn-black rounded border-0 mb-4" type="submit">Edit Product</button>
 

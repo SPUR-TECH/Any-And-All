@@ -284,13 +284,14 @@ input {
     color: rgb(206, 0, 0) !important;
     border: 1px solid rgb(206, 0, 0);
     margin-bottom: 100px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
 .delete-btn-outline-black:hover {
     color: rgb(255, 255, 255) !important;
     background: rgb(206, 0, 0) !important;
     border: 1px solid rgb(0, 0, 0);
-    transform: scale(1.1);
+    transform: scale(1.1) !important;
 }
 
 .cancel-btn-outline-black {
@@ -753,10 +754,6 @@ a img.rounded {
 
     .header-container {
         padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
     }
 
     .nav-link {

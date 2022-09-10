@@ -12,31 +12,35 @@
 
 {% block content %}
 <div class="overlay"></div>
-<div class="container mb-2">
+<div class="container mb-5 pt-5">
     <div class="row">
         <div class="col">
-            <hr>
             <i>
-                <h2 class="logo-font text-light bg-color rounded pl-2 pr-2 pt-1 pb-2 mb-4 mt-5" id="shopping-bag-title">
+                <h2 class="logo-font mb-4 text-center" id="products-title">
                     My Wish List</h2>
             </i>
-            <p class="text-light mt-3 mb-5">
+            <p class="text-center mt-3 mb-5">
                 <i>A summary of your Wish List contents is below </i>
             </p>
             <hr>
+            <a href="{% url 'products' %}" class="btn btn-outline-black rounded btn-lg ml-4">
+                <span class="icon">
+                    <i class="fas fa-chevron-left"></i>
+                </span>
+                <span class="text-uppercase">Keep Shopping</span>
+            </a>
+            <div class="row">
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col">
+        <div class="wishlist col-md-12 pl-0 pr-0">
             {% if wishlist.products.all %}
             <div class="d-block d-md-none">
-
-                <div class="row">
-                    <div class="col">
-                        <hr>
-                    </div>
-                </div>
 
                 {% for wish in wishlist.products.all %}
                 <div class="row">
@@ -64,7 +68,11 @@
                         {% endif %}
                     </div>
                 </div>
-                <br>
+
+                <div class="py-3">
+                    <a class="delete-btn-outline-black pt-1 pb-1 pr-2 pl-2 rounded"
+                        href="{% url 'remove_from_wishlist' wish.id %}">Remove</a>
+                </div>
 
                 <div class="row">
                     <div class="col">
@@ -90,6 +98,7 @@
                             <th scope="col"><i>Description</i></th>
                             <th scope="col"><i>Price</i></th>
                             <th scope="col"><i>Discount Price</i></th>
+                            <th scope="col"></th>
                         </tr>
                     </thead>
 
@@ -121,18 +130,23 @@
                             </p>
                         </td>
                         {% else %}
-                        <td>
+                        <td class="pl-0 pr-0">
                             <p>
                                 <h4 class="mr-3 text-black">£{{ wish.price }}</h4>
                             </p>
                         </td>
 
-                        <td class="pt-3">
+                        <td class="pt-3 pl-0 pr-0">
                             <h4 class="text-light">
                                 <b>~</b>£<i></i>0</i><b>~</b>
                             </h4>
                         </td>
                         {% endif %}
+
+                        <td class="py-3 pl-0 pr-0">
+                            <a class="delete-btn-outline-black pt-1 pb-1 pr-2 pl-2 rounded"
+                                href="{% url 'remove_from_wishlist' wish.id %}">Remove</a>
+                        </td>
                     </tr>
                     {% endfor %}
                     <div class="btt-button shadow-sm rounded-0 border border-black">
