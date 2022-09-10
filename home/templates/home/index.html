@@ -56,41 +56,95 @@
 <!-- Footer section -->
 
 <footer>
-    <div class="footer">
-        <ul class="social-networks">
+    <section class="text-center">
+        <div class="footer">
+            <ul>
+                <p class="text-dark text-center">Don't for get to register for our news letter!</p>
+            </ul>
 
-            <p class="text-dark">Don't for get to register for our news letter!</p>
+            <!--  Mailchimp Signup Form -->
 
-            <p class="text-light">&</p>
+            <div class="mc_embed_signup bg-secondary text-light text-center pt-4 pb-4 rounded">
+                <form
+                    action="https://herokuapp.us13.list-manage.com/subscribe/post?u=2086d4189d14f9f855d62a49b&amp;id=a39e43605d&amp;f_id=001a3fe3f0"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <section class="subscribe-title">
+                            <h2><i>Subscribe</i></h2>
+                            <h3><i>to our Newsletter</i></h3>
+                            <hr>
+                        </section>
+                        <div class="indicates-required mb-2"><span class="asterisk">*</span> indicates required</div>
+                        <div class="mc-field-group p-4 mb-2">
+                            <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                            </label>
+                            <input type="email" value="" name="EMAIL" class="subscribe-email rounded border-0 p-1"
+                                id="mce-EMAIL" required>
+                            <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                        </div>
+                        <div id="mce-responses" class="clear foot">
+                            <div class="response mb-2" id="mce-error-response" style="display:none"></div>
+                            <div class="response mb-2" id="mce-success-response" style="display:none"></div>
+                        </div>
 
-            <p class="text-dark">Follow us on social media for our latest product updates!</p>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                name="b_2086d4189d14f9f855d62a49b_a39e43605d" tabindex="-1" value=""></div>
+                        <div class="optionalParent">
+                            <div class="clear foot">
+                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                                    class="button btn-purple rounded border-0 pt-1 pb-1 pl-2 pr-2 text-light">
 
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
 
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
+            <ul class="social-networks">
+                <p class="text-light">&</p>
 
-        <ul>
-            <li class="text-center textstyle-none">
-                <a href="https://www.privacypolicygenerator.info/live.php?token=7dGZOnBNqia7Yrtfoaj7f66wyjqUxJpz"
-                    class="text-dark" id="privicy-policy" target="_blank" rel="noopener">Privicy Policy</a>
-            </li>
-        </ul>
-    </div>
-    <span>
-        <p class="copyright">
-            &copy; Copyright SPUR-<b>TECH </b> Web Designs @ 2021
-        </p>
-    </span>
+                <p class="text-dark">Follow us on social media for our latest product updates!</p>
+
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i
+                            class="fab fa-twitter-square"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+
+            <ul>
+                <li class="text-center textstyle-none">
+                    <a href="https://www.privacypolicygenerator.info/live.php?token=7dGZOnBNqia7Yrtfoaj7f66wyjqUxJpz"
+                        class="text-dark" id="privicy-policy" target="_blank" rel="noopener">Privicy Policy</a>
+                </li>
+            </ul>
+        </div>
+        <span>
+            <p class="copyright">
+                &copy; Copyright SPUR-<b>TECH </b> Web Designs @ 2021
+            </p>
+        </span>
+    </section>
 </footer>
 {% endblock %}
+
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+    (function ($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = 'EMAIL';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
+</script>
