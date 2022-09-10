@@ -410,6 +410,11 @@ a.order_number:hover {
     text-shadow: 0 .3rem .3rem rgb(0, 0, 0);
 }
 
+#shopping-bag-title {
+    color: rgb(0, 238, 255);
+    text-shadow: 0 .3rem .3rem rgb(0, 0, 0);
+}
+
 #wishlist-title {
     color: rgb(0, 238, 255);
     text-shadow: 0 .3rem .3rem rgb(0, 0, 0);
@@ -508,7 +513,7 @@ input[name='q']::placeholder {
     border-bottom-color: #343a40 !important;
 }
 
-.bag-notification-wrapper {
+.shopping-bag-title-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
