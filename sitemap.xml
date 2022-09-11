@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://any-and-all.herokuapp.com/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/bag/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=activewear,essentials</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=jeans</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=shirts</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=activewear,essentials,jeans,shirts</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=bed_bath</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=kitchen_dining</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=bed_bath,kitchen_dining</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=new_arrivals</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=deals</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=clearance</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=new_arrivals,deals,clearance</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/186/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=activewear</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/122/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/?category=essentials</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/64/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/12/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/150/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/119/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/121/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/51/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/13/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/20/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/37/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/130/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/36/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/113/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/159/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/114/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/54/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/129/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/120/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/97/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/14/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/83/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/55/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/139/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/80/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/111/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/109/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/99/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/84/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/11/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/23/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/105/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/66/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/128/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/6/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/29/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/40/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/62/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/153/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/94/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/10/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/17/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/91/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/48/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/136/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/142/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/32/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/174/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/8/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/77/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/45/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/116/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/161/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/123/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/39/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/41/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/132/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/137/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/69/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/131/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/95/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/143/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/160/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/118/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/164/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/151/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/47/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/165/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/75/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/15/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/82/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/152/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/127/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/124/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/68/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/35/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/92/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/76/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/163/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/158/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/104/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/89/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/110/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/147/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/157/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/28/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/100/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/133/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/162/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/53/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/149/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/1/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/103/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/98/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/2/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/155/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/115/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/134/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/33/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/87/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/173/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/135/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/7/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/18/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/108/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/19/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/21/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/72/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/38/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/44/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/49/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/73/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/74/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/78/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/79/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/81/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/125/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/172/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/170/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/171/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/144/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/16/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/56/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/43/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/60/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/138/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/50/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/126/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/31/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/154/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/93/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/107/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/102/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/169/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/30/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/101/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/67/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/22/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/156/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/24/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/148/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/52/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/145/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/96/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/34/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/166/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/167/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/168/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/25/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/88/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/70/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/71/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/117/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/42/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/85/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/112/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/46/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/106/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/63/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/4/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/9/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/59/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/5/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/26/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/90/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/58/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/86/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/27/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/61/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/products/146/</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/186</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/122</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/64</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/12</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/150</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/119</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/121</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/51</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/13</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/20</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/37</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/130</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/36</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/113</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/159</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/114</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/54</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/129</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/120</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/97</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/14</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/83</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/55</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/139</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/80</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/111</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/109</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/99</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/84</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/11</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/23</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/105</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/66</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/128</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/6</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/29</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/40</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/62</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/153</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/94</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/10</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/17</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/91</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/48</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/136</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/142</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/32</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/174</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/8</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/77</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/45</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/116</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/161</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/123</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/39</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/41</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/132</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/137</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/69</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/131</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/95</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/143</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/160</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/118</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/164</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/151</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/47</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/165</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/75</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/15</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/82</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/152</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/127</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/124</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/68</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/35</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/92</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/76</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/163</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/158</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/104</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/89</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/110</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/147</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/157</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/28</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/100</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/133</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/162</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/53</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/149</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/1</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/103</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/98</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/2</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/155</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/115</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/134</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/33</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/87</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/173</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/135</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/7</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/18</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/108</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/19</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/21</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/72</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/38</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/44</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/49</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/73</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/74</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/78</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/79</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/81</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/125</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/172</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/170</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/171</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/144</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/16</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/56</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/43</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/60</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/138</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/50</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/126</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/31</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/154</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/93</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/107</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/102</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/169</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/30</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/101</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/67</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/22</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/156</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/24</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/148</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/52</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/145</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/96</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/34</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/166</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/167</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/168</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/25</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/88</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/70</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/71</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/117</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/42</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/85</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/112</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/46</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/106</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/63</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/4</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/9</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/59</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/5</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/26</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/90</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/58</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/86</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/27</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/61</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/login/?next=/products/review-create/146</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F186</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F122</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F64</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F12</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F150</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F119</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F121</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F51</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F13</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F20</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F37</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F130</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F36</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F113</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F159</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F114</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F54</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F129</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F120</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F97</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F14</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F83</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F55</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F139</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F80</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F111</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F109</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F99</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F84</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F11</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F23</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F105</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F66</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F128</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F6</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F29</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F40</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F62</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F153</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F94</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F10</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F17</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F91</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F48</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F136</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F142</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F32</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F174</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F8</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F77</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F45</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F116</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F161</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F123</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F39</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F41</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F132</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F137</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F69</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F131</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F95</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F143</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F160</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F118</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F164</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F151</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F47</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F165</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F75</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F15</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F82</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F152</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F127</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F124</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F68</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F35</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F92</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F76</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F163</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F158</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F104</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F89</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F110</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F147</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F157</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F28</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F100</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F133</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F162</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F53</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F149</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F1</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F103</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F98</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F2</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F155</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F115</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F134</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F33</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F87</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F173</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F135</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F7</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F18</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F108</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F19</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F21</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F72</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F38</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F44</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F49</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F73</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F74</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F78</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F79</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F81</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F125</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F172</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F170</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F171</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F144</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F16</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F56</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F43</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F60</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F138</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F50</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F126</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F31</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F154</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F93</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F107</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F102</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F169</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F30</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F101</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F67</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F22</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://any-and-all.herokuapp.com/accounts/signup/?next=%2Fproducts%2Freview-create%2F156</loc>
+  <lastmod>2022-09-11T12:54:08+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
