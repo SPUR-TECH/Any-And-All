@@ -909,6 +909,7 @@ a img.rounded {
     .mc_embed_signup {
         width: 80%;
         margin-left: 10%;
+        padding: 15px;
     }
 
     .subscribe-email {
