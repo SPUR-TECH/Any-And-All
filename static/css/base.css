@@ -130,6 +130,20 @@ body {
     color: rgb(136, 136, 136) !important;
 }
 
+a.text-dark:hover {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+}
+
+a.text-dark i:hover {
+    color: rgb(0, 206, 0) !important;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 .text-black {
     color: black;
     text-shadow: 0 rgba(0, 0, 0);
@@ -588,11 +602,6 @@ input[name='q']::placeholder {
     color: rgb(9, 255, 0);
 }
 
-#privicy-policy:hover {
-    color: rgb(255, 255, 255) !important;
-    text-decoration: none;
-}
-
 .copyright {
     color: rgb(0, 0, 0);
     background-color: rgba(131, 131, 131, 1);
@@ -903,6 +912,14 @@ a img.rounded {
     }
 
     .subscribe-email {
-        width: 100px;
+        width: 135px;
+    }
+
+    .complete-order-button {
+        font-size: 12px;
+    }
+
+    .adjust-bag-button {
+        font-size: 14px;
     }
 }
