@@ -426,6 +426,8 @@ a.order_number:hover {
     text-shadow: 0 .3rem .3rem rgb(0, 0, 0);
 }
 
+/* Mailchimp css */
+
 .subscribe-title h2,
 h3 {
     font-size: 25px;
