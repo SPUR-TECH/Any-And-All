@@ -13,7 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from .views import handler404
+from .views import handler400, handler403, handler404, handler500
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
@@ -30,4 +30,7 @@ urlpatterns = [
     path('wishlist/', include('wishlist.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+handler400 = 'any_and_all.views.handler400'
+handler403 = 'any_and_all.views.handler403'
 handler404 = 'any_and_all.views.handler404'
+handler500 = 'any_and_all.views.handler500'
