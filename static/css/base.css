@@ -223,6 +223,7 @@ i {
 
 .dropdown-menu {
     background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    width: 230px;
 }
 
 a.dropdown-item {
@@ -924,5 +925,10 @@ a img.rounded {
 
     .adjust-bag-button {
         font-size: 14px;
+    }
+
+    .dropdown-menu {
+        font-size: 12px;
+        width: 190px;
     }
 }
