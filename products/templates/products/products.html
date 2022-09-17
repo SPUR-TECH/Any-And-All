@@ -60,7 +60,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row  mb-5">
+            <div class="row mb-5">
                 {% for product in products %}
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card h-100 border-0">
@@ -80,28 +80,24 @@
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
-                                    </p>
                                     <h4 class="font-weight-bold">
                                         {% if product.discount_price %}
                                         <i class="discount-price">£{{ product.discount_price }}</i>
-                                        <strong>£<del>{{ product.price }}</del>
-                                            {% else %}
-                                            £<strong>{{ product.price }}</strong>
-                                            {% endif %}
-                                        </strong>
+                                        <strong>£<del>{{ product.price }}</del></strong>
+                                        {% else %}
+                                        £<strong>{{ product.price }}</strong>
+                                        {% endif %}
+
                                     </h4>
                                     <hr>
                                     {% if product.category %}
                                     <div class="bg-color pt-1 pr-2 pl-2 pb-1 rounded">
-                                        <p class="mt-1 mb-2">
-
-                                            <h5><i>Category</i></h5 class="textlight">
-                                            <a class="text-black text-decoration-none" id="category-tag"
-                                                href="{% url 'products' %}?category={{ product.category.name }}">
-                                                <i
-                                                    class="fas fa-tag mr-1"></i><i>{{ product.category.friendly_name }}</i>
-                                            </a>
-                                        </p>
+                                        <h5><i>Category</i></h5>
+                                        <a class="text-black text-decoration-none"
+                                            href="{% url 'products' %}?category={{ product.category.name }}">
+                                            <i class="fas fa-tag mr-1">
+                                            </i><i class="category-tag">{{ product.category.friendly_name }}</i>
+                                        </a>
                                     </div>
                                     <hr>
                                     {% endif %}
@@ -130,10 +126,10 @@
                                     {% endif %}
                                     <hr>
                                     {% if request.user.is_superuser %}
-                                    <section class="edit-bg-color pt-1 pb-1 pr-2 pl-2">
+                                    <div class="edit-bg-color pt-1 pb-1 pr-2 pl-2">
                                         <a class="text-light-link" href="{% url 'edit_product' product.id %}"><i>Edit
                                                 Product</i></a>
-                                        <section class="red-dotted-line"></section>
+                                        <div class="red-dotted-line"></div>
                                         <small>
                                             <a class="text-light-link" href="{% url 'edit_product' product.id %}">Edit
                                                 <i> ~ </i> </a>
@@ -141,7 +137,7 @@
                                                 href="{% url 'edit_product' product.id %}">Delete</a>
                                         </small>
                                         {% endif %}
-                                    </section>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -181,13 +177,13 @@
 
 {% block postloadjs %}
 {{ block.super }}
-<script type="text/javascript">
+<script>
     $('.btt-link').click(function (e) {
         window.scrollTo(0, 0)
     })
 </script>
 
-<script type="text/javascript">
+<script>
     $('#sort-selector').change(function () {
         var selector = $(this);
         var currentUrl = new URL(window.location);

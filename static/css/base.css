@@ -19,11 +19,11 @@ body {
     border-radius: 15px;
 }
 
-#page-blurb-header h1 {
+#page-blurb-header h2 {
     font-size: 30px;
 }
 
-#page-blurb-text h2 {
+#page-blurb-text h3 {
     font-size: 20px;
 }
 
@@ -394,7 +394,7 @@ a.update-link:hover {
     color: rgb(255, 255, 255) !important;
 }
 
-#category-tag:hover {
+.category-tag:hover {
     color: rgb(0, 206, 0) !important;
 }
 
@@ -771,7 +771,7 @@ a img.rounded {
         font-size: 20px;
     }
 
-    #page-blurb-text h2 {
+    #page-blurb-text h3 {
         font-size: 15px;
     }
 

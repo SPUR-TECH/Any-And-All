@@ -20,10 +20,8 @@
     <div class="row">
         <div class="col">
             <hr>
-            <i>
-                <h2 class="logo-font text-light text-center rounded mb-4 mt-5" id="shopping-bag-title">
-                    Shopping Bag</h2>
-            </i>
+            <h2 class="logo-font text-light text-center rounded mb-4 mt-5" id="shopping-bag-title">
+                <i>Shopping Bag</i></h2>
             <p class="text-light mt-3 mb-5">
                 <i>A summary of your bag contents is below </i>
             </p>
@@ -37,7 +35,7 @@
             <div class="d-block d-md-none">
                 <div class="row">
                     <div class="col">
-                        <h4>{% include "bag/bag-total.html" %}</h4>
+                        {% include "bag/bag-total.html" %}
                     </div>
                 </div>
                 <div class="row">
@@ -80,7 +78,7 @@
                         <p class="text-black">Price Each: £{{ item.product.price }}</p>
                         <h4 class="text-light">Discount Price :</h4>
                         <h4 class="text-light">
-                            <b> ~ </b>£<i></i>0</i><b> ~</b>
+                            <b> ~ </b>£<i>0</i><b> ~</b>
                         </h4>
                         <strong class="text-black">Subtotal: </strong>
                         <i class="ml-2">
@@ -111,7 +109,7 @@
                 <table class="table table-sm table-borderless">
                     <thead class="text-light">
                         <tr>
-                            <th scope="col "><i>Product Image</th></i>
+                            <th scope="col"><i>Product Image</i></th>
                             <th scope="col"><i>Description</i></th>
                             <th scope="col"><i>Price</i></th>
                             <th scope="col"><i>Discount Price</i></th>
@@ -130,9 +128,16 @@
                             {% include "bag/product-info.html" %}
                         </td>
 
+                        {% if item.product.discount_price %}
+                        <td class="py-3">
+                            <span class="text-black"><del>£{{ item.product.price }}</del></span>
+                        </td>
+                        {% else %}
+
                         <td class="py-3">
                             <span class="text-black">£{{ item.product.price }}</span>
                         </td>
+                        {% endif %}
 
                         <td class="py-3">
                             <p class=" text-light">£{{ item.product.discount_price }}</p>
@@ -151,18 +156,18 @@
                         {% else %}
                         <td class="py-3">
                             <p class=" ml-4 text-light">
-                                £{{ item.product.price | calc_subtotal:item.quantity }}</p>
+                                <del>£{{ item.product.price | calc_subtotal:item.quantity }}</del></p>
                         </td>
                         {% endif %}
                     </tr>
                     {% endfor %}
                     <tr>
-                        <td colspan="5" class="pt-5 text-right text-black">
+                        <td colspan="6" class="pt-5 text-right text-black">
                             {% include "bag/bag-total.html" %}
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="5" class="text-right">
+                        <td colspan="6" class="text-right">
                             {% include "bag/checkout-buttons.html" %}
                         </td>
                     </tr>
@@ -184,14 +189,14 @@
 
 {% block postloadjs %}
 {{ block.super }}
-<script type="text/javascript">
+<script>
     $('.btt-link').click(function (e) {
         window.scrollTo(0, 0)
     })
 </script>
 {% include 'products/includes/quantity_input_script.html' %}
 
-<script type="text/javascript">
+<script>
     // Update quantity on click
     $('.update-link').click(function (e) {
         var form = $(this).prev('.update-form');
