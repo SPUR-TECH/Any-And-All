@@ -1,6 +1,6 @@
 <!-- template from code institute Boutique Ado -->
 <ul>
-    <li class="list-inline-item dropdown">
+    <li class="list-inline-item dropdown mt-3">
         <a class="nav-link d-block d-lg-none" href="#" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
             <div class="text-center">
@@ -16,7 +16,7 @@
             </h3>
             <hr>
             {% if request.user.is_superuser %}
-            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+            <a href="{% url 'add_product' %}" class="dropdown-item">Edit Items</a>
             {% endif %}
             <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
             <a href="{% url 'wishlist' %}" class="dropdown-item">My Wishlist</a>
@@ -29,7 +29,7 @@
     </li>
 </ul>
 <ul>
-    <li class="list-inline-item">
+    <li class="list-inline-item mt-3">
         <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"
             href="{% url 'view_bag' %}">
             <div class="text-center">
@@ -46,7 +46,7 @@
     </li>
 </ul>
 <ul>
-    <li class="list-inline-item">
+    <li class="list-inline-item mt-3">
         <a class="nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
             <div class="text-center">

@@ -54,7 +54,8 @@
                 <div class="col-7">
                     <p class="my-0 mb-2"><i>{{ item.product.name }}</i></p>
                     <p class="my-0 small"><i>Size:
-                            {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</i></p>
+                            {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</i>
+                    </p>
                     <p class="my-0 mb-4 small"><i>Qty: {{ item.quantity }}</i></p>
                 </div>
 
@@ -77,16 +78,13 @@
                 <div class="col-7 offset-2">
                     <p>Order Total:</p>
                     <p>Delivery:</p>
-                    <p>
-                        <h4>Grand Total:</h4>
-                    </p>
+                    <h4>Grand Total:</h4>
                 </div>
                 <div class="col-3">
                     <p><i>£{{ total | floatformat:2 }}</i></p>
                     <p><i>£{{ delivery | floatformat:2 }}</i></p>
-                    <p><i>
-                            <h4>£{{ grand_total | floatformat:2 }}</h4>
-                        </i></p>
+                    <h4><i>£{{ grand_total | floatformat:2 }}</i></h4>
+
                 </div>
             </div>
         </div>
@@ -163,11 +161,11 @@
     </div>
 </div>
 <div id="loading-overlay">
-    <h1 class="text-light logo-font loading-spinner">
+    <div class="text-light logo-font loading-spinner">
         <span class="icon">
             <i class="fas fa-3x fa-sync-alt fa-spin"></i>
         </span>
-    </h1>
+    </div>
 </div>
 {% endblock %}
 
