@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-As a **_ROLE_** I'd like **_CAPABILITY_** so I can _**BENNIFIT**_
+As a ***ROLE*** I'd like ***CAPABILITY*** so I can ***BENNIFIT***
 
   
   ## Acceptance Criteria:
@@ -15,5 +15,3 @@ As a **_ROLE_** I'd like **_CAPABILITY_** so I can _**BENNIFIT**_
   - Acceptance Criteria 1:
   - Acceptance Criteria 2:
   - Acceptance Criteria 3:
-  
-  
