@@ -32,7 +32,8 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['any-and-all.herokuapp.com', 'localhost']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-spurtech-anyandall-f8glbtrh0e2.ws-eu63.gitpod.io']
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-spurtech-anyandall-f8glbtrh0e2.ws-eu63.gitpod.io']
 
 # Application definition
 
@@ -91,7 +92,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
