@@ -1,3 +1,11 @@
+#  product view from code institute Boutique Ado
+
+'''
+Imports relevant django packages
+'''
+from django.db.models.functions import Lower
+from django.urls import reverse_lazy
+
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.views.generic import UpdateView
 from django.views.generic.edit import CreateView, DeleteView
@@ -6,17 +14,15 @@ from django.contrib import messages
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
 from .models import Product, Category, Review
-from django.db.models.functions import Lower
-from django.urls import reverse_lazy
-from . forms import ReviewForm
 
+from . forms import ReviewForm
 from .forms import ProductForm
 
 
-#  product view from code institute Boutique Ado
-
 def all_products(request):
-    """ A view to show all products, including sorting and search queries """
+    """
+    A view to show all products, including sorting and search queries
+    """
 
     products = Product.objects.all()
     query = None
@@ -49,10 +55,12 @@ def all_products(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(
+                    request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(
+                name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -68,7 +76,9 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """
+    A view to show individual product details
+    """
 
     product = get_object_or_404(Product, pk=product_id)
     reviews = Review.objects.filter(product=product)
@@ -92,7 +102,7 @@ def product_detail(request, product_id):
                 request,
                 'Please login to create a review!')
             return redirect(reverse('product_detail', args={product.id}))
-            
+
     context = {
         'product': product,
         'reviews': reviews,
@@ -103,7 +113,9 @@ def product_detail(request, product_id):
 
 @login_required
 def add_product(request):
-    """ Add a product to the store """
+    """
+    Add a product to the store
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -115,7 +127,9 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(
+                request, 'Failed to add product. \
+                    Please ensure the form is valid.')
     else:
         form = ProductForm()
 
@@ -129,7 +143,9 @@ def add_product(request):
 
 @login_required
 def edit_product(request, product_id):
-    """ Edit a product in the store """
+    """
+    Edit a product in the store
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -142,7 +158,9 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(
+                request, 'Failed to update product. \
+                    Please ensure the form is valid.')
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
@@ -158,7 +176,9 @@ def edit_product(request, product_id):
 
 @login_required
 def delete_product(request, product_id):
-    """ Delete a product from the store """
+    """
+    Delete a product from the store
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -170,27 +190,31 @@ def delete_product(request, product_id):
 
 
 class ReviewCreateView(LoginRequiredMixin, CreateView):
-    """Product Reviews form
+    """
+    Product Reviews form
     """
     model = Review
     context_object_name = 'Review'
     form_class = ReviewForm
 
     def form_valid(self, form):
-        """Assign Primary Key if form is valid
+        """
+        Assign Primary Key if form is valid
         """
         form.instance.product = Product.objects.get(pk=self.kwargs['pk'])
         return super().form_valid(form)
 
     def get_success_url(self):
-        """Redirect to product Detail page
+        """
+        Redirect to product Detail page
         """
         pk = self.kwargs['pk']
         return reverse_lazy('product_detail', kwargs={'product_id': pk})
 
 
 class ReviewUpdateView(LoginRequiredMixin, UpdateView):
-    """product Reviews editing function
+    """
+    product Reviews editing function
     """
     model = Review
     context_object_name = 'Review'
@@ -204,7 +228,8 @@ class ReviewUpdateView(LoginRequiredMixin, UpdateView):
 
 
 class ReviewDeleteView(LoginRequiredMixin, DeleteView):
-    """product Reviews deleting function
+    """
+    product Reviews deleting function
     """
     model = Review
     context_object_name = 'Review'
@@ -215,7 +240,9 @@ class ReviewDeleteView(LoginRequiredMixin, DeleteView):
         return context
 
     def get_success_url(self):
-        """Redirect to product Detail page
+        """
+        Redirect to product Detail page
         """
         pk = self.kwargs['id']
-        return reverse_lazy('product_detail', kwargs={'product_id': self.object.product.pk})
+        return reverse_lazy(
+            'product_detail', kwargs={'product_id': self.object.product.pk})

@@ -1,11 +1,20 @@
+# form from code institute Boutique Ado
+
+'''
+Imports relevant django packages
+'''
 from django import forms
 from .models import UserProfile
 
-# form from code institute Boutique Ado
-
 
 class UserProfileForm(forms.ModelForm):
+    '''
+    User profile form
+    '''
     class Meta:
+        '''
+        Specifies the models displayed within the form
+        '''
         model = UserProfile
         exclude = ('user',)
 

@@ -1,8 +1,14 @@
+'''
+Imports relevant django packages
+'''
 from django.contrib import admin
 from .models import Product, Category, Review
 
 
 class ProductAdmin(admin.ModelAdmin):
+    '''
+    Creates admin list display info
+    '''
     list_display = (
         'sku',
         'name',
@@ -16,6 +22,9 @@ class ProductAdmin(admin.ModelAdmin):
 
 
 class CategoryAdmin(admin.ModelAdmin):
+    '''
+    Creates admin list display
+    '''
     list_display = (
         'friendly_name',
         'name',
@@ -23,6 +32,9 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 class ReviewAdmin(admin.ModelAdmin):
+    '''
+    Creates admin list display info for reviews
+    '''
     list_display = (
         'product',
         'review_writer',

@@ -1,5 +1,8 @@
+'''
+Imports relevant django packages
+'''
 from django.shortcuts import render
-from django.shortcuts import render, redirect, get_object_or_404, reverse
+from django.shortcuts import redirect, get_object_or_404, reverse
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 
@@ -7,10 +10,11 @@ from products.models import Product
 from .models import Wishlist
 
 
-
 @login_required
 def view_wishlist(request):
-
+    '''
+    A view to return the wishlist
+    '''
     wishlist = None
     try:
         wishlist = Wishlist.objects.get(user=request.user)
@@ -26,7 +30,9 @@ def view_wishlist(request):
 
 @login_required
 def add_to_wishlist(request, item_id):
-
+    '''
+    Add an item to the wishlist
+    '''
     product = get_object_or_404(Product, pk=item_id)
     redirect_url = request.POST.get('redirect_url')
 
@@ -40,7 +46,9 @@ def add_to_wishlist(request, item_id):
 
 @login_required
 def remove_from_wishlist(request, item_id):
-
+    '''
+    Removes the item from the wishlist
+    '''
     wish = Wishlist.objects.get(user=request.user)
     product = get_object_or_404(Product, pk=item_id)
 

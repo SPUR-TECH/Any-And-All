@@ -1,4 +1,7 @@
 # contexts from code institute Boutique Ado
+'''
+Imports relevant django packages
+'''
 
 from decimal import Decimal
 from django.conf import settings
@@ -7,6 +10,9 @@ from products.models import Product
 
 
 def bag_contents(request):
+    '''
+    Shows the content that is contained within the users bag
+    '''
 
     bag_items = []
     total = 0

@@ -1,3 +1,6 @@
+'''
+Imports relevant django packages
+'''
 from django.contrib import admin
 from .models import Wishlist, WishlistProduct
 

@@ -1,13 +1,22 @@
+# product form from code institute Boutique Ado
+
+'''
+Imports relevant django packages
+'''
 from django import forms
 from .widgets import CustomClearableFileInput
 from .models import Product, Category, Review
 
-# product form from code institute Boutique Ado
-
 
 class ProductForm(forms.ModelForm):
+    '''
+    Product form information
+    '''
 
     class Meta:
+        '''
+        Product form fields generator
+        '''
         model = Product
         fields = '__all__'
 
@@ -25,13 +34,20 @@ class ProductForm(forms.ModelForm):
 
 
 class ReviewForm(forms.ModelForm):
+    '''
+    Review form for the product.
+    '''
     class Meta:
+        '''
+        Fields that are displayed on the form.
+        '''
         model = Review
         fields = ('review', 'rating', 'review_writer')
 
         widgets = {
 
             'review': forms.Textarea(attrs={
-                'class': 'form-control', 'placeholder': ' Write review here.....'}),
+                'class': 'form-control',
+                'placeholder': 'Write review here.....'}),
             'review_writer': forms.HiddenInput()
         }
