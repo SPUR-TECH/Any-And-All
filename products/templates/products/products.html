@@ -87,7 +87,6 @@
                                         {% else %}
                                         £<strong>{{ product.price }}</strong>
                                         {% endif %}
-
                                     </h4>
                                     <hr>
                                     {% if product.category %}
@@ -136,8 +135,8 @@
                                             <a class="delete-text-danger"
                                                 href="{% url 'edit_product' product.id %}">Delete</a>
                                         </small>
-                                        {% endif %}
                                     </div>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
