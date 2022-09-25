@@ -2,13 +2,12 @@
 
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item d-block d-md-none">
+        <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-dark mr-5" href="{% url 'home' %}" id="home">
                 Home
             </a>
         </li>
-        <li class="nav-item dropdown">
-        </li>
+
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-dark mr-5" href="#" id="all-products-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,7 +26,9 @@
                 Clothing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Activewear &amp;
+                <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Activewear
+                    <br>
+                    &amp;
                     Essentials</a>
                 <a href="{% url 'products' %}?category=jeans" class="dropdown-item">Jeans</a>
                 <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Shirts</a>
