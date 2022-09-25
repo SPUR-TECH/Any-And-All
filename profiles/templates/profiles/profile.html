@@ -41,7 +41,7 @@
         <div class="col-12 col-lg-6">
             <p class="text-light">Order History</p>
             <div class="order-history table-responsive">
-                <table class="table table-sm table-borderless">
+                <table class="table table-sm table-borderless text-black">
                     <thead>
                         <tr>
                             <th>Order Number</th>
@@ -71,7 +71,7 @@
                                     {% endfor %}
                                 </ul>
                             </td>
-                            <td>${{ order.grand_total }}</td>
+                            <td>£{{ order.grand_total }}</td>
                         </tr>
                         {% endfor %}
                     </tbody>
