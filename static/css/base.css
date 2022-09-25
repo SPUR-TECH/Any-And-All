@@ -21,10 +21,12 @@ body {
 
 #page-blurb-header h2 {
     font-size: 30px;
+    color: rgb(0, 170, 182);
 }
 
 #page-blurb-text h3 {
     font-size: 20px;
+    color: rgb(0, 170, 182);
 }
 
 /* Text colors */
@@ -46,7 +48,7 @@ body {
 }
 
 .display-4 {
-    color: rgb(0, 149, 160);
+    color: rgb(1, 155, 167);
 }
 
 .edit-text-light {
