@@ -30,7 +30,7 @@
     </div>
     <div class="row">
         <div class="col-12 col-lg-6">
-            <p class="text-light">Default Delivery Information</p>
+            <p><i>Default Delivery Information</i></p>
             <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
                 {% csrf_token %}
                 {{ form|crispy }}
@@ -38,8 +38,8 @@
                     Information</button>
             </form>
         </div>
-        <div class="col-12 col-lg-6">
-            <p class="text-light">Order History</p>
+        <div class="col-12 col-lg-6 col-sm-2">
+            <p><i>Order History</i></p>
             <div class="order-history table-responsive">
                 <table class="table table-sm table-borderless text-black">
                     <thead>
@@ -54,9 +54,9 @@
                         {% for order in orders %}
                         <tr>
                             <td>
-                                <a class="order_number text-light" href="{% url 'order_history' order.order_number %}"
+                                <a class="order_number" href="{% url 'order_history' order.order_number %}"
                                     title="{{ order.order_number }}">
-                                    {{ order.order_number|truncatechars:6 }}
+                                    <i>{{ order.order_number|truncatechars:6 }}</i>
                                 </a>
                             </td>
                             <td>{{ order.date }}</td>

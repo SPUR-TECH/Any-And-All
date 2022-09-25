@@ -36,13 +36,17 @@ body {
 }
 
 .nav-item {
-    color: rgb(0, 212, 212);
+    color: rgb(0, 238, 255);
     text-shadow: 0 .3rem .3rem rgb(39, 39, 39);
 }
 
 .text-light {
-    color: rgb(0, 238, 255) !important;
+    color: rgb(0, 214, 230) !important;
     text-shadow: 0 .1rem .1rem rgba(0, 0, 0);
+}
+
+.display-4 {
+    color: rgb(0, 149, 160);
 }
 
 .edit-text-light {
@@ -393,6 +397,10 @@ a.update-link:hover {
     color: rgb(255, 255, 255) !important;
 }
 
+.category-tag {
+    font-size: 15px;
+}
+
 .category-tag:hover {
     color: rgb(0, 206, 0) !important;
 }
@@ -401,6 +409,10 @@ a.category-badge {
     font-size: 25px;
     letter-spacing: 2px;
     margin: 5px;
+}
+
+.category {
+    font-size: 20px;
 }
 
 a.order_number:hover {
@@ -606,7 +618,7 @@ input[name='q']::placeholder {
 
 .copyright {
     color: rgb(0, 0, 0);
-    background-color: rgba(131, 131, 131, 1);
+    background-color: rgb(212, 212, 212);
     text-align: center;
     padding: 10px;
     font-size: 18px;
@@ -615,7 +627,7 @@ input[name='q']::placeholder {
 }
 
 b {
-    color: rgb(168, 0, 0);
+    color: rgb(187, 0, 0);
 }
 
 
@@ -882,10 +894,6 @@ a img.rounded {
         font-size: 13px;
     }
 
-    .logo-font {
-        font-size: 28px;
-    }
-
     .text-light-link {
         font-size: 12px;
     }
@@ -929,5 +937,9 @@ a img.rounded {
     .dropdown-menu {
         font-size: 14px;
         width: 190px;
+    }
+
+    #products-title h1 {
+        font-size: 30px;
     }
 }

@@ -46,7 +46,7 @@
     </li>
 </ul>
 <ul>
-    <li class="list-inline-item mt-3">
+    <li class="list-inline-item mt-3" aria-label="Search our site">
         <a class="nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
             <div class="text-center">
@@ -57,11 +57,11 @@
         <div class="dropdown-menu border-0 w-100 rounded-0 my-0" aria-labelledby="mobile-search">
             <form class="form" method="GET" action="{% url 'products' %}">
                 <div class="input-group w-100">
-                    <input class="form-control border border-black rounded-0" type="text" name="q"
-                        placeholder="Search our site">
+                    <input class="form-control border border-black rounded-0" aria-label="Search our site" type="text"
+                        name="q" placeholder="Search our site">
                     <div class="input-group-append">
                         <button class="form-control form-control btn btn-black border border-black rounded-0"
-                            type="submit">
+                            type="submit" aria-label="Search our site">
                             <span class="icon">
                                 <i class="fas fa-search"></i>
                             </span>
