@@ -21,7 +21,7 @@
                     My Wish List</h2>
             </i>
             <p class="text-center bg-color pt-1 pb-1 pl-2 pr-2 rounded mt-3 mb-5">
-                <i>To add Wish List item to bag......
+                <i>To add a Wish List item to your bag......
                     <br>
                     Copy and paste product name to search bar then click the image</i>
             </p>
@@ -41,7 +41,7 @@
     </div>
 
     <div class="row">
-        <div class="wishlist col-md-12 pl-0 pr-0">
+        <div class="wishlist col-md-12">
             {% if wishlist.products.all %}
             <div class="d-block d-md-none">
 
@@ -56,7 +56,7 @@
                     <div class="col-12 col-sm-6 order-sm-last mb-4">
                         {% if wish.discount_price %}
                         <p class="text-black">Price Each: £<del>{{ wish.price }}</del></p>
-                        <h4 class="text-light">Discount Price :</h4>
+                        <h4 class="text-light"><i>Discount Price :</i></h4>
                         <h4 class="discount-price-text-light">
                             <i><b>~</b>£{{ wish.discount_price }}<b>~</b></i>
                         </h4>
@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-12 col-sm-6 mb-4">
                         <p class="text-black">Price Each: £{{ wish.price }}</p>
-                        <h4 class="text-light">Discount Price :</h4>
+                        <h4 class="text-light"><i>Discount Price :</i></h4>
                         <h4 class="text-light">
                             <b>~</b>£<i></i>0</i><b>~</b>
                         </h4>
@@ -160,13 +160,7 @@
                 </table>
             </div>
             {% else %}
-            <p class="lead mb-5">Your Wish List is empty.</p>
-            <a href="{% url 'products' %}" class="btn btn-outline-black rounded btn-lg">
-                <span class="icon">
-                    <i class="fas fa-chevron-left"></i>
-                </span>
-                <span class="text-uppercase">Keep Shopping</span>
-            </a>
+            <p class="lead mb-5 text-black">Your Wish List is empty.</p>
             {% endif %}
         </div>
     </div>
