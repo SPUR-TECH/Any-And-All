@@ -64,7 +64,6 @@ class Review(models.Model):
         'Product', null=True, blank=True, on_delete=models.SET_NULL)
     review_writer = models.ForeignKey(User, on_delete=models.CASCADE)
     created_on = models.DateTimeField(auto_now=True)
-    updated_on = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         '''
