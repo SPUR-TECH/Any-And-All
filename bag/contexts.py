@@ -21,7 +21,10 @@ def bag_contents(request):
 
     for item_id, item_data in bag.items():
         if isinstance(item_data, int):
-            product = get_object_or_404(Product, pk=item_id)
+            try:
+                product = Product.objects.get(pk=item_id)
+            except Product.DoesNotExist:
+                continue
             if product.discount_price:
                 total += item_data * product.discount_price
             else:
@@ -33,7 +36,10 @@ def bag_contents(request):
                 'product': product,
             })
         else:
-            product = get_object_or_404(Product, pk=item_id)
+            try:
+                product = Product.objects.get(pk=item_id)
+            except Product.DoesNotExist:
+                continue
             for size, quantity in item_data['items_by_size'].items():
                 if product.discount_price:
                     total = quantity * product.discount_price

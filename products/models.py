@@ -69,4 +69,4 @@ class Review(models.Model):
         '''
         Returns the review as a string
         '''
-        return f'{self.title}'
+        return f'{self.review}'
