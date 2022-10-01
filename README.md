@@ -6,7 +6,7 @@
 
 https://any-and-all.herokuapp.com/
 
-Any And All is a B2C E-commerce online shopping site with easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product making the site very accessible and easy to use for any level of user.
+Any And All is a B2C E-commerce online shopping site dealing directly from business to customer. Designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
 The site consists of a sign up, sign in an sign out ability for ease of second visit saving customer details so check out will be super quick and easy with a secure payment system through Stripe payments so all user details are protected.
 The user also has the option of signing up for a newsletter and checking out our Facebook page to stay up to date with all the latest deals and discounted products.
 C.R.U.D functionality for users and staff..... 
@@ -28,11 +28,19 @@ As you can see it's fully responsive right across all devices and adapts to any 
 
 ---
 
-## User stories where built in an Agile methodology Kanban board using the MoSCoW technique MUST have, SHOULD have, COULD have and WON'T have to construct the site and all it's functionality:
+# UI/UX
+
+## User stories:
+
+### User stories where built in an Agile methodology Kanban board using the MoSCoW technique MUST have, SHOULD have, COULD have and WON'T have to construct the site and all it's functionality:
 ---
 
 ![User stories](media/any-and-all-agile-method5.jpg)
 ![User stories](media/any-and-all-agile-method4.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
 
 ---
 
@@ -75,10 +83,200 @@ As you can see it's fully responsive right across all devices and adapts to any 
 | [#18]  Links | As a site owner  | I'd like to create links to corresponding page so I can make sure users, staff and store owners are directed to relevant pages.| Must Have |
 | [#19]  Functioning E-commerce site | As a site owner  | I'd like build a fully functioning E-commerce site so I can add it to my profile of websites I've create with Code Institute| Must Have |
 
+- [Back to the top](#any-and-all)
+
 ## Then prioritized: 
 
 ![User stories](media/any-and-all-agile-method1.jpg)
 ![User stories](media/any-and-all-agile-method2.jpg)
 ![User stories](media/any-and-all-agile-method3.jpg)
 
-- [Back to the top](#urais-thai-kitchen)
+### All of the above user stories were met except coupons marked as Won't Have.
+
+---
+
+- [Back to the top](#any-and-all)
+
+ # Content Requirements:
+    
+- ## The UI/UX **MUST** address these:
+
+    - Functioning E-commerce site.
+    - Easy site navigation with search bar.
+    - Connect to facebook page.
+    - User and staff C.R.U.D functionality.
+    - Correctly coded links.
+    - Add to bag functionality.
+    - Easy sign up, Log in and Log out system.
+    - Authentication, user must not be able to edit or delete anyone else's reviews or access edit product are page.
+    - Secure Payments.
+
+- ## The UI/UX **SHOULD** address these:
+    
+    - Privacy Policy access.
+    - Send an email of order confirmation.
+    - Leave a review.
+    - Subscribe newsletters.
+    - Contact us easily.
+    - See other peoples reviews.
+    - Write a review.
+    - Add items to a wish list.
+    - Receive a confirmation email.
+    - Login for ease of second visit.
+    - Discounts products.
+
+- ## The UI/UX **COULD** address this:
+
+    - Secure payments link to see how Stripe works.
+
+- ## The UI/UX **WON'T** address this:
+
+    - Coupons will not be added at this time. 
+
+- [Back to the top](#any-and-all)
+
+---
+
+# The bare bones:
+
+## Wireframes: Created using https://balsamiq.com/wireframes/
+
+The wire frames for the pages showcasing the bare structure of the site.
+
+![Landing page wireframe](media/any-and-all-wireframe1.jpg)
+### Links to the other pages:
+- [Products Page](media/any-and-all-wireframe2.jpg)
+- [Products detail Page](media/any-and-all-wireframe3.jpg)
+- [Products management Page](media/any-and-all-wireframe4.jpg)
+- [Profile page](media/any-and-all-wireframe5.jpg)
+- [Sign up page](media/any-and-all-wireframe6.jpg)
+- [Sign in page](media/any-and-all-wireframe7.jpg)
+- [Sign out page](media/any-and-all-wireframe8.jpg)
+- [Shopping bag page](media/any-and-all-wireframe9.jpg)
+- [Secure checkout page](media/any-and-all-wireframe10.jpg)
+- [Reviews page](media/any-and-all-wireframe11.jpg)
+- [Wishlist page](media/any-and-all-wireframe12.jpg)
+
+- [Back to the top](#any-and-all)
+
+----
+
+# Database Schema
+
+## Draw SQL was used to create the database schema https://drawsql.app/ to create the project's database schema models showing the relationship between the models.
+
+![Data base](media/any-and-all-data-schema.jpg)
+
+#### Models
+- ***UserProfile*** - Stores all users details and purchase history.
+- ***Category*** - Attaches a category to the products.
+- ***Product*** - Stores the product information.
+- ***Order*** - Creates the users order details.
+- ***OrderLineItem*** - Are the products in the order.
+- ***WishlistProduct*** - Stores the wish list items.
+- ***Wishlist*** - Attaches the user to the wish list.
+- ***Review*** - Creates a review  for the customer to review the item or read other people's reviews.
+
+---
+
+- [Back to the top](#any-and-all)
+
+# Marketing strategy:
+
+## (SEO) Search Engine Optimization:
+- I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
+![Newsletter subscription](media/any-and-all-keyword-caption.jpg)
+
+- I've also added a robots.txt and a sitemap.xml to maximize google search engines.
+- I've also created a newsletter subscription function
+
+![Newsletter subscription](media/any-and-all-newsletter-subscription.jpg)
+
+## ***Brand Reach***:
+
+## Facebook Business page:
+
+The site has a Facebook Business page to help the business reach further and gain potential customers and updates and discounts can be advertised to entice the shoppers to come and visit the site.
+
+![Facebook Page](media/any-and-all-facebook-1.jpg)
+![Facebook Page](media/any-and-all-facebook-2.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
+# Technologies Used:
+## Languages & Frameworks
+* [HTML5]() - The bare structure of the site.
+* [Bootstrap]() - For quick inline styling in HTML code.
+* [CSS]() - The styling and positioning of the HTML.
+* [JavaScript]() - The interactivity of the site.
+* [Python]() - The backend functionality.
+* [Django]() - To build the project.
+
+
+## Others Programmes
+* [Visual Studio Code]() - To build the site in.
+* [GitHub]() - To store the project's code.
+* [GitPod]() - To write and push the code for the project.
+* [Balsamiq]() - To create project's wireframes.
+* [Chrome Dev Tools]() - To debug and testing.
+* [W3C HTML Validator]() - To validate the HTML code.
+* [W3C CSS Validator]() - To validate CSS code.
+* [Am I Responsive]() - To generate the responsive preview screens.
+* [Font Awesome]() - For the icons.
+* [Google Fonts]() - For font style.
+* [Facebook]() - To create site's Facebook business page.
+* [Stripe]() - To process the online payments with webhooks.
+* [AWS Bucket]() - To host static files.
+* [Sitemap]() - To generate the sitemap.xml
+* [Draw SQL]() - To create the database schema diagram.
+* [Heroku]() - To deploy the live site.
+* [Heroku PostgreSQL]()  - To connect the project to the database.
+
+---
+
+- [Back to the top](#any-and-all)
+
+## features:
+
+# The landing page:
+
+![Landing page](media/any-and-all-homepage1.jpg)
+![Landing page](media/any-and-all-homepage2.jpg)
+![Landing page](media/any-and-all-homepage3.jpg)
+
+I've designed the site with a purple and black gradient to add style with a beautiful eye catching blue accents to draw attention and really stand out.
+The Logo will take the user back to the home page.
+I've also added the Home link along sides the All products, Clothing, Homeware and Special offers Categories in the nav links to make it simple for all levels of user's
+It has a search bar for searching anything on the site quickly using keywords.
+The My accounts link will drop down to show:
+- The user who is currently logged in.
+- The My profile link that takes the user to they're own profile page.
+- The My wish list link that takes the user to they're wish list page.
+- The Sign out link that takes the user to the Sign out page.
+
+![My Account dropdown](media/any-and-all-my-account-dropdown1.jpg)
+
+## Depending on authentication:
+- The Edit item only seen when staff authentication is active.
+![My Account dropdown staff](media/any-and-all-my-account-dropdown.jpg)
+
+The Bag link takes the user to the Shopping Bag page showing the items selected by the user for purchase.
+![Shopping bag](media/any-and-all-bag.jpg)
+
+which also collapses down for smaller screens sizes
+
+![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed1.jpg)
+
+
+![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed2.jpg)
+
+The nav bar can be seen on all pages and collapses down for tablets and mobile devices.
+
+![Landing page](media/any-and-all-collapsed-nav.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
