@@ -290,3 +290,38 @@ The empty bag will notify the user and a KEEP SHOPPING button will bring the use
 
 - [Back to the top](#any-and-all)
 
+
+## The All Products link drops down to show ~ 
+- By Price.
+- By Category.
+- All Products. 
+All links have a nice hover effect for better UI/UX.
+
+![All products link](media/any-and-all-all-products-link.jpg)
+
+## The Clothing link drops down to show ~
+- Activewear.
+- Essentials.
+- All Clothing.
+
+![Clothing link](media/any-and-all-clothing-link.jpg)
+
+## The Homeware link drops down to show ~
+- Bed & Bath.
+- Kitchen & Dining.
+- All Homeware.
+
+![Homeware link](media/any-and-all-Homeware-link.jpg)
+
+## The Special offers link drops down to show ~
+- New Arrivals.
+- Deals.
+- Clearance.
+- All Specials.
+
+![Special offers link](media/any-and-all-special-offers-link.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
