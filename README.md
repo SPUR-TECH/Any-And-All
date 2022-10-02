@@ -163,7 +163,8 @@ The wire frames for the pages showcasing the bare structure of the site.
 
 # Database Schema
 
-## Draw SQL was used to create the database schema https://drawsql.app/ to create the project's database schema models showing the relationship between the models.
+## ***`Draw SQL`*** 
+was used to create the database schema https://drawsql.app/ to create the project's database schema models showing the relationship between the models.
 
 ![Data base](media/any-and-all-data-schema.jpg)
 
@@ -206,7 +207,7 @@ The site has a Facebook Business page to help the business reach further and gai
 - [Back to the top](#any-and-all)
 
 # Technologies Used:
-## Languages & Frameworks
+## Languages & Frameworks:
 * [HTML5]() - The bare structure of the site.
 * [Bootstrap]() - For quick inline styling in HTML code.
 * [CSS]() - The styling and positioning of the HTML.
@@ -215,7 +216,7 @@ The site has a Facebook Business page to help the business reach further and gai
 * [Django]() - To build the project.
 
 
-## Others Programmes
+## Others Programmes:
 * [Visual Studio Code]() - To build the site in.
 * [GitHub]() - To store the project's code.
 * [GitPod]() - To write and push the code for the project.
@@ -248,7 +249,7 @@ The site has a Facebook Business page to help the business reach further and gai
 
 I've designed the site with a purple and black gradient to add style with a beautiful eye catching blue accents to draw attention and really stand out.
 The Logo will take the user back to the home page.
-I've also added the Home link along sides the All products, Clothing, Homeware and Special offers Categories in the nav links to make it simple for all levels of user's
+I've also added the Home link along side the All products, Clothing, Homeware and Special offers Categories in the nav links to make it simple for all levels of user's
 It has a search bar for searching anything on the site quickly using keywords.
 The My accounts link will drop down to show:
 - The user who is currently logged in.
@@ -259,8 +260,11 @@ The My accounts link will drop down to show:
 ![My Account dropdown](media/any-and-all-my-account-dropdown1.jpg)
 
 ## Depending on authentication:
-- The Edit item only seen when staff authentication is active.
+- The Edit item is only seen when staff authentication is active.
+
 ![My Account dropdown staff](media/any-and-all-my-account-dropdown.jpg)
+
+- [Back to the top](#any-and-all)
 
 The Bag link takes the user to the Shopping Bag page showing the items selected by the user for purchase.
 ![Shopping bag](media/any-and-all-bag.jpg)
@@ -272,9 +276,15 @@ which also collapses down for smaller screens sizes
 
 ![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed2.jpg)
 
+- [Back to the top](#any-and-all)
+
 The nav bar can be seen on all pages and collapses down for tablets and mobile devices.
 
-![Landing page](media/any-and-all-collapsed-nav.jpg)
+![Nav collapsed](media/any-and-all-collapsed-nav.jpg)
+
+The empty bag will notify the user and a KEEP SHOPPING button will bring the user to the Products page.
+
+![Nav collapsed](media/any-and-all-empty-bag.jpg)
 
 ---
 

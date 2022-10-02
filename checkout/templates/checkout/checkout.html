@@ -37,12 +37,12 @@
                     <p class="mb-1 mt-0 small"><strong>Item</strong></p>
                 </div>
                 <div class="col-3 text-right pl-0 mb-4">
-                    <p class="mb-1 mt-0 mr-4 small"><strong>Subtotal</strong></p>
+                    <p class="mb-1 mt-0 mr-5 pr-5 small"><strong>Subtotal</strong></p>
                 </div>
             </div>
             {% for item in bag_items %}
             <div class="row">
-                <div class="col-2 mb-1 ">
+                <div class="col-4 col-8 mb-1">
                     <a href="{% url 'product_detail' item.product.id %}">
                         {% if item.product.image %}
                         <img class="w-100 mb-2" src="{{ item.product.image.url }}" alt="{{ product.name }}">
@@ -52,22 +52,23 @@
                     </a>
                 </div>
                 <div class="col-7">
-                    <p class="my-0 mb-2"><i>{{ item.product.name }}</i></p>
+                    <p class="mb-2 text-black">{{ item.product.name }}</p>
                     <p class="my-0 small"><i>Size:
                             {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</i>
                     </p>
                     <p class="my-0 mb-4 small"><i>Qty: {{ item.quantity }}</i></p>
                 </div>
 
-                {% if item.product.discount_price. %}
-                <div class="col-3 text-right pl-0 pr-4">
-                    <p class="my-0 small"><i>£{{ item.product.discount_price | calculate_subtotal:item.quantity }}</i>
+                {% if item.product.discount_price %}
+                <div class="col-4 text-right pl-0 pr-4">
+                    <p class="my-0 ml-5 small">
+                        <i>£{{ item.product.discount_price | calculate_subtotal:item.quantity }}</i>
                     </p>
                 </div>
                 {% else %}
 
-                <div class="col-3 text-right pl-0 pr-4">
-                    <p class="my-0 small"><i>£{{ item.product.price | calc_subtotal:item.quantity }}</i></p>
+                <div class="col-4 text-right pl-0 pr-4">
+                    <p class="my-0 ml-5 small"><i>£{{ item.product.price | calc_subtotal:item.quantity }}</i></p>
                 </div>
                 {% endif %}
 

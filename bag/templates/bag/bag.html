@@ -156,7 +156,7 @@
                         {% else %}
                         <td class="py-3">
                             <p class=" ml-4 text-light">
-                                <del>£{{ item.product.price | calc_subtotal:item.quantity }}</del></p>
+                                £{{ item.product.price | calc_subtotal:item.quantity }}</p>
                         </td>
                         {% endif %}
                     </tr>

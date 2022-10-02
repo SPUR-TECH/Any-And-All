@@ -59,7 +59,7 @@ class Review(models.Model):
     '''
     review = models.TextField()
     rating = models.DecimalField(
-        max_digits=6, decimal_places=2, null=True, blank=True)
+        max_digits=2, decimal_places=1, null=True, blank=True)
     product = models.ForeignKey(
         'Product', null=True, blank=True, on_delete=models.SET_NULL)
     review_writer = models.ForeignKey(User, on_delete=models.CASCADE)
