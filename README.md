@@ -456,3 +456,5 @@ The empty bag will notify the user and a KEEP SHOPPING button will bring the use
 ## If the user is registered and signed in: ~
 
 The form will be filled out except Full Name and card details for security reasons.
+
+![Checkout Page](media/any-and-all-checkout3.jpg)
