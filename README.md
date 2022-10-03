@@ -243,15 +243,27 @@ The site has a Facebook Business page to help the business reach further and gai
 
 # The landing page:
 
-![Landing page](media/any-and-all-homepage1.jpg)
-![Landing page](media/any-and-all-homepage2.jpg)
-![Landing page](media/any-and-all-homepage3.jpg)
-
 I've designed the site with a purple and black gradient to add style with a beautiful eye catching blue accents to draw attention and really stand out.
 The Logo will take the user back to the home page.
 I've also added the Home link along side the All products, Clothing, Homeware and Special offers Categories in the nav links which light up when hovered or clicked to make it simple for all levels of user's
 It has a search bar for searching anything on the site quickly using keywords.
-The My accounts link will drop down to show:
+The large dark footer makes the blue really pop for easy guidance to links.
+
+![Landing page](media/any-and-all-homepage1.jpg)
+![Landing page](media/any-and-all-homepage2.jpg)
+![Landing page](media/any-and-all-homepage3.jpg)
+
+- [Back to the top](#any-and-all)
+
+---
+
+# The Navbar 
+
+The nav bar can be seen on all pages and collapses down for tablets and mobile devices.
+
+![Nav collapsed](media/any-and-all-collapsed-nav.jpg)
+
+## The My accounts link will drop down to show:
 - The user who is currently logged in.
 - The My profile link that takes the user to they're own profile page.
 - The My wish list link that takes the user to they're wish list page.
@@ -264,27 +276,8 @@ The My accounts link will drop down to show:
 
 ![My Account dropdown staff](media/any-and-all-my-account-dropdown.jpg)
 
-- [Back to the top](#any-and-all)
-
 The Bag link takes the user to the Shopping Bag page showing the items selected by the user for purchase.
-![Shopping bag](media/any-and-all-bag.jpg)
-
-which also collapses down for smaller screens sizes
-
-![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed1.jpg)
-
-
-![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed2.jpg)
-
-- [Back to the top](#any-and-all)
-
-## The nav bar can be seen on all pages and collapses down for tablets and mobile devices.
-
-![Nav collapsed](media/any-and-all-collapsed-nav.jpg)
-
-## The empty bag will notify the user and a KEEP SHOPPING button will bring the user to the Products page.
-
-![Nav collapsed](media/any-and-all-empty-bag.jpg)
+which is fully adjustable and has a Secure checkout and a Keep shopping Button.
 
 ---
 
@@ -347,8 +340,119 @@ Takes the user to the all products page.
 - ### The Contact us link.
     - which takes the user to the contact us form.
 - ### Then the Copyright tag.
- I've used in all my projects as a tag to link all sites were create by SPUR-TECH Designs (me).
+ I've used this in all my projects as a tag to indicate all sites were create by SPUR-TECH Designs for a realistic look.
 
 ---
 
 - [Back to the top](#any-and-all)
+
+# The Product page
+
+## Contains ~
+- All Product images.
+- Product names and Descriptions.
+- The prices and Discount Prices.
+![Product Page](media/any-and-all-product-page.jpg)
+- The Category tags.
+- ### The Reviews links.
+    - Which takes the user to the product details page which contains the review section.
+
+- ### The Wish list links.
+    - Which takes the user to the Wish list page if the user is logged in otherwise the user is prompted to log in or register.
+
+![Product Page links](media/any-and-all-product-page-tag-and-links.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
+# Product Detail Page
+
+## Contains ~
+- An individual image of selected product.
+- Product name and price or Discount price.
+- The category.
+- The Description.
+- The add to Wish list link.
+- The Quantity selector.
+- Add to bag Button.
+- Keep Shopping Button.
+- Reviews.
+
+![Product Detail Page](media/any-and-all-product-detail.jpg)
+
+By clicking on ***Write Review*** the user will be taken to the review form if the user is logged in or the user will be directed to the log in form.
+
+![Review Form](media/any-and-all-review-form.jpg)
+
+
+By clicking on ***Add To Wish list*** the user will be notified that the item was added to they're Wish list page if the user is logged in or the user will be directed to the log in form.
+
+![Wish List Alert](media/any-and-all-wishlist-alert.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
+# Sign in page
+
+## Contains ~
+
+- Username.
+- Password.
+- Remember me check box.
+- Home Button.
+- Sign in Button.
+- Forgot password link.
+
+At the top is a prompt to ask the user to register if not already done so.
+
+![Sign In Page](media/any-and-all-signin-page.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
+# Sign up page
+
+## Contains ~
+
+- Email.
+- Re-enter Email.
+- Username.
+- Password.
+- Confirm Password.
+- Back to Login Button.
+- Sign up Button.
+
+At the top is a prompt to ask user to Login if already registered.
+
+![Sign Up Page](media/any-and-all-signup-page.jpg)
+
+# Bag Page
+![Shopping bag](media/any-and-all-bag-page.jpg)
+
+which also collapses down for smaller screens sizes like all the other pages
+
+![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed1.jpg)
+
+
+![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed2.jpg)
+
+The user is alerted each time an item is added to the bag.
+
+![Shopping Bag Alert](media/any-and-all-bag-alert.jpg)
+
+The empty bag will notify the user and a KEEP SHOPPING button will bring the user to the Products page. 
+
+![Empty bag](media/any-and-all-empty-bag.jpg)
+
+# Checkout page
+## If the user is not registered: ~
+
+![Checkout Page](media/any-and-all-checkout1.jpg)
+![Checkout Page](media/any-and-all-checkout2.jpg)
+
+## If the user is registered and signed in: ~
+
+The form will be filled out except Full Name and card details for security reasons.
