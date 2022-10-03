@@ -186,7 +186,7 @@ was used to create the database schema https://drawsql.app/ to create the projec
 
 ## (SEO) Search Engine Optimization:
 - I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
-![Newsletter subscription](media/any-and-all-keyword-caption.jpg)
+![Keyword Caption](media/any-and-all-keyword-caption.jpg)
 
 - I've also added a robots.txt and a sitemap.xml to maximize google search engines.
 - I've also created a newsletter subscription function
@@ -286,34 +286,69 @@ which also collapses down for smaller screens sizes
 
 ![Nav collapsed](media/any-and-all-empty-bag.jpg)
 
+---
+
+- [Back to the top](#any-and-all)
 
 ## The All Products link drops down to show ~
-- By Price
-- By Category
-- All Products 
+- By Price.
+- By Category.
+- All Products .
 All links have a nice hover effect for better UI/UX.
 
 ![All products link](media/any-and-all-all-products-link.jpg)
 
 ## The Clothing link drops down to show ~
-- Activewear & Essentials
-- Jeans
-- Shirts
-- All Clothing
+- Activewear & Essentials.
+- Jeans.
+- Shirts.
+- All Clothing.
 
 ![Clothing link](media/any-and-all-clothing-link.jpg)
 
 The Special Offers link drops down to show ~
-- New Arrivals
-- Deals
-- Clearance
-- All Specials
+- New Arrivals.
+- Deals.
+- Clearance.
+- All Specials.
 
 ![Special Offers link](media/any-and-all-special-offers-link.jpg)
 
+## Then finally the Free Delivery Banner 
+
+![Delivery Banner](media/any-and-all-delivery-banner.jpg)
+
 ---
 
+## In the body is a Keyword Caption to assist with SEO (Search Engine Optimization)
 
+![Keyword Caption](media/any-and-all-keyword-caption.jpg)
+
+## Then the main header and the Shop Now button
+- Shop Now button.
+Takes the user to the all products page.
+
+![Main Header and Shop Now button](media/any-and-all-Header-and-shop-button.jpg)
+
+---
 
 - [Back to the top](#any-and-all)
 
+# footer
+## The footer consists of ~
+- ### The Subscription for the Newsletter.
+    - The user will then receive a thank you for subscribing email.
+- ### The social link.
+   - which takes the user to the Facebook Business page and Twitter and Instagram pages.
+- ### The Privacy Policy link.
+    - which takes the user to the Privacy Policy page.
+- ### The link to Secure Payment info.
+    - which takes the user to the Stripe website.
+- ### The Contact us link.
+    - which takes the user to the contact us form.
+- ### Then the Copyright tag.
+ I've used in all my projects as a tag to link all sites were create by SPUR-TECH Designs (me).
+
+---
+
+- [Back to the top](#any-and-all)
