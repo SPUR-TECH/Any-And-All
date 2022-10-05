@@ -1,4 +1,4 @@
-![A banner of the site to add flare to the readme.md](media/any-and-all-banner.jpg)
+![A banner of the site to add flare to the readme.md](media/any-and-all-logo.jpg)
 
 # Any And All
 
@@ -10,9 +10,9 @@ Any And All is a B2C E-commerce online shopping site dealing directly from busin
 The site consists of a sign up, sign in an sign out ability for ease of second visit saving customer details so check out will be super quick and easy with a secure payment system through Stripe payments so all user details are protected.
 The user also has the option of signing up for a newsletter and checking out our Facebook page to stay up to date with all the latest deals and discounted products.
 C.R.U.D functionality for users and staff..... 
-- For users ~ They can write reviews, edit old reviews and delete them at any time and add things to they're wish list with the same edit, update and delete capabilities but they will need to register for this function.
+- For users ~ They can write reviews, edit old reviews and delete them at any time and add things to their wish list with the same edit, update and delete capabilities but they will need to register for this function.
 - For staff ~ They can add, edit, update and delete items in the store with the correct authorization so the average user can not access these areas.
-- For store owners ~ They can access the Admin with they're superuser authorization to remove any profanity written in reviews and control anything across the store like users, products, Emails Etc.
+- For store owners ~ They can access the Admin with their superuser authorization to remove any profanity written in reviews and control anything across the store like users, products, Emails Etc.
 ---
 
 ##  Screen shots of the site and it's responsive abilities:
@@ -70,7 +70,7 @@ As you can see it's fully responsive right across all devices and adapts to any 
 | [#13] Wish list  |  As a site user  |  I'd like to save my favorite items to my wish list so I can buy them at a later date.|  Should Have  |
 | [#14] Confirmation email  |  As a site user  |   I'd like a confirmation email so I can check my order details.|  Should Have  |
 | [#15] Discounts  |  As a site user  |    I'd like some discounted items so I can save some money on my purchases.|  Should Have  |
-| [#16] Coupons  |  As a returning site user  |   I'd like a coupon so I can receive discounts for loyalty.|  could Have/Won't Have  |
+| [#16] Coupons  |  As a returning site user  |   I'd like a coupon so I can receive discounts for loyalty.|  Won't Have  |
 
 * ## Epic 3 - Staff:
 |  User Story Epic |    User Type   |  Content  | MoSCoW Label |
@@ -90,8 +90,6 @@ As you can see it's fully responsive right across all devices and adapts to any 
 ![User stories](media/any-and-all-agile-method1.jpg)
 ![User stories](media/any-and-all-agile-method2.jpg)
 ![User stories](media/any-and-all-agile-method3.jpg)
-
-### All of the above user stories were met except coupons marked as Won't Have.
 
 ---
 
@@ -132,6 +130,9 @@ As you can see it's fully responsive right across all devices and adapts to any 
 - ## The UI/UX **WON'T** address this:
 
     - Coupons will not be added at this time. 
+
+
+## All of the above user stories were met except coupons marked as Won't Have.
 
 - [Back to the top](#any-and-all)
 
@@ -193,7 +194,7 @@ was used to create the database schema https://drawsql.app/ to create the projec
 
 ![Newsletter subscription](media/any-and-all-newsletter-subscription.jpg)
 
-## ***Brand Reach***:
+## ***`Brand Reach`***:
 
 ## Facebook Business page:
 
@@ -208,32 +209,32 @@ The site has a Facebook Business page to help the business reach further and gai
 
 # Technologies Used:
 ## Languages & Frameworks:
-* [HTML5]() - The bare structure of the site.
-* [Bootstrap]() - For quick inline styling in HTML code.
-* [CSS]() - The styling and positioning of the HTML.
-* [JavaScript]() - The interactivity of the site.
-* [Python]() - The backend functionality.
-* [Django]() - To build the project.
+- [HTML5]() - The bare structure of the site.
+- [Bootstrap]() - For quick inline styling in HTML code.
+- [CSS]() - The styling and positioning of the HTML.
+- [JavaScript]() - The interactivity of the site.
+- [Python]() - The backend functionality.
+- [Django]() - To build the project.
 
 
 ## Others Programmes:
-* [Visual Studio Code]() - To build the site in.
-* [GitHub]() - To store the project's code.
-* [GitPod]() - To write and push the code for the project.
-* [Balsamiq]() - To create project's wireframes.
-* [Chrome Dev Tools]() - To debug and testing.
-* [W3C HTML Validator]() - To validate the HTML code.
-* [W3C CSS Validator]() - To validate CSS code.
-* [Am I Responsive]() - To generate the responsive preview screens.
-* [Font Awesome]() - For the icons.
-* [Google Fonts]() - For font style.
-* [Facebook]() - To create site's Facebook business page.
-* [Stripe]() - To process the online payments with webhooks.
-* [AWS Bucket]() - To host static files.
-* [Sitemap]() - To generate the sitemap.xml
-* [Draw SQL]() - To create the database schema diagram.
-* [Heroku]() - To deploy the live site.
-* [Heroku PostgreSQL]()  - To connect the project to the database.
+- [Visual Studio Code]() - To build the site in.
+- [GitHub]() - To store the project's code.
+- [GitPod]() - To write and push the code for the project.
+- [Balsamiq]() - To create project's wireframes.
+- [Chrome Dev Tools]() - To debug and testing.
+- [W3C HTML Validator]() - To validate the HTML code.
+- [W3C CSS Validator]() - To validate CSS code.
+- [Am I Responsive]() - To generate the responsive preview screens.
+- [Font Awesome]() - For the icons.
+- [Google Fonts]() - For font style.
+- [Facebook]() - To create site's Facebook business page.
+- [Stripe]() - To process the online payments with webhooks.
+- [AWS Bucket]() - To host static files.
+- [Sitemap]() - To generate the sitemap.xml
+- [Draw SQL]() - To create the database schema diagram.
+- [Heroku]() - To deploy the live site.
+- [Heroku PostgreSQL]()  - To connect the project to the database.
 
 ---
 
@@ -265,8 +266,8 @@ The nav bar can be seen on all pages and collapses down for tablets and mobile d
 
 ## The My accounts link will drop down to show:
 - The user who is currently logged in.
-- The My profile link that takes the user to they're own profile page.
-- The My wish list link that takes the user to they're wish list page.
+- The My profile link that takes the user to their own profile page.
+- The My wish list link that takes the user to their wish list page.
 - The Sign out link that takes the user to the Sign out page.
 
 ![My Account dropdown](media/any-and-all-my-account-dropdown1.jpg)
@@ -327,7 +328,7 @@ Takes the user to the all products page.
 
 - [Back to the top](#any-and-all)
 
-# footer
+# Footer
 ## The footer consists of ~
 - ### The Subscription for the Newsletter.
     - The user will then receive a thank you for subscribing email.
@@ -341,6 +342,15 @@ Takes the user to the all products page.
     - which takes the user to the contact us form.
 - ### Then the Copyright tag.
  I've used this in all my projects as a tag to indicate all sites were create by SPUR-TECH Designs for a realistic look.
+
+---
+
+- [Back to the top](#any-and-all)
+
+# Contact us page
+## Contact page was built on MailChimp site: ~
+
+![Contact Us Page](media/any-and-all-contact-page.jpg)
 
 ---
 
@@ -362,6 +372,8 @@ Takes the user to the all products page.
 
 ![Product Page links](media/any-and-all-product-page-tag-and-links.jpg)
 
+- A back to top button in bottom left corner 
+
 ---
 
 - [Back to the top](#any-and-all)
@@ -381,12 +393,12 @@ Takes the user to the all products page.
 
 ![Product Detail Page](media/any-and-all-product-detail.jpg)
 
-By clicking on ***Write Review*** the user will be taken to the review form if the user is logged in or the user will be directed to the log in form.
+By clicking on ***`Write Review`*** the user will be taken to the review form if the user is logged in or the user will be directed to the log in form.
 
 ![Review Form](media/any-and-all-review-form.jpg)
 
 
-By clicking on ***Add To Wish list*** the user will be notified that the item was added to they're Wish list page if the user is logged in or the user will be directed to the log in form.
+By clicking on ***`Add To Wish list`*** the user will be notified that the item was added to their Wish list page if the user is logged in or the user will be directed to the log in form.
 
 ![Wish List Alert](media/any-and-all-wishlist-alert.jpg)
 
@@ -429,6 +441,10 @@ At the top is a prompt to ask user to Login if already registered.
 
 ![Sign Up Page](media/any-and-all-signup-page.jpg)
 
+---
+
+- [Back to the top](#any-and-all)
+
 # Bag Page
 ![Shopping bag](media/any-and-all-bag-page.jpg)
 
@@ -439,7 +455,7 @@ which also collapses down for smaller screens sizes like all the other pages
 
 ![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed2.jpg)
 
-The user is alerted each time an item is added to the bag.
+The user is alerted each time an item is added to  or removed from the bag.
 
 ![Shopping Bag Alert](media/any-and-all-bag-alert.jpg)
 
@@ -447,8 +463,14 @@ The empty bag will notify the user and a KEEP SHOPPING button will bring the use
 
 ![Empty bag](media/any-and-all-empty-bag.jpg)
 
+---
+
+- [Back to the top](#any-and-all)
+
 # Checkout page
 ## If the user is not registered: ~
+
+The form will be blank.
 
 ![Checkout Page](media/any-and-all-checkout1.jpg)
 ![Checkout Page](media/any-and-all-checkout2.jpg)
@@ -458,3 +480,73 @@ The empty bag will notify the user and a KEEP SHOPPING button will bring the use
 The form will be filled out except Full Name and card details for security reasons.
 
 ![Checkout Page](media/any-and-all-checkout3.jpg)
+![Checkout Page](media/any-and-all-checkout4.jpg)
+
+The items can still be adjusted at this point.
+
+---
+
+- [Back to the top](#any-and-all)
+
+
+# Loading Page
+## When the Complete Order Button is pressed the user is greeted with a loading page.
+
+![Loading Page](media/any-and-all-loading.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
+ ## Then directed to the: ~
+ # Thank you page.
+ 
+ With a message notifying them of the order number and purchase details being sent to their Email Address.
+![Thank You  Page](media/any-and-all-checkout-success.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
+## Confirmation Email
+
+![Confirmation Email](media/any-and-all-confirmation-email.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
+# Testing:
+
+- I have manually tested every part of the functionality every step of the way.
+- Each time I write a new line of HTML, CSS OR JAVASCRIPT I check to see if it looks how I expect it to look.
+- With the HTML and CSS I targeted certain classes by adding a solid color background to be sure I'm targeting the right section then continue with the styling.
+- With the JAVASCRIPT I write a small piece of code then console log the result to make sure the result is as I expected before continuing.
+- I then tested the functionality of said code for instance if it's a button then that button must send the correct data and redirect the user to the relevant page.
+- I made sure that if the user is authenticated then the log out will display in the NAVBAR and the relevant buttons are shown in the cart.
+- I made sure that all buttons to delete item and any other buttons are removed in the success page.
+- I deployed the site early so I could physically check the media query has been coded correctly to have the responsive ability required.
+- I then ask friends and family to use the site with no instruction to see from a different perspective and ideas from real people for bug hunting and improvements.
+- Tests were made to ensure the role based user could add, delete or update the menus, users  and comments in the admin page successfully.
+- Tests were also made to ensure the user could add, delete or update their comments successfully and not access any other comments made by others.
+- I tested the responsiveness through all screen sizes.
+- Every page was put through the W3C HTML Validation checker and after working through all that was marked up in the code was where id's were repeating but the id's are needed so no changes were made and all is working correctly.
+
+![W3C HTML Validation results](media/any-and-all-html-validator-bag-with-item.jpg)
+
+### Links to the other test results:
+- [W3C HTML Validation Bag ID results](media/any-and-all-html-validator-bag-with-item-id.jpg)
+- [W3C HTML Validation Bag results](media/any-and-all-html-validator-bag.jpg)
+- [W3C HTML Validation Checkout results](media/any-and-all-html-validator-checkout.jpg)
+- [W3C HTML Validation Checkout succewss results](media/any-and-all-html-validator-checkout-success.jpg)
+- [W3C HTML Validation Home results](media/any-and-all-html-validator-home.jpg)
+- [W3C HTML Validation Products results](media/any-and-all-html-validator-products.jpg)
+
+- The CSS was also put through the W3C CSS Validation checker with no errors or warnings.
+![W3C CSS Validation results](static/media/images/urais-kitchen-w3c-css-validation.jpg)
+
+- I then tested the site on Safari, Firefox and Chrome to make sure all was working correctly.
+
+- Testing sites accessability on https://wave.webaim.org/
+![Wave Accessability results](media/any-and-all-accessibility-results-bug2.jpg)
+- no errors found but contrast as it dose not pick up my grey overlay but all blue text stands out nicley.
