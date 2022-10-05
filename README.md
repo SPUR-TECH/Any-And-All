@@ -532,10 +532,10 @@ The items can still be adjusted at this point.
 - I tested the responsiveness through all screen sizes.
 - Every page was put through the W3C HTML Validation checker and after working through all that was marked up in the code was where id's were repeating but the id's are needed so no changes were made and all is working correctly.
 
-![W3C HTML Validation results](media/any-and-all-html-validator-bag-with-item.jpg)
+![W3C HTML Validation Bag ID results](media/any-and-all-html-validator-bag-with-item-id.jpg)
 
 ### Links to the other test results:
-- [W3C HTML Validation Bag ID results](media/any-and-all-html-validator-bag-with-item-id.jpg)
+
 - [W3C HTML Validation Bag results](media/any-and-all-html-validator-bag.jpg)
 - [W3C HTML Validation Checkout results](media/any-and-all-html-validator-checkout.jpg)
 - [W3C HTML Validation Checkout succewss results](media/any-and-all-html-validator-checkout-success.jpg)
@@ -543,10 +543,121 @@ The items can still be adjusted at this point.
 - [W3C HTML Validation Products results](media/any-and-all-html-validator-products.jpg)
 
 - The CSS was also put through the W3C CSS Validation checker with no errors or warnings.
-![W3C CSS Validation results](static/media/images/urais-kitchen-w3c-css-validation.jpg)
+
+![W3C CSS Validation results](media/any-and-all-css-validator-results.jpg)
 
 - I then tested the site on Safari, Firefox and Chrome to make sure all was working correctly.
 
 - Testing sites accessability on https://wave.webaim.org/
-![Wave Accessability results](media/any-and-all-accessibility-results-bug2.jpg)
-- no errors found but contrast as it dose not pick up my grey overlay but all blue text stands out nicley.
+
+- No errors found but contrast as it dose not pick up my grey overlay but all blue text stands out nicely.
+
+![Wave Accessability results Contrast bug 1 ](media/any-and-all-accessibility-results-bug.jpg)
+![Wave Accessability results Contrast bug 2](media/any-and-all-accessibility-results-bug1.jpg)
+
+- Two links go to the same page which is the product management page which is correct.
+![Wave Accessability results link bug](media/any-and-all-accessibility-results-bug2.jpg)
+
+---
+
+- [Back to the top](#any-and-all)
+
+# Bugs And Fixes
+
+## Bug: ~
+## Fix: ~
+## Bug: ~
+## Fix: ~
+## Bug: ~
+## Fix: ~
+## Bug: ~
+## Fix: ~
+## Bug: ~
+## Fix: ~
+## Bug: ~
+## Fix: ~
+## Bug: ~
+## Fix: ~
+## Bug: ~
+## Fix: ~
+## Bug: ~
+## Fix: ~
+## Bug: ~
+## Fix: ~
+
+---
+
+- [Back to the top](#any-and-all)
+
+# CREDITS:
+
+---
+
+- [Back to the top](#any-and-all)
+
+# Deployment:
+
+This project was developed Visual Studio Code using GitPod workspace. The code was committed to Git and pushed to GitHub in the terminal.
+
+## Deploying on Heroku:
+To deploy this page to Heroku from its GitHub repository, the following steps were taken:
+
+1. Create the Heroku App:
+    - Select "Create new app" in Heroku.
+    - Choose a name for your app and location.
+
+2. Attach the Postgres database:
+    - In the Resources tab, under add-ons, type in Postgres and select the Heroku Postgres option.
+
+3. Prepare the environment and settings.py file:
+    - In the Settings tab, click on Reveal Config Vars and copy the url next to DATABASE_URL.
+    - In your GitPod workspace, create an env.py file in the main directory. 
+    - Add the DATABASE_URL value and your chosen SECRET_KEY value to the env.py file.
+    - Add the SECRET_KEY value to the Config Vars in Heroku.
+    - Update the settings.py file to import the env file and add the SECRETKEY and DATABASE_URL file paths.
+    - Update the Config Vars with the AWS ACCESS KEY ID, AWS_SECRET_ACCESS_KEY,STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET, EMAIL_HOST_PASS, EMAIL_HOST_USER
+    -  Add them into the settings.py and env.py files also.
+    - In settings.py add the following sections:
+        - SITE_ID = 1
+        - AWS ACCESS KEY ID
+        - AWS_storage
+        - allauth
+        - allauth.account
+        - allauth.socialaccount
+        - STATICFILE_STORAGE
+        - STATICFILES_DIRS
+        - STATIC_ROOT
+        - MEDIA_URL
+        - DEFAULT_FILE_STORAGE
+        - TEMPLATES_DIR
+        - Update DIRS in TEMPLATES with TEMPLATES_DIR
+        - Update ALLOWED_HOSTS with ['app_name.heroku.com', 'localhost']
+        - Ensure that DEBUG is set t False
+
+## Add Stripe Details for payments
+- FREE_DELIVERY_THRESHOLD = 20
+- STANDARD_DELIVERY_PERCENTAGE = 10
+- STRIPE_CURRENCY = 'gbp'
+- STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
+- STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+- STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+
+## Add the INSTALLED_APPS in settings.py file: ~ 
+- 'home',
+- 'products',
+- 'bag',
+- 'checkout',
+- 'profiles',
+- 'wishlist',
+
+4. Override  Static and Media files to be stored in AWS and Deploy to Heroku:
+    - Create a file named "Procfile" in the main directory and add the following:
+    - web: gunicorn project-name.WSGI
+    - Log in to Heroku using the terminal Heroku login -i.
+    - Then run the following command: **heroku git:remote -a your_app_name_here** and replace your_app_name_here with the name of your Heroku app. This will link the app to your Gitpod terminal.
+    - After linking your app to your workspace, you can then deploy new versions of the app by running the command **git push heroku main** enter your app name and Heroku API Key when prompted and your app will be deployed to Heroku.
+    - Then go to Heroku and click on your new app and then click open app. 
+
+    ---
+
+- [Back to the top](#any-and-all)
