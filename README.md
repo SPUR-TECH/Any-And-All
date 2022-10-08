@@ -2,9 +2,59 @@
 
 # Any And All
 
-### Live site:
+## Live site:
 
 https://any-and-all.herokuapp.com/
+
+---
+
+- [UI/UX](#uiux)
+    - [User stories:](#user-stories)
+- [Epics](#epics)
+- [Content Requirements:](#content-requirements)
+    - [Wireframes: Created using https://balsamiq.com/wireframes/](#wireframes-created-using-httpsbalsamiqcomwireframes)
+- [Database Schema](#database-schema)
+    - [***Draw SQL***](#draw-sql)
+            - [Models](#models)
+- [Marketing strategy:](#marketing-strategy)
+    - [***SEO*** Search Engine Optimization:](#seo-search-engine-optimization)
+    - [***Brand Reach***:](#brand-reach)
+    - [***Facebook*** Business page:](#facebook-business-page)
+- [Technologies Used:](#technologies-used)
+    - [Languages & Frameworks:](#languages--frameworks)
+    - [Others Programmes:](#others-programmes)
+    - [features:](#features)
+- [The landing page:](#the-landing-page)
+- [The Navbar](#the-navbar)
+- [Footer](#footer)
+- [Contact us page](#contact-us-page)
+- [The Product page](#the-product-page)
+- [Product Detail Page](#product-detail-page)
+- [Sign in page](#sign-in-page)
+- [Sign up page](#sign-up-page)
+- [Bag Page](#bag-page)
+- [Checkout page](#checkout-page)
+- [Loading Page](#loading-page)
+- [Thank you page.](#thank-you-page)
+    - [Confirmation Email](#confirmation-email)
+- [Testing:](#testing)
+    - [- ### Links to the other test results:](#---links-to-the-other-test-results)
+- [Bugs And Fixes](#bugs-and-fixes)
+- [CREDITS:](#credits)
+- [Deployment:](#deployment)
+
+---
+
+- [Back to the top](#any-and-all)
+
+This Site was followed closely to the Boutique Ado walk through as I selected Advanced Front End as my special project but none of the learning material changed so I assumed I'd get something at the end after the 5 Projects.
+1 month later after I've studied the material and ready to make a start on my project, I contact my mentor Jack Wachira and discussed the project plan then I asked when I would do my Advanced front end. He said I only get 5 Projects so this is it and to contact Tutor Support to see if I can get more time to study the right material and mention it in my readme. After waiting about a week for a reply instead they just switched out the material but at this time I'd studied for 1 month and made a start on E-commerce site due to time slipping away. So then had to contact them again and wait for it to be switched back. So to save the remaining time I followed very closely to Boutique Ado then added the required parts for the module.
+
+## Still no one has ever contacted me.
+
+---
+
+# Project Plan
 
 Any And All is a B2C E-commerce online shopping site dealing directly from business to customer. Designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
 The site consists of a sign up, sign in an sign out ability for ease of second visit saving customer details so check out will be super quick and easy with a secure payment system through Stripe payments so all user details are protected.
@@ -185,7 +235,7 @@ was used to create the database schema https://drawsql.app/ to create the projec
 
 # Marketing strategy:
 
-## (SEO) Search Engine Optimization:
+## (***`SEO`***) Search Engine Optimization:
 - I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
 ![Keyword Caption](media/any-and-all-keyword-caption.jpg)
 
@@ -196,7 +246,7 @@ was used to create the database schema https://drawsql.app/ to create the projec
 
 ## ***`Brand Reach`***:
 
-## Facebook Business page:
+## ***`Facebook`*** Business page:
 
 The site has a Facebook Business page to help the business reach further and gain potential customers and updates and discounts can be advertised to entice the shoppers to come and visit the site.
 
@@ -519,22 +569,23 @@ The items can still be adjusted at this point.
 # Testing:
 
 - I have manually tested every part of the functionality every step of the way.
+- I add a new MODEL, VIEW, TEMPLATE and link the URLS, I then check all is as it should be.
 - Each time I write a new line of HTML, CSS OR JAVASCRIPT I check to see if it looks how I expect it to look.
 - With the HTML and CSS I targeted certain classes by adding a solid color background to be sure I'm targeting the right section then continue with the styling.
 - With the JAVASCRIPT I write a small piece of code then console log the result to make sure the result is as I expected before continuing.
 - I then tested the functionality of said code for instance if it's a button then that button must send the correct data and redirect the user to the relevant page.
-- I made sure that if the user is authenticated then the log out will display in the NAVBAR and the relevant buttons are shown in the cart.
-- I made sure that all buttons to delete item and any other buttons are removed in the success page.
-- I deployed the site early so I could physically check the media query has been coded correctly to have the responsive ability required.
+- I made sure that if the user is authenticated then the log out will display in the NAVBAR under MY ACCOUNT dropdown and the relevant buttons are shown in the BAG.
+- I made sure that all buttons to delete item and any other buttons are removed if the user is not authenticated and an error message appears if user try's to access forbidden area's.
+- I deployed the site early so I could physically check the media queries were coded correctly to have the responsive ability required and the CSS, DATABASE and IMAGES displayed correctly.
 - I then ask friends and family to use the site with no instruction to see from a different perspective and ideas from real people for bug hunting and improvements.
-- Tests were made to ensure the role based user could add, delete or update the menus, users  and comments in the admin page successfully.
-- Tests were also made to ensure the user could add, delete or update their comments successfully and not access any other comments made by others.
-- I tested the responsiveness through all screen sizes.
+- Tests were made to ensure the role based user could add, delete or update the PRODUCTS successfully.
+- Tests were also made to ensure the user could add, delete or update their BAG, REVIEWS and WISHLISTS successfully and not access any other REVIEWS and WISHLISTS made by others.
+- I tested the responsiveness on all screen sizes.
 - Every page was put through the W3C HTML Validation checker and after working through all that was marked up in the code was where id's were repeating but the id's are needed so no changes were made and all is working correctly.
 
 ![W3C HTML Validation Bag ID results](media/any-and-all-html-validator-bag-with-item-id.jpg)
 
-### Links to the other test results:
+- ### Links to the other test results:
 
 - [W3C HTML Validation Bag results](media/any-and-all-html-validator-bag.jpg)
 - [W3C HTML Validation Checkout results](media/any-and-all-html-validator-checkout.jpg)
@@ -597,9 +648,10 @@ The items can still be adjusted at this point.
 
 # Deployment:
 
-This project was developed Visual Studio Code using GitPod workspace. The code was committed to Git and pushed to GitHub in the terminal.
+This project was developed in Visual Studio Code using GitPod workspace. The code was committed to Git and pushed to GitHub in the terminal.
 
-## Deploying on Heroku:
+## Deploying to Heroku:
+
 To deploy this page to Heroku from its GitHub repository, the following steps were taken:
 
 1. Create the Heroku App:
@@ -635,6 +687,8 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
         - Ensure that DEBUG is set t False
 
 ## Add Stripe Details for payments
+
+4. Payment details in Setting.py:
 - FREE_DELIVERY_THRESHOLD = 20
 - STANDARD_DELIVERY_PERCENTAGE = 10
 - STRIPE_CURRENCY = 'gbp'
@@ -642,7 +696,9 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
 - STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 - STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
-## Add the INSTALLED_APPS in settings.py file: ~ 
+## Add the INSTALLED_APPS in settings.py file:
+
+5.Installed APPS in Settings.py: 
 - 'home',
 - 'products',
 - 'bag',
@@ -650,7 +706,15 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
 - 'profiles',
 - 'wishlist',
 
-4. Override  Static and Media files to be stored in AWS and Deploy to Heroku:
+## Override Static and Media files to be stored in AWS and Deploy to Heroku:
+
+6. Static and media files:
+    - STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    - MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
+## Create a requirements.txt file:
+
+7. Requirements:
     - Create a file named "Procfile" in the main directory and add the following:
     - web: gunicorn project-name.WSGI
     - Log in to Heroku using the terminal Heroku login -i.
