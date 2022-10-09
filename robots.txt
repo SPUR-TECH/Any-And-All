@@ -1,4 +1,4 @@
 User-agent *
 Disallow: /accounts/
-Disallow: /bag/
+Disallow: /bag/wishlist
 Sitemap: https://any-and-all.herokuapp.com/sitemap.xml

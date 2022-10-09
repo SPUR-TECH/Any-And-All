@@ -773,6 +773,8 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
     - After linking your app to your workspace, you can then deploy new versions of the app by running the command **git push heroku main** enter your app name and Heroku API Key when prompted and your app will be deployed to Heroku.
     - Then go to Heroku and click on your new app and then click open app. 
 
-    ---
+## Finally create a robots.txt file and a sitemap.xml file.
+
+---
 
 - [Back to the top](#any-and-all)
