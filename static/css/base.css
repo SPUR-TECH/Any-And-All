@@ -241,7 +241,8 @@ a.dropdown-item:hover {
     color: rgb(0, 206, 0);
 }
 
-/* from Bulma */
+/* From Bulma */
+
 .icon {
     align-items: center;
     display: inline-flex;
@@ -588,9 +589,10 @@ b {
 }
 
 
-/* -------------------------------- Media Queries */
+/* Media Queries */
 
 /* Slightly larger container on xl screens */
+
 @media (min-width: 1200px) {
     .container {
         max-width: 80%;
@@ -713,7 +715,8 @@ a img.rounded {
     }
 }
 
-/* fixed top navbar only on medium and up */
+/* Fixed top navbar only on medium and up */
+
 @media (min-width: 800px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -728,7 +731,8 @@ a img.rounded {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* Pad the top a bit when navbar is collapsed on mobile */
+
 @media (max-width: 800px) {
 
     #page-blurb {

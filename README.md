@@ -38,7 +38,6 @@ https://any-and-all.herokuapp.com/
 - [Thank you page.](#thank-you-page)
     - [Confirmation Email](#confirmation-email)
 - [Testing:](#testing)
-    - [- ### Links to the other test results:](#---links-to-the-other-test-results)
 - [Bugs And Fixes](#bugs-and-fixes)
 - [CREDITS:](#credits)
 - [Deployment:](#deployment)
@@ -54,7 +53,7 @@ This Site was followed closely to the Boutique Ado walk through as I selected Ad
 
 ---
 
-# Project Plan
+# Project Overview
 
 Any And All is a B2C E-commerce online shopping site dealing directly from business to customer. Designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
 The site consists of a sign up, sign in an sign out ability for ease of second visit saving customer details so check out will be super quick and easy with a secure payment system through Stripe payments so all user details are protected.
@@ -135,7 +134,8 @@ As you can see it's fully responsive right across all devices and adapts to any 
 
 - [Back to the top](#any-and-all)
 
-## Then prioritized: 
+## Then prioritized on a Kanban Board
+### (Todo, In Progress and Done) :~
 
 ![User stories](media/any-and-all-agile-method1.jpg)
 ![User stories](media/any-and-all-agile-method2.jpg)
@@ -208,6 +208,8 @@ The wire frames for the pages showcasing the bare structure of the site.
 - [Reviews page](media/any-and-all-wireframe11.jpg)
 - [Wishlist page](media/any-and-all-wireframe12.jpg)
 
+---
+
 - [Back to the top](#any-and-all)
 
 ----
@@ -243,6 +245,8 @@ was used to create the database schema https://drawsql.app/ to create the projec
 - I've also created a newsletter subscription function
 
 ![Newsletter subscription](media/any-and-all-newsletter-subscription.jpg)
+
+---
 
 ## ***`Brand Reach`***:
 
@@ -496,20 +500,28 @@ At the top is a prompt to ask user to Login if already registered.
 - [Back to the top](#any-and-all)
 
 # Bag Page
+
+## Contains ~
+- An image of selected products.
+- Product description, Price or Discount Price, Quantity selector and subtotal.
+- Size if applicable.
+- Subtotal, Delivery cost and Grand Total.
+- Secure Checkout and Keep Shopping Button.
+
 ![Shopping bag](media/any-and-all-bag-page.jpg)
 
-which also collapses down for smaller screens sizes like all the other pages
+## which also collapses down for smaller screens sizes like all the other pages
 
 ![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed1.jpg)
 
 
 ![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed2.jpg)
 
-The user is alerted each time an item is added to  or removed from the bag.
+## The user is alerted each time an item is added to  or removed from the bag.
 
 ![Shopping Bag Alert](media/any-and-all-bag-alert.jpg)
 
-The empty bag will notify the user and a KEEP SHOPPING button will bring the user to the Products page. 
+## The empty bag will notify the user and a KEEP SHOPPING button will bring the user to the Products page. 
 
 ![Empty bag](media/any-and-all-empty-bag.jpg)
 
@@ -575,11 +587,13 @@ The items can still be adjusted at this point.
 - With the JAVASCRIPT I write a small piece of code then console log the result to make sure the result is as I expected before continuing.
 - I then tested the functionality of said code for instance if it's a button then that button must send the correct data and redirect the user to the relevant page.
 - I made sure that if the user is authenticated then the log out will display in the NAVBAR under MY ACCOUNT dropdown and the relevant buttons are shown in the BAG.
-- I made sure that all buttons to delete item and any other buttons are removed if the user is not authenticated and an error message appears if user try's to access forbidden area's.
+- I made sure that all buttons to delete item and any other buttons tah could edit items are removed if the user is not authenticated and an error message appears if user try's to access forbidden area's.
 - I deployed the site early so I could physically check the media queries were coded correctly to have the responsive ability required and the CSS, DATABASE and IMAGES displayed correctly.
 - I then ask friends and family to use the site with no instruction to see from a different perspective and ideas from real people for bug hunting and improvements.
 - Tests were made to ensure the role based user could add, delete or update the PRODUCTS successfully.
 - Tests were also made to ensure the user could add, delete or update their BAG, REVIEWS and WISHLISTS successfully and not access any other REVIEWS and WISHLISTS made by others.
+- Testing the add to bag function  making sure no less than 1 and no more than 99 can be added.
+- I tested to see if emoji's can be added in the reviews and (Yes they can).
 - I tested the responsiveness on all screen sizes.
 - Every page was put through the W3C HTML Validation checker and after working through all that was marked up in the code was where id's were repeating but the id's are needed so no changes were made and all is working correctly.
 
@@ -615,26 +629,46 @@ The items can still be adjusted at this point.
 
 # Bugs And Fixes
 
-## Bug: ~
-## Fix: ~
-## Bug: ~
-## Fix: ~
-## Bug: ~
-## Fix: ~
-## Bug: ~
-## Fix: ~
-## Bug: ~
-## Fix: ~
-## Bug: ~
-## Fix: ~
-## Bug: ~
-## Fix: ~
-## Bug: ~
-## Fix: ~
-## Bug: ~
-## Fix: ~
-## Bug: ~
-## Fix: ~
+## Bug: ~ 
+Header Title over run purple background on smaller screens if word is too long like (Management).
+## Fix: ~ 
+Remove purple background and add shading instead.
+## Bug: ~ 
+Long words breaking on smaller screens.
+## Fix: ~ 
+Individually target headers to control font size.
+## Bug: ~ 
+Due to controlling individual words the hover effect didn't work.
+## Fix: ~ 
+Add individual hover effects.
+## Bug: ~ 
+Order number over running screen on smaller devices.
+## Fix: ~ 
+Add a break in the number with the (truncatechars:6) technique in the HTML.
+## Bug: ~ 
+Reviews all crunched up if a long sentence was written.
+## Fix: ~ 
+Added line height to reviews text.
+## Bug: ~ 
+When deleting an item from the database throws an error if user has that item in their bag.
+## Fix: ~ 
+I had return item or 404 in context.py which I changed to (try: product = Product.objects.get(pk=item_id)except Product.DoesNotExist:continue). This did the trick.
+## Bug: ~ 
+country field in checkout info was getting cut off at the bottom.
+## Fix: ~ 
+Make country field box slightly larger in height to fit.
+## Bug: ~ 
+
+## Fix: ~ 
+
+## Bug: ~ 
+
+## Fix: ~ 
+
+## Bug: ~ 
+
+## Fix: ~ 
+
 
 ---
 
