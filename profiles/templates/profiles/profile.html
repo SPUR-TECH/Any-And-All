@@ -38,7 +38,7 @@
                     Information</button>
             </form>
         </div>
-        <div class="col-12 col-lg-6 col-sm-2">
+        <div class="col-12">
             <p><i>Order History</i></p>
             <div class="order-history table-responsive">
                 <table class="table table-sm table-borderless text-black">
@@ -79,9 +79,10 @@
             </div>
         </div>
     </div>
-    {% endblock %}
+</div>
+{% endblock %}
 
-    {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
-    {% endblock %}
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+{% endblock %}

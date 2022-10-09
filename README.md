@@ -606,6 +606,7 @@ The items can still be adjusted at this point.
 - [W3C HTML Validation Checkout succewss results](media/any-and-all-html-validator-checkout-success.jpg)
 - [W3C HTML Validation Home results](media/any-and-all-html-validator-home.jpg)
 - [W3C HTML Validation Products results](media/any-and-all-html-validator-products.jpg)
+- [W3C HTML Validation Contact Form results](media/any-and-all-html-validator-contact-form.jpg)
 
 - The CSS was also put through the W3C CSS Validation checker with no errors or warnings.
 
