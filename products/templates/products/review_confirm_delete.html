@@ -17,26 +17,21 @@
 <div class="overlay"></div>
 <div class="container-fluid">
     <div class="col-sm-12 col-md-8 offset-md-2 col-lg-6 col-xl-6 offset-lg-3 text-center mb-4">
-        </span>
         <div class="review-area">
             <br>
-            <i>
-                <p class="col-12 text-center text-light">
-                    <h3 class="delete-review-title pb-2 rounded mt-5 bg-color">Are you sure you want to delete
+            <p class="col-12 text-center text-light">
+                <h3 class="delete-review-title pb-2 rounded mt-5 bg-color pl-2 pr-2"><i>Are you sure you want to delete
                         your
-                        review ?
-                    </h3>
-                </p>
-            </i>
-            <form method="post">
-                {% csrf_token %}
+                        review ?</i>
+                </h3>
+                <form method="post">
+                    {% csrf_token %}
 
-                <input type="hidden" name="product" value="{{ request.product.id }}" id="product">
-                <input class=" btn delete-btn-outline-black text-center rounded mr-3" type="submit" value="Delete">
-                <a href="{% url 'product_detail' product %}"
-                    class="btn cancel-btn-outline-black text-center rounded">Cancel</a>
-
-            </form>
+                    <input type="hidden" name="product" value="{{ request.product.id }}" id="product">
+                    <input class=" btn delete-btn-outline-black text-center rounded mr-3" type="submit" value="Delete">
+                    <a href="{% url 'product_detail' product %}"
+                        class="btn cancel-btn-outline-black text-center rounded">Cancel</a>
+                </form>
         </div>
     </div>
 </div>

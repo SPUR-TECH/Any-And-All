@@ -64,7 +64,7 @@
                         <p class="text-black">Price Each: £{{ wish.price }}</p>
                         <h4 class="text-light"><i>Discount Price :</i></h4>
                         <h4 class="text-light">
-                            <b>~</b>£<i></i>0</i><b>~</b>
+                            <b>~</b><i>£ 0</i><b>~</b>
                         </h4>
                         {% endif %}
                     </div>
@@ -93,24 +93,27 @@
 
             <div class="table-responsive rounded d-none d-md-block">
                 <table class="table table-sm table-borderless">
+
                     <thead class="text-light">
                         <tr>
-                            <th scope="col "><i>Product Image</th></i>
+                            <th scope="col"><i>Product Image</i></th>
                             <th scope="col"><i>Description</i></th>
                             <th scope="col"><i>Price</i></th>
                             <th scope="col"><i>Discount Price</i></th>
-                            <td scope="col"></td>
                         </tr>
                     </thead>
 
                     {% for wish in wishlist.products.all %}
                     <tr>
+
                         <td class="p-3 w-25">
                             {% include "includes/wishlist-image.html" %}
                         </td>
 
                         <td class="py-3 pr-3">
                             {% include "includes/wishlist-info.html" %}
+                            <a class="delete-btn-outline-black pt-1 pb-1 pr-2 pl-2 rounded"
+                                href="{% url 'remove_from_wishlist' wish.id %}">Remove</a>
                         </td>
 
                         {% if wish.discount_price %}
@@ -120,7 +123,6 @@
                                 <h4 class="text-black">
                                     <del>£{{ wish.price }}</del>
                                 </h4>
-                            </p>
                         </td>
 
                         <td>
@@ -128,34 +130,27 @@
                                 <h4>
                                     <i><b>~</b>£{{ wish.discount_price }}<b>~</b></i>
                                 </h4>
-                            </p>
                         </td>
                         {% else %}
                         <td class="pl-0 pr-0">
                             <p>
                                 <h4 class="mr-3 text-black">£{{ wish.price }}</h4>
-                            </p>
                         </td>
 
                         <td class="pt-3 pl-0 pr-0">
                             <h4 class="text-light">
-                                <b>~</b>£<i></i>0</i><b>~</b>
+                                <b>~</b><i>£ 0</i><b>~</b>
                             </h4>
                         </td>
                         {% endif %}
-
-                        <td class="py-3 pl-0 pr-0">
-                            <a class="delete-btn-outline-black pt-1 pb-1 pr-2 pl-2 rounded"
-                                href="{% url 'remove_from_wishlist' wish.id %}">Remove</a>
-                        </td>
                     </tr>
                     {% endfor %}
-                    <div class="btt-button shadow-sm rounded-0 border border-black">
-                        <a class="btt-link d-flex h-100">
-                            <i class="fas fa-arrow-up text-light mx-auto my-auto"></i>
-                        </a>
-                    </div>
                 </table>
+                <div class="btt-button shadow-sm rounded-0 border border-black">
+                    <a class="btt-link d-flex h-100">
+                        <i class="fas fa-arrow-up text-light mx-auto my-auto"></i>
+                    </a>
+                </div>
             </div>
             {% else %}
             <p class="lead mb-5 text-black">Your Wish List is empty.</p>
@@ -167,7 +162,7 @@
 
 {% block postloadjs %}
 {{ block.super }}
-<script type="text/javascript">
+<script>
     $('.btt-link').click(function (e) {
         window.scrollTo(0, 0)
     })

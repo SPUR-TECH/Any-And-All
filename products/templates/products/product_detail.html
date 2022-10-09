@@ -56,8 +56,8 @@
 
                 {% if request.user.is_superuser %}
                 <section class="edit-bg-color pt-1 pb-1 pr-2 pl-2 w-50">
-                    <p><i>Edit Product</i></p>
-                    <section class="red-dotted-line"></section>
+                    <h6><i>Edit Product</i></h6>
+                    <p class="red-dotted-line"></p>
                     <small>
                         <a class="text-light-link" href="{% url 'edit_product' product.id %}">Edit</a> |
                         <a class="delete-text-danger" href="{% url 'edit_product' product.id %}">Delete</a>
@@ -179,6 +179,7 @@
                                 {% endif %}
                             </div>
                         </div>
+                    </div>
                 </form>
             </div>
         </div>

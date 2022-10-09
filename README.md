@@ -603,9 +603,15 @@ The items can still be adjusted at this point.
 
 - [W3C HTML Validation Bag results](media/any-and-all-html-validator-bag.jpg)
 - [W3C HTML Validation Checkout results](media/any-and-all-html-validator-checkout.jpg)
-- [W3C HTML Validation Checkout succewss results](media/any-and-all-html-validator-checkout-success.jpg)
+- [W3C HTML Validation Checkout success results](media/any-and-all-html-validator-checkout-success.jpg)
 - [W3C HTML Validation Home results](media/any-and-all-html-validator-home.jpg)
 - [W3C HTML Validation Products results](media/any-and-all-html-validator-products.jpg)
+- [W3C HTML Validation Product Detail results](media/any-and-all-html-validator-product-detail.jpg)
+- [W3C HTML Validation Review Form results](media/any-and-all-html-validator-review-form.jpg)
+- [W3C HTML Validation Review Edit results](media/any-and-all-html-validator-review-edit.jpg)
+- [W3C HTML Validation Review Confirm Delete results](media/any-and-all-html-validator-review-confirm-delete.jpg)
+- [W3C HTML Validation Wish List results](media/any-and-all-html-validator-wishlist.jpg)
+- [W3C HTML Validation Profile results](media/any-and-all-html-validator-profile-page.jpg)
 - [W3C HTML Validation Contact Form results](media/any-and-all-html-validator-contact-form.jpg)
 
 - The CSS was also put through the W3C CSS Validation checker with no errors or warnings.
