@@ -582,16 +582,17 @@ The items can still be adjusted at this point.
 
 - I have manually tested every part of the functionality every step of the way.
 - I add a new MODEL, VIEW, TEMPLATE and link the URLS, I then check all is as it should be.
-- Each time I write a new line of HTML, CSS OR JAVASCRIPT I check to see if it looks how I expect it to look.
+- Each time I write a new line of HTML, CSS OR JAVASCRIPT I check to see if it looks and acts how I expect it to.
 - With the HTML and CSS I targeted certain classes by adding a solid color background to be sure I'm targeting the right section then continue with the styling.
 - With the JAVASCRIPT I write a small piece of code then console log the result to make sure the result is as I expected before continuing.
 - I then tested the functionality of said code for instance if it's a button then that button must send the correct data and redirect the user to the relevant page.
 - I made sure that if the user is authenticated then the log out will display in the NAVBAR under MY ACCOUNT dropdown and the relevant buttons are shown in the BAG.
 - I made sure that all buttons to delete item and any other buttons tah could edit items are removed if the user is not authenticated and an error message appears if user try's to access forbidden area's.
 - I deployed the site early so I could physically check the media queries were coded correctly to have the responsive ability required and the CSS, DATABASE and IMAGES displayed correctly.
-- I then ask friends and family to use the site with no instruction to see from a different perspective and ideas from real people for bug hunting and improvements.
+- I then ask friends and family to use the site with no instruction to see from a different perspective and ideas from real people for bug hunting and improvements also to see if the site worked correctly across multiple devices.
 - Tests were made to ensure the role based user could add, delete or update the PRODUCTS successfully.
 - Tests were also made to ensure the user could add, delete or update their BAG, REVIEWS and WISHLISTS successfully and not access any other REVIEWS and WISHLISTS made by others.
+- I added an item to the bag then deleted the item from the database to see if the item is removed from bag after dealing with the errors found The item now deletes from the bag with no errors.
 - Testing the add to bag function  making sure no less than 1 and no more than 99 can be added.
 - I tested to see if emoji's can be added in the reviews and (Yes they can).
 - I tested the responsiveness on all screen sizes.
@@ -661,6 +662,10 @@ When deleting an item from the database throws an error if user has that item in
 ## Fix: ~ 
 I had return item or 404 in context.py which I changed to (try: product = Product.objects.get(pk=item_id)except Product.DoesNotExist:continue). This did the trick.
 ## Bug: ~ 
+Product not found in database on checkout was stopping the checkout process after doing the delete item from database test.
+## Fix: ~ 
+After printing to console after each line of code in the BAG, CHECKOUT, PRODUCTS and CONTEXT.PY files I just cleared cookies in the browser and all worked fine. It must have had an invalid item hidden somewhere.
+## Bug: ~ 
 Country field in checkout info was getting cut off at the bottom.
 ## Fix: ~ 
 Make country field box slightly larger in height to fit.
@@ -668,10 +673,6 @@ Make country field box slightly larger in height to fit.
 Validation results wanted me to remove some random closing P tags ?.
 ## Fix: ~ 
 Remove suggested closing P tags.
-## Bug: ~ 
-Product not found in database on checkout.
-## Fix: ~ 
-After printing to console after each line of code I just cleared cookies in the browser and all worked fine.
 ## Bug: ~ 
 Remove item from wishlist button was getting cut off slightly on mid size screens
 ## Fix: ~ 
