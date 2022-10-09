@@ -661,27 +661,37 @@ When deleting an item from the database throws an error if user has that item in
 ## Fix: ~ 
 I had return item or 404 in context.py which I changed to (try: product = Product.objects.get(pk=item_id)except Product.DoesNotExist:continue). This did the trick.
 ## Bug: ~ 
-country field in checkout info was getting cut off at the bottom.
+Country field in checkout info was getting cut off at the bottom.
 ## Fix: ~ 
 Make country field box slightly larger in height to fit.
 ## Bug: ~ 
-
+Validation results wanted me to remove some random closing P tags ?.
 ## Fix: ~ 
-
+Remove suggested closing P tags.
 ## Bug: ~ 
-
+Product not found in database on checkout.
 ## Fix: ~ 
-
+After printing to console after each line of code I just cleared cookies in the browser and all worked fine.
 ## Bug: ~ 
-
+Remove item from wishlist button was getting cut off slightly on mid size screens
 ## Fix: ~ 
-
+Move button into description area and it looks much better too.
 
 ---
 
 - [Back to the top](#any-and-all)
 
 # CREDITS:
+
+## Many thanks to: ~
+
+- ## ***`Code Institute`*** : ~ 
+for supplying the materials to follow along with and the opportunity to become a ( ***`FULL STACK DEVELOPER`*** ).  
+- ***`Tutor Support`*** : ~ for being there in my many many times of need especially ***`Scott`***. He was so quick at finding errors saving me valuable Tutor time and helping me understand why the errors occur.
+- ***`Jack Wachira`*** : ~ for Mentoring me through the course.
+- ***`My Family and Friends`*** : ~ for testing and constructively criticizing the site in depth to help me create a better UI/UX.
+- ***`Chris_W_Alumnus`*** : ~ for helping me work around the Reviews section of the project.
+- ***`liz conway_5P`*** : ~ for taking the time to review my project in the Peer code review on Slack.
 
 ---
 
