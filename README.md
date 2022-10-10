@@ -276,32 +276,32 @@ The site has a Facebook Business page to help the business reach further and gai
 # Technologies Used:
 
 ## Languages & Frameworks:
-- [HTML5]() - The bare structure of the site.
-- [Bootstrap]() - For quick inline styling in HTML code.
-- [CSS]() - The styling and positioning of the HTML.
-- [JavaScript]() - The interactivity of the site.
-- [Python]() - The backend functionality.
-- [Django]() - To build the project.
+- ***`HTML5`*** - The bare structure of the site.
+- ***`Bootstrap`*** - For quick inline styling in HTML code.
+- ***`CSS`*** - The styling and positioning of the HTML.
+- ***`JavaScript`*** - The interactivity of the site.
+- ***`Python`*** - The backend functionality.
+- ***`Django`*** - To build the project.
 
 
 ## Others Programmes:
-- [Visual Studio Code]() - To build the site in.
-- [GitHub]() - To store the project's code.
-- [GitPod]() - To write and push the code for the project.
-- [Balsamiq]() - To create project's wireframes.
-- [Chrome Dev Tools]() - To debug and testing.
-- [W3C HTML Validator]() - To validate the HTML code.
-- [W3C CSS Validator]() - To validate CSS code.
-- [Am I Responsive]() - To generate the responsive preview screens.
-- [Font Awesome]() - For the icons.
-- [Google Fonts]() - For font style.
-- [Facebook]() - To create site's Facebook business page.
-- [Stripe]() - To process the online payments with webhooks.
-- [AWS Bucket]() - To host static files.
-- [Sitemap]() - To generate the sitemap.xml
-- [Draw SQL]() - To create the database schema diagram.
-- [Heroku]() - To deploy the live site.
-- [Heroku PostgreSQL]()  - To connect the project to the database.
+- ***`Visual Studio Code`*** - To build the site in.
+- ***`GitHub`*** - To store the project's code.
+- ***`GitPod`*** - To write and push the code for the project.
+- ***`Balsamiq`*** - To create project's wireframes.
+- ***`Chrome Dev Tools`*** - To debug and testing.
+- ***`W3C HTML Validator`*** - To validate the HTML code.
+- ***`W3C CSS Validator`*** - To validate CSS code.
+- ***`Am I Responsive`*** - To generate the responsive preview screens.
+- ***`Font Awesome`*** - For the icons.
+- ***`Google Fonts`*** - For font style.
+- ***`Facebook`*** - To create site's Facebook business page.
+- ***`Stripe`*** - To process the online payments with webhooks.
+- ***`AWS Bucket`*** - To host static files.
+- ***`Sitemap`*** - To generate the sitemap.xml
+- ***`Draw SQL`*** - To create the database schema diagram.
+- ***`Heroku`*** - To deploy the live site.
+- ***`PostgreSQL`***  - To connect the project to the database.
 
 ---
 
