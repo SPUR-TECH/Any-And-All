@@ -48,8 +48,9 @@ https://any-and-all.herokuapp.com/
 
 - [Back to the top](#any-and-all)
 
-This Site was followed closely to the Boutique Ado walk through as I selected Advanced Front End as my special project but none of the learning material changed so I assumed I'd get something at the end after the 5 Projects.
-1 month later after I've studied the material and ready to make a start on my project, I contact my mentor Jack Wachira and discussed the project plan then I asked when I would do my Advanced front end. He said I only get 5 Projects so this is it and to contact Tutor Support to see if I can get more time to study the right material and mention it in my readme. After waiting about a week for a reply instead they just switched out the material but at this time I'd studied for 1 month and made a start on E-commerce site due to time slipping away. So then had to contact them again and wait for it to be switched back. So to save the remaining time I followed very closely to Boutique Ado then added the required parts for the module.
+This site was followed closely to the Boutique Ado walk through as I selected Advanced Front End as my special project but however unfortunately this was not provided and the learning material was no amended of the  material changed so I assumed I would receive the learning material at the end after the five Projects.
+One month later after I have studied the material and ready to make a start on my project, I contacted my mentor, Jack Wachira to discuss the project plan. I then asked him when I would do my Advanced front end. He informed me that I only had five Projects and to contact Tutor Support, to see if I can talk to someone to obtain more time to study the right material, then mention it in my readme. I waited for a reply, however after about a week I received the new course material. By this time I had been studying the original material for one month and commenced my E-commerce project as I was concerned due to the pending deadline. I attempted to contact Student support again in order to seek guidance or advice, but received no personal response. Code Institute transferred me back to thr original material and I persevered with the site.
+    So to save the remaining time I followed very closely to Boutique Ado then added the required parts for the module.
 
 ## Still no one has ever contacted me.
 
@@ -57,13 +58,17 @@ This Site was followed closely to the Boutique Ado walk through as I selected Ad
 
 # Project Overview
 
-Any And All is a ( B2C ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from business to customer. Designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
-The site consists of a sign up, sign in an sign out ability for ease of second visit saving customer details so check out will be super quick and easy with a secure payment system through Stripe payments so all user details are protected.
+Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
+The site consists of a sign up, sign in and sign out ability for ease of repeat visits saving users details so check out will be quick and easy with a secure payment system through ( ***`Stripe`*** ) payments system so all user details are protected.
 The user also has the option of signing up for a newsletter and checking out our Facebook page to stay up to date with all the latest deals and discounted products.
-C.R.U.D functionality for users and staff..... 
-- For users: ~ They can write reviews, edit old reviews and delete them at any time and add things to their wish list with the same edit, update and delete capabilities but they will need to register for this function.
-- For staff: ~ They can add, edit, update and delete items in the store with the correct authorization so the average user can not access these areas.
-- For store owners: ~ They can access the Admin with their superuser authorization to remove any profanity written in reviews and control anything across the store like users, products, Emails Etc.
+There is a Create, Read, Update and Delete ( ***`C.R.U.D`*** ) functionality for users and staff..... 
+- For users:~ 
+    - They can write reviews, edit old reviews and delete them at any time and add things to their wish list with the same edit, update and delete capabilities but they will need to register for this function.
+- For staff:~ 
+    - They can create, edit, update and delete items in the store with the correct authorization so the average user can not access these areas.
+- For store owners:~ 
+    - They can access the Admin with their superuser authorization to remove any profanity written in reviews and/or control anything across the store like users, products, Emails Etc.
+
 ---
 
 ##  Screen shots of the site and it's responsive abilities:
@@ -624,11 +629,18 @@ The items can still be adjusted at this point.
 
 - I then tested the site on Safari, Firefox and Chrome to make sure all was working correctly.
 
-- Testing sites accessability on https://wave.webaim.org/
+- Testing the sites Performance, Accessability, Best Practices and SEO on Devtools Lighthouse.
+
+![Lighthouse test results](documentation/readme/any-and-all-lighthouse-test-results.jpg)
+
+- Testing the sites Accessability on Wave. https://wave.webaim.org/
 
 - No errors found but contrast as it dose not pick up my grey overlay but all blue text stands out nicely.
 
-![Wave Accessability results Contrast bug 1 ](documentation/readme/any-and-all-accessibility-results-bug.jpg)
+![Wave Accessability results Contrast bug 1](documentation/readme/any-and-all-accessibility-results-bug.jpg)
+
+## as seen in image below.
+
 ![Wave Accessability results Contrast bug 2](documentation/readme/any-and-all-accessibility-results-bug1.jpg)
 
 - Two links go to the same page which is the product management page which is correct.
@@ -722,8 +734,14 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
     - Add the DATABASE_URL value and your chosen SECRET_KEY value to the env.py file.
     - Add the SECRET_KEY value to the Config Vars in Heroku.
     - Update the settings.py file to import the env file and add the SECRETKEY and DATABASE_URL file paths.
-    - Update the Config Vars with the AWS ACCESS KEY ID, AWS_SECRET_ACCESS_KEY,STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET, EMAIL_HOST_PASS, EMAIL_HOST_USER
-    -  Add them into the settings.py and env.py files also.
+    - Repeat this process with the;~
+        - AWS ACCESS KEY ID.
+        - AWS_SECRET_ACCESS_KEY.
+        - STRIPE_PUBLIC_KEY.
+        - STRIPE_SECRET_KEY.
+        - STRIPE_WH_SECRET.
+        - EMAIL_HOST_PASS.
+        - EMAIL_HOST_USER.
     - In settings.py add the following sections:
         - SITE_ID = 1
         - AWS ACCESS KEY ID
