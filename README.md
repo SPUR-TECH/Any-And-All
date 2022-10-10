@@ -10,14 +10,13 @@ https://any-and-all.herokuapp.com/
 
 # Table of content:
 
-- [UI/UX](#uiux)
+- [UI/UX:](#uiux)
     - [User stories:](#user-stories)
-- [Epics](#epics)
+- [Epics:](#epics)
 - [Content Requirements:](#content-requirements)
-    - [Wireframes: Created using https://balsamiq.com/wireframes/](#wireframes-created-using-httpsbalsamiqcomwireframes)
-- [Database Schema](#database-schema)
-    - [***Draw SQL***](#draw-sql)
-            - [Models](#models)
+    - [Wireframes:](#wireframes-created-using-httpsbalsamiqcomwireframes)
+- [Database Schema:](#database-schema)
+    - [Models:](#models)
 - [Marketing strategy:](#marketing-strategy)
     - [***SEO*** Search Engine Optimization:](#seo-search-engine-optimization)
     - [***Brand Reach***:](#brand-reach)
@@ -25,28 +24,30 @@ https://any-and-all.herokuapp.com/
 - [Technologies Used:](#technologies-used)
     - [Languages & Frameworks:](#languages--frameworks)
     - [Others Programmes:](#others-programmes)
-    - [Features:](#features)
-- [The landing page:](#the-landing-page)
-- [The Navbar](#the-navbar)
-- [Footer](#footer)
-- [Contact us page](#contact-us-page)
-- [The Product page](#the-product-page)
-- [Product Detail Page](#product-detail-page)
-- [Sign in page](#sign-in-page)
-- [Sign up page](#sign-up-page)
-- [Bag Page](#bag-page)
-- [Checkout page](#checkout-page)
-- [Loading Page](#loading-page)
-- [Thank you page.](#thank-you-page)
-    - [Confirmation Email](#confirmation-email)
+- [Existing Features:](#existing-features)
+1. [The landing page:](#the-landing-page)
+2. [The Navbar:](#the-navbar)
+3. [Footer:](#footer)
+4. [Contact us page:](#contact-us-page)
+5. [The Product page:](#the-product-page)
+6. [Product Detail Page:](#product-detail-page)
+7. [Sign in page:](#sign-in-page)
+8. [Sign up page:](#sign-up-page)
+9. [Bag Page:](#bag-page)
+10. [Checkout page:](#checkout-page)
+11. [Loading Page:](#loading-page)
+12. [Thank you page:](#thank-you-page)
+    - [Confirmation Email:](#confirmation-email)
 - [Testing:](#testing)
-- [Bugs And Fixes](#bugs-and-fixes)
-- [CREDITS:](#credits)
+    - [HTML Tests:](#html-tests)
+    - [CSS Tests:](#css-test)
+- [Bugs And Fixes:](#bugs-and-fixes)
+- [Credits:](#credits)
 - [Deployment:](#deployment)
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 This site was followed closely to the Boutique Ado walk through as I selected Advanced Front End as my special project but however unfortunately this was not provided and the learning material was no amended of the  material changed so I assumed I would receive the learning material at the end after the five Projects.
 One month later after I have studied the material and ready to make a start on my project, I contacted my mentor, Jack Wachira to discuss the project plan. I then asked him when I would do my Advanced front end. He informed me that I only had five Projects and to contact Tutor Support, to see if I can talk to someone to obtain more time to study the right material, then mention it in my readme. I waited for a reply, however after about a week I received the new course material. By this time I had been studying the original material for one month and commenced my E-commerce project as I was concerned due to the pending deadline. I attempted to contact Student support again in order to seek guidance or advice, but received no personal response. Code Institute transferred me back to thr original material and I persevered with the site.
@@ -56,7 +57,7 @@ One month later after I have studied the material and ready to make a start on m
 
 ---
 
-# Project Overview
+# Project Overview:
 
 Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
 The site consists of a sign up, sign in and sign out ability for ease of repeat visits saving users details so check out will be quick and easy with a secure payment system through ( ***`Stripe`*** ) payments system so all user details are protected.
@@ -80,15 +81,15 @@ As you can see it's fully responsive right across all devices and adapts to any 
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 ---
 
-# UI/UX
+# UI/UX:
 
 ## User stories:
+User stories where built in an Agile methodology Kanban board using the MoSCoW technique MUST have, SHOULD have, COULD have and WON'T have to construct the site and all it's functionality:
 
-### User stories where built in an Agile methodology Kanban board using the MoSCoW technique MUST have, SHOULD have, COULD have and WON'T have to construct the site and all it's functionality:
 ---
 
 ![User stories](documentation/readme/any-and-all-agile-method5.jpg)
@@ -96,12 +97,13 @@ As you can see it's fully responsive right across all devices and adapts to any 
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 ---
 
 ## Then assessed into EPICS 
-# Epics
+
+# Epics:
 
 * ## Epic 1 - Store owner control: 
 
@@ -115,6 +117,7 @@ As you can see it's fully responsive right across all devices and adapts to any 
 | [#6] Secure payments link |  As a store owner  |  I'd like to allow our customers to check out how we make our payments secure by following the link to Stripe Payments site so I can give the customer peace of mind.|  Could Have  |
 
 * ## Epic 2 - Site users:
+
 |  User Story Epic |    User Type   |  Content  |  MoSCoW Label  |
 | --------------- | -------------- | --------- | -------------|
 | [#7]  Easy to navigate site  |  As a site user  |  I'd like an easy to navigate site so I can find my way around easily.|  Must Have  |
@@ -129,17 +132,19 @@ As you can see it's fully responsive right across all devices and adapts to any 
 | [#16] Coupons  |  As a returning site user  |   I'd like a coupon so I can receive discounts for loyalty.|  Won't Have  |
 
 * ## Epic 3 - Staff:
+
 |  User Story Epic |    User Type   |  Content  | MoSCoW Label |
 | --------------- | -------------- | --------- | -------------|
 | [#17]  Product management | As a store owner  | I'd like a manage product page so I can easily add, edit or delete a product.| Must Have |
 
 * ## Epic 4 - Site owner:
+
 |  User Story Epic |    User Type   |  Content  | MoSCoW Label |
 | --------------- | -------------- | --------- | -------------|
 | [#18]  Links | As a site owner  | I'd like to create links to corresponding page so I can make sure users, staff and store owners are directed to relevant pages.| Must Have |
 | [#19]  Functioning E-commerce site | As a site owner  | I'd like build a fully functioning E-commerce site so I can add it to my profile of websites I've create with Code Institute| Must Have |
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 ## Then prioritized on a Kanban Board
 ### (Todo, In Progress and Done) :~
@@ -150,7 +155,7 @@ As you can see it's fully responsive right across all devices and adapts to any 
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
  # Content Requirements:
     
@@ -191,7 +196,7 @@ As you can see it's fully responsive right across all devices and adapts to any 
 
 ## All of the above user stories were met except coupons marked as Won't Have.
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 ---
 
@@ -217,11 +222,11 @@ The wire frames for the pages showcasing the bare structure of the site.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 ----
 
-# Database Schema
+# Database Schema:
 
 ## ***`Draw SQL`*** 
 was used to create the database schema https://drawsql.app/ to create the project's database schema models showing the relationship between the models.
@@ -240,11 +245,11 @@ was used to create the database schema https://drawsql.app/ to create the projec
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 # Marketing strategy:
 
-## (***`SEO`***) Search Engine Optimization:
+## ( ***`SEO`*** ) Search Engine Optimization:
 - I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
 ![Keyword Caption](documentation/readme/any-and-all-keyword-caption.jpg)
 
@@ -266,9 +271,10 @@ The site has a Facebook Business page to help the business reach further and gai
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 # Technologies Used:
+
 ## Languages & Frameworks:
 - [HTML5]() - The bare structure of the site.
 - [Bootstrap]() - For quick inline styling in HTML code.
@@ -299,9 +305,9 @@ The site has a Facebook Business page to help the business reach further and gai
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-## features:
+# Existing Features:
 
 # The landing page:
 
@@ -315,11 +321,11 @@ The large dark footer makes the blue really pop for easy guidance to links.
 ![Landing page](documentation/readme/any-and-all-homepage2.jpg)
 ![Landing page](documentation/readme/any-and-all-homepage3.jpg)
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 ---
 
-# The Navbar 
+# The Navbar:
 
 The nav bar can be seen on all pages and collapses down for tablets and mobile devices.
 
@@ -343,9 +349,9 @@ which is fully adjustable and has a Secure checkout and a Keep shopping Button.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-## The All Products link drops down to show ~
+## The All Products link drops down to show: ~
 - By Price.
 - By Category.
 - All Products .
@@ -353,7 +359,7 @@ All links have a nice hover effect for better UI/UX.
 
 ![All products link](documentation/readme/any-and-all-all-products-link.jpg)
 
-## The Clothing link drops down to show ~
+## The Clothing link drops down to show: ~
 - Activewear & Essentials.
 - Jeans.
 - Shirts.
@@ -361,7 +367,7 @@ All links have a nice hover effect for better UI/UX.
 
 ![Clothing link](documentation/readme/any-and-all-clothing-link.jpg)
 
-The Special Offers link drops down to show ~
+## The Special Offers link drops down to show: ~
 - New Arrivals.
 - Deals.
 - Clearance.
@@ -369,28 +375,29 @@ The Special Offers link drops down to show ~
 
 ![Special Offers link](documentation/readme/any-and-all-special-offers-link.jpg)
 
-## Then finally the Free Delivery Banner 
+## Then finally the Free Delivery Banner.
 
 ![Delivery Banner](documentation/readme/any-and-all-delivery-banner.jpg)
 
 ---
 
-## In the body is a Keyword Caption to assist with SEO (Search Engine Optimization)
+## In the body is a Keyword Caption to assist with SEO (Search Engine Optimization).
 
 ![Keyword Caption](documentation/readme/any-and-all-keyword-caption.jpg)
 
-## Then the main header and the Shop Now button
-- Shop Now button.
-Takes the user to the all products page.
+## Then the main header and the Explore shop button.
+- Explore shop button Takes the user to the all products page.
 
-![Main Header and Shop Now button](documentation/readme/any-and-all-Header-and-shop-button.jpg)
+![Main Header and Explore shop button](documentation/readme/any-and-all-Header-and-shop-button.jpg)
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# Footer
+# Footer:
+
 ## The footer consists of: ~
+
 - ### The Subscription for the Newsletter.
     - The user will then receive a thank you for subscribing email.
 - ### The social link.
@@ -406,18 +413,19 @@ Takes the user to the all products page.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# Contact us page
+# Contact us page:
+
 ## Contact page was built on MailChimp site: ~
 
 ![Contact Us Page](documentation/readme/any-and-all-contact-page.jpg)
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# The Product page
+# The Product page:
 
 ## Contains: ~
 - All Product images.
@@ -425,6 +433,7 @@ Takes the user to the all products page.
 - The prices and Discount Prices.
 ![Product Page](documentation/readme/any-and-all-product-page.jpg)
 - The Category tags.
+
 - ### The Reviews links.
     - Which takes the user to the product details page which contains the review section.
 
@@ -437,9 +446,9 @@ Takes the user to the all products page.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# Product Detail Page
+# Product Detail Page:
 
 ## Contains: ~
 - An individual image of selected product.
@@ -465,12 +474,11 @@ By clicking on ***`Add To Wish list`*** the user will be notified that the item 
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# Sign in page
+# Sign in page:
 
 ## Contains: ~
-
 - Username.
 - Password.
 - Remember me check box.
@@ -484,12 +492,11 @@ At the top is a prompt to ask the user to register if not already done so.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# Sign up page
+# Sign up page:
 
 ## Contains: ~
-
 - Email.
 - Re-enter Email.
 - Username.
@@ -504,9 +511,9 @@ At the top is a prompt to ask user to Login if already registered.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# Bag Page
+# Bag Page:
 
 ## Contains: ~
 - An image of selected products.
@@ -517,7 +524,7 @@ At the top is a prompt to ask user to Login if already registered.
 
 ![Shopping bag](documentation/readme/any-and-all-bag-page.jpg)
 
-## which also collapses down for smaller screens sizes like all the other pages
+## which also collapses down for smaller screens sizes like all the other pages.
 
 ![Shopping bag collapsed](documentation/readme/any-and-all-shoppingbag-collapsed1.jpg)
 
@@ -534,9 +541,10 @@ At the top is a prompt to ask user to Login if already registered.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# Checkout page
+# Checkout page:
+
 ## If the user is not registered: ~
 
 The form will be blank.
@@ -555,27 +563,29 @@ The items can still be adjusted at this point.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 
-# Loading Page
+# Loading Page:
+
 ## When the Complete Order Button is pressed the user is greeted with a loading page.
 
 ![Loading Page](documentation/readme/any-and-all-loading.jpg)
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
  ## Then directed to the: ~
- # Thank you page.
+
+ # Thank you page:
  
  With a message notifying them of the order number and purchase details being sent to their Email Address.
 ![Thank You  Page](documentation/readme/any-and-all-checkout-success.jpg)
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 ## Confirmation Email
 
@@ -583,7 +593,7 @@ The items can still be adjusted at this point.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 # Testing:
 
@@ -606,6 +616,8 @@ The items can still be adjusted at this point.
 - Every page was put through the W3C HTML Validation checker and after working through all that was marked up in the code was where id's were repeating but the id's are needed so no changes were made and all is working correctly.
 - I created multiple custom error pages, pushed them to Heroku then tested them by trying to access restricted area's and miss spelling the URL to see the desired error page.
 
+## HTML Tests:
+
 ![W3C HTML Validation Bag ID results](documentation/readme/any-and-all-html-validator-bag-with-item-id.jpg)
 
 - ### Links to the other test results:
@@ -623,6 +635,8 @@ The items can still be adjusted at this point.
 - [W3C HTML Validation Profile results](documentation/readme/any-and-all-html-validator-profile-page.jpg)
 - [W3C HTML Validation Contact Form results](documentation/readme/any-and-all-html-validator-contact-form.jpg)
 
+## CSS Test:
+
 - The CSS was also put through the W3C CSS Validation checker with no errors or warnings.
 
 ![W3C CSS Validation results](documentation/readme/any-and-all-css-validator-results.jpg)
@@ -639,18 +653,19 @@ The items can still be adjusted at this point.
 
 ![Wave Accessability results Contrast bug 1](documentation/readme/any-and-all-accessibility-results-bug.jpg)
 
-## as seen in image below.
+## As seen in the image below.
 
 ![Wave Accessability results Contrast bug 2](documentation/readme/any-and-all-accessibility-results-bug1.jpg)
 
 - Two links go to the same page which is the product management page which is correct.
+
 ![Wave Accessability results link bug](documentation/readme/any-and-all-accessibility-results-bug2.jpg)
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# Bugs And Fixes
+# Bugs And Fixes:
 
 ## Bug: ~ 
 Header Title over run purple background on smaller screens if word is too long like (Management).
@@ -695,9 +710,9 @@ Move button into description area and it looks much better too.
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
-# CREDITS:
+# Credits:
 
 ## Many thanks to:~
 
@@ -711,7 +726,7 @@ for supplying the materials to follow along with and the opportunity to become a
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
 
 # Deployment:
 
@@ -802,4 +817,4 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
 
 ---
 
-- [Back to the top](#any-and-all)
+- [Back to top ^](#any-and-all)
