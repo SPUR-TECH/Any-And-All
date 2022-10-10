@@ -1,4 +1,4 @@
-![A banner of the site to add flare to the readme.md](media/any-and-all-logo.jpg)
+![A banner of the site to add flare to the readme.md](documentation/readme/any-and-all-logo.jpg)
 
 # Any And All
 
@@ -7,6 +7,8 @@
 https://any-and-all.herokuapp.com/
 
 ---
+
+# Table of content:
 
 - [UI/UX](#uiux)
     - [User stories:](#user-stories)
@@ -23,7 +25,7 @@ https://any-and-all.herokuapp.com/
 - [Technologies Used:](#technologies-used)
     - [Languages & Frameworks:](#languages--frameworks)
     - [Others Programmes:](#others-programmes)
-    - [features:](#features)
+    - [Features:](#features)
 - [The landing page:](#the-landing-page)
 - [The Navbar](#the-navbar)
 - [Footer](#footer)
@@ -55,13 +57,13 @@ This Site was followed closely to the Boutique Ado walk through as I selected Ad
 
 # Project Overview
 
-Any And All is a B2C E-commerce online shopping site dealing directly from business to customer. Designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
+Any And All is a ( B2C ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from business to customer. Designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
 The site consists of a sign up, sign in an sign out ability for ease of second visit saving customer details so check out will be super quick and easy with a secure payment system through Stripe payments so all user details are protected.
 The user also has the option of signing up for a newsletter and checking out our Facebook page to stay up to date with all the latest deals and discounted products.
 C.R.U.D functionality for users and staff..... 
-- For users ~ They can write reviews, edit old reviews and delete them at any time and add things to their wish list with the same edit, update and delete capabilities but they will need to register for this function.
-- For staff ~ They can add, edit, update and delete items in the store with the correct authorization so the average user can not access these areas.
-- For store owners ~ They can access the Admin with their superuser authorization to remove any profanity written in reviews and control anything across the store like users, products, Emails Etc.
+- For users: ~ They can write reviews, edit old reviews and delete them at any time and add things to their wish list with the same edit, update and delete capabilities but they will need to register for this function.
+- For staff: ~ They can add, edit, update and delete items in the store with the correct authorization so the average user can not access these areas.
+- For store owners: ~ They can access the Admin with their superuser authorization to remove any profanity written in reviews and control anything across the store like users, products, Emails Etc.
 ---
 
 ##  Screen shots of the site and it's responsive abilities:
@@ -69,7 +71,7 @@ C.R.U.D functionality for users and staff.....
 
 I used http://ami.responsivedesign.is/ to check what it would look like on all devices.
 As you can see it's fully responsive right across all devices and adapts to any screen sizes.
-![An image of the site on multiple screen sizes](media/any-and-all-responsive.jpg)
+![An image of the site on multiple screen sizes](documentation/readme/any-and-all-responsive.jpg)
 
 ---
 
@@ -84,8 +86,8 @@ As you can see it's fully responsive right across all devices and adapts to any 
 ### User stories where built in an Agile methodology Kanban board using the MoSCoW technique MUST have, SHOULD have, COULD have and WON'T have to construct the site and all it's functionality:
 ---
 
-![User stories](media/any-and-all-agile-method5.jpg)
-![User stories](media/any-and-all-agile-method4.jpg)
+![User stories](documentation/readme/any-and-all-agile-method5.jpg)
+![User stories](documentation/readme/any-and-all-agile-method4.jpg)
 
 ---
 
@@ -137,9 +139,9 @@ As you can see it's fully responsive right across all devices and adapts to any 
 ## Then prioritized on a Kanban Board
 ### (Todo, In Progress and Done) :~
 
-![User stories](media/any-and-all-agile-method1.jpg)
-![User stories](media/any-and-all-agile-method2.jpg)
-![User stories](media/any-and-all-agile-method3.jpg)
+![User stories](documentation/readme/any-and-all-agile-method1.jpg)
+![User stories](documentation/readme/any-and-all-agile-method2.jpg)
+![User stories](documentation/readme/any-and-all-agile-method3.jpg)
 
 ---
 
@@ -194,19 +196,19 @@ As you can see it's fully responsive right across all devices and adapts to any 
 
 The wire frames for the pages showcasing the bare structure of the site.
 
-![Landing page wireframe](media/any-and-all-wireframe1.jpg)
+![Landing page wireframe](documentation/readme/any-and-all-wireframe1.jpg)
 ### Links to the other pages:
-- [Products Page](media/any-and-all-wireframe2.jpg)
-- [Products detail Page](media/any-and-all-wireframe3.jpg)
-- [Products management Page](media/any-and-all-wireframe4.jpg)
-- [Profile page](media/any-and-all-wireframe5.jpg)
-- [Sign up page](media/any-and-all-wireframe6.jpg)
-- [Sign in page](media/any-and-all-wireframe7.jpg)
-- [Sign out page](media/any-and-all-wireframe8.jpg)
-- [Shopping bag page](media/any-and-all-wireframe9.jpg)
-- [Secure checkout page](media/any-and-all-wireframe10.jpg)
-- [Reviews page](media/any-and-all-wireframe11.jpg)
-- [Wishlist page](media/any-and-all-wireframe12.jpg)
+- [Products Page](documentation/readme/any-and-all-wireframe2.jpg)
+- [Products detail Page](documentation/readme/any-and-all-wireframe3.jpg)
+- [Products management Page](documentation/readme/any-and-all-wireframe4.jpg)
+- [Profile page](documentation/readme/any-and-all-wireframe5.jpg)
+- [Sign up page](documentation/readme/any-and-all-wireframe6.jpg)
+- [Sign in page](documentation/readme/any-and-all-wireframe7.jpg)
+- [Sign out page](documentation/readme/any-and-all-wireframe8.jpg)
+- [Shopping bag page](documentation/readme/any-and-all-wireframe9.jpg)
+- [Secure checkout page](documentation/readme/any-and-all-wireframe10.jpg)
+- [Reviews page](documentation/readme/any-and-all-wireframe11.jpg)
+- [Wishlist page](documentation/readme/any-and-all-wireframe12.jpg)
 
 ---
 
@@ -219,7 +221,7 @@ The wire frames for the pages showcasing the bare structure of the site.
 ## ***`Draw SQL`*** 
 was used to create the database schema https://drawsql.app/ to create the project's database schema models showing the relationship between the models.
 
-![Data base](media/any-and-all-data-schema.jpg)
+![Data base](documentation/readme/any-and-all-data-schema.jpg)
 
 #### Models
 - ***UserProfile*** - Stores all users details and purchase history.
@@ -239,12 +241,12 @@ was used to create the database schema https://drawsql.app/ to create the projec
 
 ## (***`SEO`***) Search Engine Optimization:
 - I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
-![Keyword Caption](media/any-and-all-keyword-caption.jpg)
+![Keyword Caption](documentation/readme/any-and-all-keyword-caption.jpg)
 
 - I've also added a robots.txt and a sitemap.xml to maximize google search engines.
 - I've also created a newsletter subscription function
 
-![Newsletter subscription](media/any-and-all-newsletter-subscription.jpg)
+![Newsletter subscription](documentation/readme/any-and-all-newsletter-subscription.jpg)
 
 ---
 
@@ -254,8 +256,8 @@ was used to create the database schema https://drawsql.app/ to create the projec
 
 The site has a Facebook Business page to help the business reach further and gain potential customers and updates and discounts can be advertised to entice the shoppers to come and visit the site.
 
-![Facebook Page](media/any-and-all-facebook-1.jpg)
-![Facebook Page](media/any-and-all-facebook-2.jpg)
+![Facebook Page](documentation/readme/any-and-all-facebook-1.jpg)
+![Facebook Page](documentation/readme/any-and-all-facebook-2.jpg)
 
 ---
 
@@ -304,9 +306,9 @@ I've also added the Home link along side the All products, Clothing, Homeware an
 It has a search bar for searching anything on the site quickly using keywords.
 The large dark footer makes the blue really pop for easy guidance to links.
 
-![Landing page](media/any-and-all-homepage1.jpg)
-![Landing page](media/any-and-all-homepage2.jpg)
-![Landing page](media/any-and-all-homepage3.jpg)
+![Landing page](documentation/readme/any-and-all-homepage1.jpg)
+![Landing page](documentation/readme/any-and-all-homepage2.jpg)
+![Landing page](documentation/readme/any-and-all-homepage3.jpg)
 
 - [Back to the top](#any-and-all)
 
@@ -316,7 +318,7 @@ The large dark footer makes the blue really pop for easy guidance to links.
 
 The nav bar can be seen on all pages and collapses down for tablets and mobile devices.
 
-![Nav collapsed](media/any-and-all-collapsed-nav.jpg)
+![Nav collapsed](documentation/readme/any-and-all-collapsed-nav.jpg)
 
 ## The My accounts link will drop down to show:
 - The user who is currently logged in.
@@ -324,12 +326,12 @@ The nav bar can be seen on all pages and collapses down for tablets and mobile d
 - The My wish list link that takes the user to their wish list page.
 - The Sign out link that takes the user to the Sign out page.
 
-![My Account dropdown](media/any-and-all-my-account-dropdown1.jpg)
+![My Account dropdown](documentation/readme/any-and-all-my-account-dropdown1.jpg)
 
 ## Depending on authentication:
 - The Edit item is only seen when staff authentication is active.
 
-![My Account dropdown staff](media/any-and-all-my-account-dropdown.jpg)
+![My Account dropdown staff](documentation/readme/any-and-all-my-account-dropdown.jpg)
 
 The Bag link takes the user to the Shopping Bag page showing the items selected by the user for purchase.
 which is fully adjustable and has a Secure checkout and a Keep shopping Button.
@@ -344,7 +346,7 @@ which is fully adjustable and has a Secure checkout and a Keep shopping Button.
 - All Products .
 All links have a nice hover effect for better UI/UX.
 
-![All products link](media/any-and-all-all-products-link.jpg)
+![All products link](documentation/readme/any-and-all-all-products-link.jpg)
 
 ## The Clothing link drops down to show ~
 - Activewear & Essentials.
@@ -352,7 +354,7 @@ All links have a nice hover effect for better UI/UX.
 - Shirts.
 - All Clothing.
 
-![Clothing link](media/any-and-all-clothing-link.jpg)
+![Clothing link](documentation/readme/any-and-all-clothing-link.jpg)
 
 The Special Offers link drops down to show ~
 - New Arrivals.
@@ -360,30 +362,30 @@ The Special Offers link drops down to show ~
 - Clearance.
 - All Specials.
 
-![Special Offers link](media/any-and-all-special-offers-link.jpg)
+![Special Offers link](documentation/readme/any-and-all-special-offers-link.jpg)
 
 ## Then finally the Free Delivery Banner 
 
-![Delivery Banner](media/any-and-all-delivery-banner.jpg)
+![Delivery Banner](documentation/readme/any-and-all-delivery-banner.jpg)
 
 ---
 
 ## In the body is a Keyword Caption to assist with SEO (Search Engine Optimization)
 
-![Keyword Caption](media/any-and-all-keyword-caption.jpg)
+![Keyword Caption](documentation/readme/any-and-all-keyword-caption.jpg)
 
 ## Then the main header and the Shop Now button
 - Shop Now button.
 Takes the user to the all products page.
 
-![Main Header and Shop Now button](media/any-and-all-Header-and-shop-button.jpg)
+![Main Header and Shop Now button](documentation/readme/any-and-all-Header-and-shop-button.jpg)
 
 ---
 
 - [Back to the top](#any-and-all)
 
 # Footer
-## The footer consists of ~
+## The footer consists of: ~
 - ### The Subscription for the Newsletter.
     - The user will then receive a thank you for subscribing email.
 - ### The social link.
@@ -404,7 +406,7 @@ Takes the user to the all products page.
 # Contact us page
 ## Contact page was built on MailChimp site: ~
 
-![Contact Us Page](media/any-and-all-contact-page.jpg)
+![Contact Us Page](documentation/readme/any-and-all-contact-page.jpg)
 
 ---
 
@@ -412,11 +414,11 @@ Takes the user to the all products page.
 
 # The Product page
 
-## Contains ~
+## Contains: ~
 - All Product images.
 - Product names and Descriptions.
 - The prices and Discount Prices.
-![Product Page](media/any-and-all-product-page.jpg)
+![Product Page](documentation/readme/any-and-all-product-page.jpg)
 - The Category tags.
 - ### The Reviews links.
     - Which takes the user to the product details page which contains the review section.
@@ -424,7 +426,7 @@ Takes the user to the all products page.
 - ### The Wish list links.
     - Which takes the user to the Wish list page if the user is logged in otherwise the user is prompted to log in or register.
 
-![Product Page links](media/any-and-all-product-page-tag-and-links.jpg)
+![Product Page links](documentation/readme/any-and-all-product-page-tag-and-links.jpg)
 
 - A back to top button in bottom left corner 
 
@@ -434,7 +436,7 @@ Takes the user to the all products page.
 
 # Product Detail Page
 
-## Contains ~
+## Contains: ~
 - An individual image of selected product.
 - Product name and price or Discount price.
 - The category.
@@ -445,16 +447,16 @@ Takes the user to the all products page.
 - Keep Shopping Button.
 - Reviews.
 
-![Product Detail Page](media/any-and-all-product-detail.jpg)
+![Product Detail Page](documentation/readme/any-and-all-product-detail.jpg)
 
 By clicking on ***`Write Review`*** the user will be taken to the review form if the user is logged in or the user will be directed to the log in form.
 
-![Review Form](media/any-and-all-review-form.jpg)
+![Review Form](documentation/readme/any-and-all-review-form.jpg)
 
 
 By clicking on ***`Add To Wish list`*** the user will be notified that the item was added to their Wish list page if the user is logged in or the user will be directed to the log in form.
 
-![Wish List Alert](media/any-and-all-wishlist-alert.jpg)
+![Wish List Alert](documentation/readme/any-and-all-wishlist-alert.jpg)
 
 ---
 
@@ -462,7 +464,7 @@ By clicking on ***`Add To Wish list`*** the user will be notified that the item 
 
 # Sign in page
 
-## Contains ~
+## Contains: ~
 
 - Username.
 - Password.
@@ -473,7 +475,7 @@ By clicking on ***`Add To Wish list`*** the user will be notified that the item 
 
 At the top is a prompt to ask the user to register if not already done so.
 
-![Sign In Page](media/any-and-all-signin-page.jpg)
+![Sign In Page](documentation/readme/any-and-all-signin-page.jpg)
 
 ---
 
@@ -481,7 +483,7 @@ At the top is a prompt to ask the user to register if not already done so.
 
 # Sign up page
 
-## Contains ~
+## Contains: ~
 
 - Email.
 - Re-enter Email.
@@ -493,7 +495,7 @@ At the top is a prompt to ask the user to register if not already done so.
 
 At the top is a prompt to ask user to Login if already registered.
 
-![Sign Up Page](media/any-and-all-signup-page.jpg)
+![Sign Up Page](documentation/readme/any-and-all-signup-page.jpg)
 
 ---
 
@@ -501,29 +503,29 @@ At the top is a prompt to ask user to Login if already registered.
 
 # Bag Page
 
-## Contains ~
+## Contains: ~
 - An image of selected products.
 - Product description, Price or Discount Price, Quantity selector and subtotal.
 - Size if applicable.
 - Subtotal, Delivery cost and Grand Total.
 - Secure Checkout and Keep Shopping Button.
 
-![Shopping bag](media/any-and-all-bag-page.jpg)
+![Shopping bag](documentation/readme/any-and-all-bag-page.jpg)
 
 ## which also collapses down for smaller screens sizes like all the other pages
 
-![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed1.jpg)
+![Shopping bag collapsed](documentation/readme/any-and-all-shoppingbag-collapsed1.jpg)
 
 
-![Shopping bag collapsed](media/any-and-all-shoppingbag-collapsed2.jpg)
+![Shopping bag collapsed](documentation/readme/any-and-all-shoppingbag-collapsed2.jpg)
 
 ## The user is alerted each time an item is added to  or removed from the bag.
 
-![Shopping Bag Alert](media/any-and-all-bag-alert.jpg)
+![Shopping Bag Alert](documentation/readme/any-and-all-bag-alert.jpg)
 
 ## The empty bag will notify the user and a KEEP SHOPPING button will bring the user to the Products page. 
 
-![Empty bag](media/any-and-all-empty-bag.jpg)
+![Empty bag](documentation/readme/any-and-all-empty-bag.jpg)
 
 ---
 
@@ -534,15 +536,15 @@ At the top is a prompt to ask user to Login if already registered.
 
 The form will be blank.
 
-![Checkout Page](media/any-and-all-checkout1.jpg)
-![Checkout Page](media/any-and-all-checkout2.jpg)
+![Checkout Page](documentation/readme/any-and-all-checkout1.jpg)
+![Checkout Page](documentation/readme/any-and-all-checkout2.jpg)
 
 ## If the user is registered and signed in: ~
 
 The form will be filled out except Full Name and card details for security reasons.
 
-![Checkout Page](media/any-and-all-checkout3.jpg)
-![Checkout Page](media/any-and-all-checkout4.jpg)
+![Checkout Page](documentation/readme/any-and-all-checkout3.jpg)
+![Checkout Page](documentation/readme/any-and-all-checkout4.jpg)
 
 The items can still be adjusted at this point.
 
@@ -554,7 +556,7 @@ The items can still be adjusted at this point.
 # Loading Page
 ## When the Complete Order Button is pressed the user is greeted with a loading page.
 
-![Loading Page](media/any-and-all-loading.jpg)
+![Loading Page](documentation/readme/any-and-all-loading.jpg)
 
 ---
 
@@ -564,7 +566,7 @@ The items can still be adjusted at this point.
  # Thank you page.
  
  With a message notifying them of the order number and purchase details being sent to their Email Address.
-![Thank You  Page](media/any-and-all-checkout-success.jpg)
+![Thank You  Page](documentation/readme/any-and-all-checkout-success.jpg)
 
 ---
 
@@ -572,7 +574,7 @@ The items can still be adjusted at this point.
 
 ## Confirmation Email
 
-![Confirmation Email](media/any-and-all-confirmation-email.jpg)
+![Confirmation Email](documentation/readme/any-and-all-confirmation-email.jpg)
 
 ---
 
@@ -597,27 +599,28 @@ The items can still be adjusted at this point.
 - I tested to see if emoji's can be added in the reviews and (Yes they can).
 - I tested the responsiveness on all screen sizes.
 - Every page was put through the W3C HTML Validation checker and after working through all that was marked up in the code was where id's were repeating but the id's are needed so no changes were made and all is working correctly.
+- I created multiple custom error pages, pushed them to Heroku then tested them by trying to access restricted area's and miss spelling the URL to see the desired error page.
 
-![W3C HTML Validation Bag ID results](media/any-and-all-html-validator-bag-with-item-id.jpg)
+![W3C HTML Validation Bag ID results](documentation/readme/any-and-all-html-validator-bag-with-item-id.jpg)
 
 - ### Links to the other test results:
 
-- [W3C HTML Validation Bag results](media/any-and-all-html-validator-bag.jpg)
-- [W3C HTML Validation Checkout results](media/any-and-all-html-validator-checkout.jpg)
-- [W3C HTML Validation Checkout success results](media/any-and-all-html-validator-checkout-success.jpg)
-- [W3C HTML Validation Home results](media/any-and-all-html-validator-home.jpg)
-- [W3C HTML Validation Products results](media/any-and-all-html-validator-products.jpg)
-- [W3C HTML Validation Product Detail results](media/any-and-all-html-validator-product-detail.jpg)
-- [W3C HTML Validation Review Form results](media/any-and-all-html-validator-review-form.jpg)
-- [W3C HTML Validation Review Edit results](media/any-and-all-html-validator-review-edit.jpg)
-- [W3C HTML Validation Review Confirm Delete results](media/any-and-all-html-validator-review-confirm-delete.jpg)
-- [W3C HTML Validation Wish List results](media/any-and-all-html-validator-wishlist.jpg)
-- [W3C HTML Validation Profile results](media/any-and-all-html-validator-profile-page.jpg)
-- [W3C HTML Validation Contact Form results](media/any-and-all-html-validator-contact-form.jpg)
+- [W3C HTML Validation Bag results](documentation/readme/any-and-all-html-validator-bag.jpg)
+- [W3C HTML Validation Checkout results](documentation/readme/any-and-all-html-validator-checkout.jpg)
+- [W3C HTML Validation Checkout success results](documentation/readme/any-and-all-html-validator-checkout-success.jpg)
+- [W3C HTML Validation Home results](documentation/readme/any-and-all-html-validator-home.jpg)
+- [W3C HTML Validation Products results](documentation/readme/any-and-all-html-validator-products.jpg)
+- [W3C HTML Validation Product Detail results](documentation/readme/any-and-all-html-validator-product-detail.jpg)
+- [W3C HTML Validation Review Form results](documentation/readme/any-and-all-html-validator-review-form.jpg)
+- [W3C HTML Validation Review Edit results](documentation/readme/any-and-all-html-validator-review-edit.jpg)
+- [W3C HTML Validation Review Confirm Delete results](documentation/readme/any-and-all-html-validator-review-confirm-delete.jpg)
+- [W3C HTML Validation Wish List results](documentation/readme/any-and-all-html-validator-wishlist.jpg)
+- [W3C HTML Validation Profile results](documentation/readme/any-and-all-html-validator-profile-page.jpg)
+- [W3C HTML Validation Contact Form results](documentation/readme/any-and-all-html-validator-contact-form.jpg)
 
 - The CSS was also put through the W3C CSS Validation checker with no errors or warnings.
 
-![W3C CSS Validation results](media/any-and-all-css-validator-results.jpg)
+![W3C CSS Validation results](documentation/readme/any-and-all-css-validator-results.jpg)
 
 - I then tested the site on Safari, Firefox and Chrome to make sure all was working correctly.
 
@@ -625,11 +628,11 @@ The items can still be adjusted at this point.
 
 - No errors found but contrast as it dose not pick up my grey overlay but all blue text stands out nicely.
 
-![Wave Accessability results Contrast bug 1 ](media/any-and-all-accessibility-results-bug.jpg)
-![Wave Accessability results Contrast bug 2](media/any-and-all-accessibility-results-bug1.jpg)
+![Wave Accessability results Contrast bug 1 ](documentation/readme/any-and-all-accessibility-results-bug.jpg)
+![Wave Accessability results Contrast bug 2](documentation/readme/any-and-all-accessibility-results-bug1.jpg)
 
 - Two links go to the same page which is the product management page which is correct.
-![Wave Accessability results link bug](media/any-and-all-accessibility-results-bug2.jpg)
+![Wave Accessability results link bug](documentation/readme/any-and-all-accessibility-results-bug2.jpg)
 
 ---
 
@@ -774,7 +777,10 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
     - After linking your app to your workspace, you can then deploy new versions of the app by running the command **git push heroku main** enter your app name and Heroku API Key when prompted and your app will be deployed to Heroku.
     - Then go to Heroku and click on your new app and then click open app. 
 
-## Finally create a robots.txt file and a sitemap.xml file.
+## Finally create a robots.txt file 
+- To control search engine bot crawling.
+## A sitemap.xml file
+- To allow search engine bot crawling.
 
 ---
 
