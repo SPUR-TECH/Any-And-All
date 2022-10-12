@@ -724,12 +724,13 @@ Move button into description area and it looks much better too.
 
 - ## ***`Code Institute`***:~ 
 for supplying the materials to follow along with and the opportunity to become a ( ***`FULL STACK DEVELOPER`*** ).  
-- ***`Tutor Support`***:~ for being there in my many many times of need especially ***`Scott`***. He was so quick at finding errors saving me valuable Tutor time and helping me understand why the errors occur.
-- ***`Jack Wachira`***:~ for Mentoring me through the course.
-- ***`My Family and Friends`***:~ for testing and constructively criticizing the site in depth to help me create a better UI/UX.
-- ***`Chris_W_Alumnus`***:~ for helping me work around the Reviews section of the project.
-- ***`liz conway_5P`***:~ for taking the time to review my project in the Peer code review on Slack.
-- ***`Stack Overflow`***:~ for providing questions and answers at difficult times.
+- ***`Tutor Support`*** :~ for being there in my many many times of need especially ***`Scott`***. He was so quick at finding errors saving me valuable Tutor time and helping me understand why the errors occur.
+- ***`Jack Wachira`*** :~ for Mentoring me through the course.
+- ***`My Family and Friends`*** :~ for testing and constructively criticizing the site in depth to help me create a better UI/UX.
+- ***`Chris_W_Alumnus`*** :~ for helping me work around the Reviews section of the project.
+- ***`liz conway_5P`*** :~ for taking the time to review my project in the Peer code review on Slack.
+- ***`Stack Overflow`*** :~ for providing questions and answers at difficult times.
+- ***`TomDoesTech`*** :~ for making a Youtube video on how to add Technology badges to my Readme.
 
 ---
 
