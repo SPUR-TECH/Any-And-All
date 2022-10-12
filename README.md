@@ -276,18 +276,28 @@ The site has a Facebook Business page to help the business reach further and gai
 # Technologies Used:
 
 ## Languages & Frameworks:
-- ***`HTML5`*** - The bare structure of the site.
-- ***`Bootstrap`*** - For quick inline styling in HTML code.
-- ***`CSS`*** - The styling and positioning of the HTML.
-- ***`JavaScript`*** - The interactivity of the site.
-- ***`Python`*** - The backend functionality.
-- ***`Django`*** - To build the project.
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) - The bare structure of the site.
+- ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) - For quick inline styling in HTML code.
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) - The styling and positioning of the HTML.
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) - The interactivity of the site.
+- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) - The backend functionality.
+- ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) - To build the project.
+- ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) - To deploy the live site.
+- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) - To store the project's code.
+- ![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white) - To write and push the code for the project.
+- ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) - To send emails.
+- ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white) - To create site's Facebook business page.
+- ![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white) - As one of the social links.
+- ![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white) - As another one of the social links.
+- ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important) - To help with code identification.
+- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) - To build the site in.
+- ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) - To host static and image files.
+- ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white) - For questions and answers.
+- ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)  - To connect the project to the database.
 
 
-## Others Programmes:
-- ***`Visual Studio Code`*** - To build the site in.
-- ***`GitHub`*** - To store the project's code.
-- ***`GitPod`*** - To write and push the code for the project.
+## Others Dependencies :
+
 - ***`Balsamiq`*** - To create project's wireframes.
 - ***`Chrome Dev Tools`*** - To debug and testing.
 - ***`W3C HTML Validator`*** - To validate the HTML code.
@@ -295,13 +305,9 @@ The site has a Facebook Business page to help the business reach further and gai
 - ***`Am I Responsive`*** - To generate the responsive preview screens.
 - ***`Font Awesome`*** - For the icons.
 - ***`Google Fonts`*** - For font style.
-- ***`Facebook`*** - To create site's Facebook business page.
 - ***`Stripe`*** - To process the online payments with webhooks.
-- ***`AWS Bucket`*** - To host static files.
 - ***`Sitemap`*** - To generate the sitemap.xml
 - ***`Draw SQL`*** - To create the database schema diagram.
-- ***`Heroku`*** - To deploy the live site.
-- ***`PostgreSQL`***  - To connect the project to the database.
 
 ---
 
@@ -723,6 +729,7 @@ for supplying the materials to follow along with and the opportunity to become a
 - ***`My Family and Friends`***:~ for testing and constructively criticizing the site in depth to help me create a better UI/UX.
 - ***`Chris_W_Alumnus`***:~ for helping me work around the Reviews section of the project.
 - ***`liz conway_5P`***:~ for taking the time to review my project in the Peer code review on Slack.
+- ***`Stack Overflow`***:~ for providing questions and answers at difficult times.
 
 ---
 
