@@ -436,19 +436,27 @@ All links have a nice hover effect for better UI/UX.
 ## Contains: ~
 - All Product images.
 - Product names and Descriptions.
-- The prices and Discount Prices.
+- The prices and Discount Prices if item is discounted.
 ![Product Page](documentation/readme/any-and-all-product-page.jpg)
-- The Category tags.
+- A back to top button in bottom left corner 
 
-- ### The Reviews links.
+- ## The Category tags.
+    - Which takes the user to all products with the same category.
+
+- ## Add To Bag link.
+    - Which takes the user to the product details page which contains further details like size and quantity etc.
+
+- ## The Reviews link.
     - Which takes the user to the product details page which contains the review section.
 
-- ### The Wish list links.
-    - Which takes the user to the Wish list page if the user is logged in otherwise the user is prompted to log in or register.
+- ## The Wish list link.
+    - Which adds the item to the Wish list page if the user is logged in otherwise the user is prompted to log in or register.
 
+    ![Product Page links](documentation/readme/any-and-all-product-page-tag-and-links-2.jpg)
+
+- ## If user is Staff User.
+    - Links to the edit item will appear at the bottom.
 ![Product Page links](documentation/readme/any-and-all-product-page-tag-and-links.jpg)
-
-- A back to top button in bottom left corner 
 
 ---
 
