@@ -49,17 +49,21 @@ https://any-and-all.herokuapp.com/
 
 - [Back to top ^](#any-and-all)
 
-This site was followed closely to the Boutique Ado walk through as I selected Advanced Front End as my special project but however unfortunately this was not provided and the learning material was no amended of the  material changed so I assumed I would receive the learning material at the end after the five Projects.
-One month later after I have studied the material and ready to make a start on my project, I contacted my mentor, Jack Wachira to discuss the project plan. I then asked him when I would do my Advanced front end. He informed me that I only had five Projects and to contact Tutor Support, to see if I can talk to someone to obtain more time to study the right material, then mention it in my readme. I waited for a reply, however after about a week I received the new course material. By this time I had been studying the original material for one month and commenced my E-commerce project as I was concerned due to the pending deadline. I attempted to contact Student support again in order to seek guidance or advice, but received no personal response. Code Institute transferred me back to thr original material and I persevered with the site.
-    So to save the remaining time I followed very closely to Boutique Ado then added the required parts for the module.
+This site was followed closely to the Boutique Ado walk through as I selected Advanced Front End as my special project but however unfortunately this was not provided and the learning material was no amended so I assumed I would receive the learning material at the end after the five Projects.
+One month later after I have studied the material and ready to make a start on my project, I contacted my mentor, Jack Wachira to discuss the project plan. I then asked him when I would do my Advanced front end. He informed me that I only had five Projects and to contact Tutor Support, to see if I can talk to someone to obtain more time to study the right material, then mention it in my readme. I waited for a reply, however after about a week I received the new course material. By this time I had been studying the original material for one month and commenced my E-commerce project as I was concerned due to the pending deadline. I attempted to contact Student support again in order to seek guidance or advice, but received no personal response. Code Institute transferred me back to the original material and I persevered with the site. So to save the remaining time I followed very closely to Boutique Ado then added the required parts for the module.
 
 ## Still no one has ever contacted me.
+
+---
+# Business Model:
+
+Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page to entice new shoppers and a Keywords META DATA to match the Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ).
 
 ---
 
 # Project Overview:
 
-Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
+It was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
 The site consists of a sign up, sign in and sign out ability for ease of repeat visits saving users details so check out will be quick and easy with a secure payment system through ( ***`Stripe`*** ) payments system so all user details are protected.
 The user also has the option of signing up for a newsletter and checking out our Facebook page to stay up to date with all the latest deals and discounted products.
 There is a Create, Read, Update and Delete ( ***`C.R.U.D`*** ) functionality for users and staff..... 
@@ -229,19 +233,19 @@ The wire frames for the pages showcasing the bare structure of the site.
 # Database Schema:
 
 ## ***`Draw SQL`*** 
-was used to create the database schema https://drawsql.app/ to create the project's database schema models showing the relationship between the models.
+I used https://drawsql.app/ to create the project's database schema showing the relationship between the models.
 
 ![Data base](documentation/readme/any-and-all-data-schema.jpg)
 
 #### Models
-- ***UserProfile*** - Stores all users details and purchase history.
-- ***Category*** - Attaches a category to the products.
-- ***Product*** - Stores the product information.
-- ***Order*** - Creates the users order details.
-- ***OrderLineItem*** - Are the products in the order.
-- ***WishlistProduct*** - Stores the wish list items.
-- ***Wishlist*** - Attaches the user to the wish list.
-- ***Review*** - Creates a review  for the customer to review the item or read other people's reviews.
+- ***UserProfile*** - Stores all users details and purchase history also links the user to the reviews and wish list models.
+- ***Category*** - Attaches a category to the products and also links to the wish list product model.
+- ***Product*** - Stores the product information and links to the wish list, wish list product, review, category and order line item models.
+- ***Order*** - Creates the users order details and links to the user profile and order line item models.
+- ***OrderLineItem*** - Are the products in the order which links to the order and product models.
+- ***WishlistProduct*** - Stores the wish list items which links to the wish list and product models.
+- ***Wishlist*** - Attaches the user to the wish list which links to the user profile, wish list product and product models.
+- ***Review*** - Creates a review for the customer to review the item and/or read other people's reviews and connects to the user profile and the product models.
 
 ---
 
