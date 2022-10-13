@@ -321,7 +321,7 @@ I've designed the site with a purple and black gradient to add style with a beau
 The Logo will take the user back to the home page.
 I've also added the Home link along side the All products, Clothing, Homeware and Special offers Categories in the nav links which light up when hovered or clicked to make it simple for all levels of user's
 It has a search bar for searching anything on the site quickly using keywords.
-The large dark footer makes the blue really pop for easy guidance to links.
+The large dark footer makes the blue really pop for easy guidance to links and can be found on all pages.
 
 ![Landing page](documentation/readme/any-and-all-homepage1.jpg)
 ![Landing page](documentation/readme/any-and-all-homepage2.jpg)
@@ -402,7 +402,7 @@ All links have a nice hover effect for better UI/UX.
 
 # Footer:
 
-## The footer consists of: ~
+## The footer can be found on all pages and consists of: ~
 
 - ### The Subscription for the Newsletter.
     - The user will then receive a thank you for subscribing email.
