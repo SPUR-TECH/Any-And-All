@@ -100,10 +100,15 @@
                                     </div>
                                     <hr>
                                     {% endif %}
-                                    <a class="reviews-text-light-link text-decoration-none bg-color pl-1 pr-2 pb-1 rounded"
+                                    <a class="reviews-text-light-link text-decoration-none bg-color pl-1 pr-2 pb-1 mb-5 rounded"
+                                        href="{% url 'product_detail' product.pk %}"><i>Add to Bag</i>
+                                    </a>
+                                    <hr>
+                                    <a class="reviews-text-light-link text-decoration-none bg-color pl-1 pr-2 pb-1 mt-5 rounded"
                                         href="{% url 'product_detail' product.pk %}"><i>Reviews</i>
                                     </a>
                                     <br>
+
                                     {% if user.is_authenticated %}
                                     <form class="form" action="{% url 'add_to_wishlist' product.id %}" method="POST">
                                         {% csrf_token %}
