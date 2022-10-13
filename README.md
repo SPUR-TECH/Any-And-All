@@ -17,13 +17,13 @@ https://any-and-all.herokuapp.com/
     - [Wireframes:](#wireframes-created-using-httpsbalsamiqcomwireframes)
 - [Database Schema:](#database-schema)
     - [Models:](#models)
-- [Marketing strategy:](#marketing-strategy)
-    - [***SEO*** Search Engine Optimization:](#seo-search-engine-optimization)
+- [Business Model:](#business-model)
+- [Marketing strategies:](#marketing-strategies)
+    - [***SEO***  Search Engine Optimization:](#seo--search-engine-optimization)
     - [***Brand Reach***:](#brand-reach)
     - [***Facebook*** Business page:](#facebook-business-page)
 - [Technologies Used:](#technologies-used)
     - [Languages & Frameworks:](#languages--frameworks)
-    - [Others Programmes:](#others-programmes)
 - [Existing Features:](#existing-features)
 1. [The landing page:](#the-landing-page)
 2. [The Navbar:](#the-navbar)
@@ -49,15 +49,12 @@ https://any-and-all.herokuapp.com/
 
 - [Back to top ^](#any-and-all)
 
+---
+
 This site was followed closely to the Boutique Ado walk through as I selected Advanced Front End as my special project but however unfortunately this was not provided and the learning material was no amended so I assumed I would receive the learning material at the end after the five Projects.
 One month later after I have studied the material and ready to make a start on my project, I contacted my mentor, Jack Wachira to discuss the project plan. I then asked him when I would do my Advanced front end. He informed me that I only had five Projects and to contact Tutor Support, to see if I can talk to someone to obtain more time to study the right material, then mention it in my readme. I waited for a reply, however after about a week I received the new course material. By this time I had been studying the original material for one month and commenced my E-commerce project as I was concerned due to the pending deadline. I attempted to contact Student support again in order to seek guidance or advice, but received no personal response. Code Institute transferred me back to the original material and I persevered with the site. So to save the remaining time I followed very closely to Boutique Ado then added the required parts for the module.
 
 ## Still no one has ever contacted me.
-
----
-# Business Model:
-
-Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site that sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page to entice new shoppers and a Keywords META DATA to match the Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ).
 
 ---
 
@@ -148,7 +145,11 @@ User stories where built in an Agile methodology Kanban board using the MoSCoW t
 | [#18]  Links | As a site owner  | I'd like to create links to corresponding page so I can make sure users, staff and store owners are directed to relevant pages.| Must Have |
 | [#19]  Functioning E-commerce site | As a site owner  | I'd like build a fully functioning E-commerce site so I can add it to my profile of websites I've create with Code Institute| Must Have |
 
+---
+
 - [Back to top ^](#any-and-all)
+
+---
 
 ## Then prioritized on a Kanban Board
 ### (Todo, In Progress and Done) :~
@@ -160,6 +161,8 @@ User stories where built in an Agile methodology Kanban board using the MoSCoW t
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
  # Content Requirements:
     
@@ -199,6 +202,8 @@ User stories where built in an Agile methodology Kanban board using the MoSCoW t
 
 
 ## All of the above user stories were met except coupons marked as Won't Have.
+
+---
 
 - [Back to top ^](#any-and-all)
 
@@ -251,7 +256,15 @@ I used https://drawsql.app/ to create the project's database schema showing the 
 
 - [Back to top ^](#any-and-all)
 
-# Marketing strategy:
+---
+
+# Business Model:
+
+Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site that sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page to entice new shoppers and a Keywords META DATA to match the Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ).
+
+---
+
+# Marketing strategies:
 
 ## ( ***`SEO`*** ) Search Engine Optimization:
 - I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
@@ -276,6 +289,8 @@ The site has a Facebook Business page to help the business reach further and gai
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
 # Technologies Used:
 
@@ -317,6 +332,8 @@ The site has a Facebook Business page to help the business reach further and gai
 
 - [Back to top ^](#any-and-all)
 
+---
+
 # Existing Features:
 
 # The landing page:
@@ -330,6 +347,8 @@ The large dark footer makes the blue really pop for easy guidance to links and c
 ![Landing page](documentation/readme/any-and-all-homepage1.jpg)
 ![Landing page](documentation/readme/any-and-all-homepage2.jpg)
 ![Landing page](documentation/readme/any-and-all-homepage3.jpg)
+
+---
 
 - [Back to top ^](#any-and-all)
 
@@ -360,6 +379,8 @@ which is fully adjustable and has a Secure checkout and a Keep shopping Button.
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
 ## The All Products link drops down to show: ~
 - By Price.
@@ -404,6 +425,8 @@ All links have a nice hover effect for better UI/UX.
 
 - [Back to top ^](#any-and-all)
 
+---
+
 # Footer:
 
 ## The footer can be found on all pages and consists of: ~
@@ -425,6 +448,8 @@ All links have a nice hover effect for better UI/UX.
 
 - [Back to top ^](#any-and-all)
 
+---
+
 # Contact us page:
 
 ## Contact page was built on MailChimp site: ~
@@ -434,6 +459,8 @@ All links have a nice hover effect for better UI/UX.
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
 # The Product page:
 
@@ -466,6 +493,8 @@ All links have a nice hover effect for better UI/UX.
 
 - [Back to top ^](#any-and-all)
 
+---
+
 # Product Detail Page:
 
 ## Contains: ~
@@ -494,6 +523,8 @@ By clicking on ***`Add To Wish list`*** the user will be notified that the item 
 
 - [Back to top ^](#any-and-all)
 
+---
+
 # Sign in page:
 
 ## Contains: ~
@@ -511,6 +542,8 @@ At the top is a prompt to ask the user to register if not already done so.
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
 # Sign up page:
 
@@ -530,6 +563,8 @@ At the top is a prompt to ask user to Login if already registered.
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
 # Bag Page:
 
@@ -561,6 +596,8 @@ At the top is a prompt to ask user to Login if already registered.
 
 - [Back to top ^](#any-and-all)
 
+---
+
 # Checkout page:
 
 ## If the user is not registered: ~
@@ -583,6 +620,7 @@ The items can still be adjusted at this point.
 
 - [Back to top ^](#any-and-all)
 
+---
 
 # Loading Page:
 
@@ -593,6 +631,8 @@ The items can still be adjusted at this point.
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
  ## Then directed to the: ~
 
@@ -605,6 +645,8 @@ The items can still be adjusted at this point.
 
 - [Back to top ^](#any-and-all)
 
+---
+
 ## Confirmation Email
 
 ![Confirmation Email](documentation/readme/any-and-all-confirmation-email.jpg)
@@ -612,6 +654,8 @@ The items can still be adjusted at this point.
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
 # Testing:
 
@@ -653,6 +697,12 @@ The items can still be adjusted at this point.
 - [W3C HTML Validation Profile results](documentation/readme/any-and-all-html-validator-profile-page.jpg)
 - [W3C HTML Validation Contact Form results](documentation/readme/any-and-all-html-validator-contact-form.jpg)
 
+---
+
+- [Back to top ^](#any-and-all)
+
+---
+
 ## CSS Test:
 
 - The CSS was also put through the W3C CSS Validation checker with no errors or warnings.
@@ -664,6 +714,12 @@ The items can still be adjusted at this point.
 - Testing the sites Performance, Accessability, Best Practices and SEO on Devtools Lighthouse.
 
 ![Lighthouse test results](documentation/readme/any-and-all-lighthouse-test-results.jpg)
+
+---
+
+- [Back to top ^](#any-and-all)
+
+---
 
 - Testing the sites Accessability on Wave. https://wave.webaim.org/
 
@@ -682,6 +738,8 @@ The items can still be adjusted at this point.
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
 # Bugs And Fixes:
 
@@ -730,6 +788,8 @@ Move button into description area and it looks much better too.
 
 - [Back to top ^](#any-and-all)
 
+---
+
 # Credits:
 
 ## Many thanks to:~
@@ -747,6 +807,8 @@ for supplying the materials to follow along with and the opportunity to become a
 ---
 
 - [Back to top ^](#any-and-all)
+
+---
 
 # Deployment:
 
