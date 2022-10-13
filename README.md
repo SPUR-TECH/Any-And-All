@@ -17,10 +17,11 @@ https://any-and-all.herokuapp.com/
     - [Wireframes:](#wireframes-created-using-httpsbalsamiqcomwireframes)
 - [Database Schema:](#database-schema)
     - [Models:](#models)
-- [Marketing strategy:](#marketing-strategy)
-    - [***SEO*** Search Engine Optimization:](#seo--search-engine-optimization)
-    - [***Brand Reach***:](#brand-reach)
-    - [***Facebook*** Business page:](#facebook-business-page)
+- [Business Model:](#business-model)
+    - [Marketing strategy:](#marketing-strategy)
+        - [***SEO*** Search Engine Optimization:](#seo--search-engine-optimization)
+        - [***Brand Reach***:](#brand-reach)
+        - [***Facebook*** Business page:](#facebook-business-page)
 - [Technologies Used:](#technologies-used)
     - [Languages & Frameworks:](#languages--frameworks)
 - [Existing Features:](#existing-features)
@@ -58,11 +59,40 @@ One month later after I have studied the material and ready to make a start on m
 ---
 # Business Model:
 
-Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page to entice new shoppers and a Keywords META DATA to match the highlighted Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ) and links for customers to view the privacy policy, Stripe payments security and an easy way to contact us for maximum customer service which generates trust with the customer leading to referrals.
+Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page for ( ***`Brand Reach`*** ) to entice new shoppers and a Keywords META DATA to match the highlighted Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ) and links for customers to view the privacy policy, Stripe payments security and an easy way to contact us for maximum customer service which generates trust with the customer leading to referrals.
 
+---
+
+## Marketing strategy:
+
+## ( ***`SEO`*** ) Search Engine Optimization:
+- I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
+![Keyword Caption](documentation/readme/any-and-all-keyword-caption.jpg)
+
+- I've also added a robots.txt and a sitemap.xml to maximize google search engines.
+- I've also created a newsletter subscription function
+
+![Newsletter subscription](documentation/readme/any-and-all-newsletter-subscription.jpg)
+
+---
+
+## ***`Brand Reach`***:
+
+## ***`Facebook`*** Business page:
+
+The site has a Facebook Business page to help the business reach further and gain potential customers and updates and discounts can be advertised to entice the shoppers to come and visit the site.
+
+![Facebook Page](documentation/readme/any-and-all-facebook-1.jpg)
+![Facebook Page](documentation/readme/any-and-all-facebook-2.jpg)
+
+---
+
+- [Back to top ^](#any-and-all)
+
+---
 # Project Overview:
 
-It was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
+The was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user. The Navbar and Footer can be seen on all pages.
 The site consists of a sign up, sign in and sign out ability for ease of repeat visits saving users details so check out will be quick and easy with a secure payment system through ( ***`Stripe`*** ) payments system so all user details are protected.
 The user also has the option of signing up for a newsletter and checking out our Facebook page to stay up to date with all the latest deals and discounted products.
 There is a Create, Read, Update and Delete ( ***`C.R.U.D`*** ) functionality for users and staff..... 
@@ -253,34 +283,6 @@ I used https://drawsql.app/ to create the project's database schema showing the 
 - ***WishlistProduct*** - Stores the wish list items which links to the wish list and product models.
 - ***Wishlist*** - Attaches the user to the wish list which links to the user profile, wish list product and product models.
 - ***Review*** - Creates a review for the customer to review the item and/or read other people's reviews and connects to the user profile and the product models.
-
----
-
-- [Back to top ^](#any-and-all)
-
----
-
-# Marketing strategy:
-
-## ( ***`SEO`*** ) Search Engine Optimization:
-- I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
-![Keyword Caption](documentation/readme/any-and-all-keyword-caption.jpg)
-
-- I've also added a robots.txt and a sitemap.xml to maximize google search engines.
-- I've also created a newsletter subscription function
-
-![Newsletter subscription](documentation/readme/any-and-all-newsletter-subscription.jpg)
-
----
-
-## ***`Brand Reach`***:
-
-## ***`Facebook`*** Business page:
-
-The site has a Facebook Business page to help the business reach further and gain potential customers and updates and discounts can be advertised to entice the shoppers to come and visit the site.
-
-![Facebook Page](documentation/readme/any-and-all-facebook-1.jpg)
-![Facebook Page](documentation/readme/any-and-all-facebook-2.jpg)
 
 ---
 
