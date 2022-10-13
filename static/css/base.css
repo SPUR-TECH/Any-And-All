@@ -557,13 +557,13 @@ input[name='q']::placeholder {
     padding: 20px;
 }
 
-.social-networks i {
+.socials i {
     margin: 10px;
     font-size: 160%;
     color: rgb(0, 238, 255);
 }
 
-.social-networks i:hover {
+.socials :hover {
     color: rgb(9, 255, 0);
 }
 
