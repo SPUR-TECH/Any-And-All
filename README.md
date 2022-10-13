@@ -57,7 +57,7 @@ One month later after I have studied the material and ready to make a start on m
 ---
 # Business Model:
 
-Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page to entice new shoppers and a Keywords META DATA to match the Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ).
+Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site that sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page to entice new shoppers and a Keywords META DATA to match the Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ).
 
 ---
 
