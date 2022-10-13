@@ -455,7 +455,7 @@ All links have a nice hover effect for better UI/UX.
     ![Product Page links](documentation/readme/any-and-all-product-page-tag-and-links-2.jpg)
 
 - ## If user is Staff User.
-    - Links to the edit item will appear at the bottom.
+    - Links to the edit product will appear at the bottom.
 ![Product Page links](documentation/readme/any-and-all-product-page-tag-and-links.jpg)
 
 ---

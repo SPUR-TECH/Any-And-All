@@ -550,27 +550,20 @@ input[name='q']::placeholder {
 /* footer */
 
 .footer {
+    text-align: center;
     width: 100%;
     position: sticky;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
 }
 
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    margin: 20px;
+.social {
+    margin: 10px;
     font-size: 160%;
     color: rgb(0, 238, 255);
 }
 
-.social-networks i:hover {
+.social:hover {
     color: rgb(9, 255, 0);
 }
 
