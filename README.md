@@ -17,9 +17,8 @@ https://any-and-all.herokuapp.com/
     - [Wireframes:](#wireframes-created-using-httpsbalsamiqcomwireframes)
 - [Database Schema:](#database-schema)
     - [Models:](#models)
-- [Business Model:](#business-model)
-- [Marketing strategies:](#marketing-strategies)
-    - [***SEO***  Search Engine Optimization:](#seo--search-engine-optimization)
+- [Marketing strategy:](#marketing-strategy)
+    - [***SEO*** Search Engine Optimization:](#seo--search-engine-optimization)
     - [***Brand Reach***:](#brand-reach)
     - [***Facebook*** Business page:](#facebook-business-page)
 - [Technologies Used:](#technologies-used)
@@ -57,10 +56,13 @@ One month later after I have studied the material and ready to make a start on m
 ## Still no one has ever contacted me.
 
 ---
+# Business Model:
+
+Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page to entice new shoppers and a Keywords META DATA to match the highlighted Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ) and links for customers to view the privacy policy, Stripe payments security and an easy way to contact us for maximum customer service which generates trust with the customer leading to referrals.
 
 # Project Overview:
 
-The site was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user. The Navbar and Footer can be seen on all pages.
+It was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
 The site consists of a sign up, sign in and sign out ability for ease of repeat visits saving users details so check out will be quick and easy with a secure payment system through ( ***`Stripe`*** ) payments system so all user details are protected.
 The user also has the option of signing up for a newsletter and checking out our Facebook page to stay up to date with all the latest deals and discounted products.
 There is a Create, Read, Update and Delete ( ***`C.R.U.D`*** ) functionality for users and staff..... 
@@ -258,13 +260,7 @@ I used https://drawsql.app/ to create the project's database schema showing the 
 
 ---
 
-# Business Model:
-
-Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site that sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page to entice new shoppers and a Keywords META DATA to match the Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ).
-
----
-
-# Marketing strategies:
+# Marketing strategy:
 
 ## ( ***`SEO`*** ) Search Engine Optimization:
 - I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
@@ -622,6 +618,7 @@ The items can still be adjusted at this point.
 
 ---
 
+
 # Loading Page:
 
 ## When the Complete Order Button is pressed the user is greeted with a loading page.
@@ -714,12 +711,6 @@ The items can still be adjusted at this point.
 - Testing the sites Performance, Accessability, Best Practices and SEO on Devtools Lighthouse.
 
 ![Lighthouse test results](documentation/readme/any-and-all-lighthouse-test-results.jpg)
-
----
-
-- [Back to top ^](#any-and-all)
-
----
 
 - Testing the sites Accessability on Wave. https://wave.webaim.org/
 
