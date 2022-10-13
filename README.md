@@ -63,7 +63,7 @@ Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping
 
 # Project Overview:
 
-It was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user.
+The site was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user. The Navbar and Footer can be seen on all pages.
 The site consists of a sign up, sign in and sign out ability for ease of repeat visits saving users details so check out will be quick and easy with a secure payment system through ( ***`Stripe`*** ) payments system so all user details are protected.
 The user also has the option of signing up for a newsletter and checking out our Facebook page to stay up to date with all the latest deals and discounted products.
 There is a Create, Read, Update and Delete ( ***`C.R.U.D`*** ) functionality for users and staff..... 
