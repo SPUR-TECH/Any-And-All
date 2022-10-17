@@ -59,13 +59,13 @@ One month later after I have studied the material and ready to make a start on m
 ---
 # Business Model:
 
-Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page for ( ***`Brand Reach`*** ) to entice new shoppers and a Keywords META DATA to match the highlighted Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***`SEO`*** ) and links for customers to view the privacy policy, Stripe payments security and an easy way to contact us for maximum customer service which generates trust with the customer leading to referrals.
+Any And All is a Business to customer ( ***B2C*** ) E-commerce online shopping site thats sells anything from clothing to kitchenware, dealing directly from the business to the customer. It has it's own Facebook page for ( ***Brand Reach*** ) to entice new shoppers and a Keywords META DATA to match the highlighted Keywords in the Home page Blurb. A Robots.txt file and a Sitemap.xml file was implemented for better Search Engine Optimization ( ***SEO*** ) and links for customers to view the privacy policy, Stripe payments security and an easy way to contact us for maximum customer service which generates trust with the customer leading to referrals.
 
 ---
 
 ## Marketing strategy:
 
-## ( ***`SEO`*** ) Search Engine Optimization:
+## ( ***SEO*** ) Search Engine Optimization:
 - I've added some short tail and long tail keywords in the Meta tag then a nice caption on the front page with highlighted keywords telling the users about the site.
 ![Keyword Caption](documentation/readme/any-and-all-keyword-caption.jpg)
 
@@ -76,9 +76,9 @@ Any And All is a Business to customer ( ***`B2C`*** ) E-commerce online shopping
 
 ---
 
-## ***`Brand Reach`***:
+## ***Brand Reach***:
 
-## ***`Facebook`*** Business page:
+## ***Facebook*** Business page:
 
 The site has a Facebook Business page to help the business reach further and gain potential customers and updates and discounts can be advertised to entice the shoppers to come and visit the site.
 
@@ -93,9 +93,9 @@ The site has a Facebook Business page to help the business reach further and gai
 # Project Overview:
 
 The was designed with an easy to use navigation to all pages with a search bar that can search any category or price or even key words in any product, making the site very accessible and easy to use for any level of user. The Navbar and Footer can be seen on all pages.
-The site consists of a sign up, sign in and sign out ability for ease of repeat visits saving users details so check out will be quick and easy with a secure payment system through ( ***`Stripe`*** ) payments system so all user details are protected.
+The site consists of a sign up, sign in and sign out ability for ease of repeat visits saving users details so check out will be quick and easy with a secure payment system through ( ***Stripe*** ) payments system so all user details are protected.
 The user also has the option of signing up for a newsletter and checking out our Facebook page to stay up to date with all the latest deals and discounted products.
-There is a Create, Read, Update and Delete ( ***`C.R.U.D`*** ) functionality for users and staff..... 
+There is a Create, Read, Update and Delete ( ***C.R.U.D*** ) functionality for users and staff..... 
 - For users:~ 
     - They can write reviews, edit old reviews and delete them at any time and add things to their wish list with the same edit, update and delete capabilities but they will need to register for this function.
 - For staff:~ 
@@ -269,7 +269,7 @@ The wire frames for the pages showcasing the bare structure of the site.
 
 # Database Schema:
 
-## ***`Draw SQL`*** 
+## ***Draw SQL*** 
 I used https://drawsql.app/ to create the project's database schema showing the relationship between the models.
 
 ![Data base](documentation/readme/any-and-all-data-schema.jpg)
@@ -315,16 +315,16 @@ I used https://drawsql.app/ to create the project's database schema showing the 
 
 ## Others Dependencies :
 
-- ***`Balsamiq`*** - To create project's wireframes.
-- ***`Chrome Dev Tools`*** - To debug and testing.
-- ***`W3C HTML Validator`*** - To validate the HTML code.
-- ***`W3C CSS Validator`*** - To validate CSS code.
-- ***`Am I Responsive`*** - To generate the responsive preview screens.
-- ***`Font Awesome`*** - For the icons.
-- ***`Google Fonts`*** - For font style.
-- ***`Stripe`*** - To process the online payments with webhooks.
-- ***`Sitemap`*** - To generate the sitemap.xml
-- ***`Draw SQL`*** - To create the database schema diagram.
+- ***Balsamiq*** - To create project's wireframes.
+- ***Chrome Dev Tools*** - To debug and testing.
+- ***W3C HTML Validator*** - To validate the HTML code.
+- ***W3C CSS Validator*** - To validate CSS code.
+- ***Am I Responsive*** - To generate the responsive preview screens.
+- ***Font Awesome*** - For the icons.
+- ***Google Fonts*** - For font style.
+- ***Stripe*** - To process the online payments with webhooks.
+- ***Sitemap*** - To generate the sitemap.xml
+- ***Draw SQL*** - To create the database schema diagram.
 
 ---
 
@@ -508,12 +508,12 @@ All links have a nice hover effect for better UI/UX.
 
 ![Product Detail Page](documentation/readme/any-and-all-product-detail.jpg)
 
-By clicking on ***`Write Review`*** the user will be taken to the review form if the user is logged in or the user will be directed to the log in form.
+By clicking on ***Write Review*** the user will be taken to the review form if the user is logged in or the user will be directed to the log in form.
 
 ![Review Form](documentation/readme/any-and-all-review-form.jpg)
 
 
-By clicking on ***`Add To Wish list`*** the user will be notified that the item was added to their Wish list page if the user is logged in or the user will be directed to the log in form.
+By clicking on ***Add To Wish list*** the user will be notified that the item was added to their Wish list page if the user is logged in or the user will be directed to the log in form.
 
 ![Wish List Alert](documentation/readme/any-and-all-wishlist-alert.jpg)
 
@@ -787,15 +787,15 @@ Move button into description area and it looks much better too.
 
 ## Many thanks to:~
 
-- ## ***`Code Institute`***:~ 
-for supplying the materials to follow along with and the opportunity to become a ( ***`FULL STACK DEVELOPER`*** ).  
-- ***`Tutor Support`*** :~ for being there in my many many times of need especially ***`Scott`***. He was so quick at finding errors saving me valuable Tutor time and helping me understand why the errors occur.
-- ***`Jack Wachira`*** :~ for Mentoring me through the course.
-- ***`My Family and Friends`*** :~ for testing and constructively criticizing the site in depth to help me create a better UI/UX.
-- ***`Chris_W_Alumnus`*** :~ for helping me work around the Reviews section of the project.
-- ***`liz conway_5P`*** :~ for taking the time to review my project in the Peer code review on Slack.
-- ***`Stack Overflow`*** :~ for providing questions and answers at difficult times.
-- ***`TomDoesTech`*** :~ for making a Youtube video on how to add Technology badges to my Readme.
+- ## ***Code Institute***:~ 
+for supplying the materials to follow along with and the opportunity to become a ( ***FULL STACK DEVELOPER*** ).  
+- ***Tutor Support*** :~ for being there in my many many times of need especially ***Scott***. He was so quick at finding errors saving me valuable Tutor time and helping me understand why the errors occur.
+- ***Jack Wachira*** :~ for Mentoring me through the course.
+- ***My Family and Friends*** :~ for testing and constructively criticizing the site in depth to help me create a better UI/UX.
+- ***Chris_W_Alumnus*** :~ for helping me work around the Reviews section of the project.
+- ***liz conway_5P*** :~ for taking the time to review my project in the Peer code review on Slack.
+- ***Stack Overflow*** :~ for providing questions and answers at difficult times.
+- ***TomDoesTech*** :~ for making a Youtube video on how to add Technology badges to my Readme.
 
 ---
 

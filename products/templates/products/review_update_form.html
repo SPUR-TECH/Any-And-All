@@ -2,7 +2,7 @@
 
 {% load crispy_forms_tags %}
 
-{% block title %}Product review form{% endblock %}
+{% block title %}Product review update form{% endblock %}
 
 {% load static %}
 {% block page_header %}
@@ -21,18 +21,13 @@
         <div class="review-area">
             <br>
             <p class="col-12 text-center text-light mb-4">
-                <h3 class="review-title mb-4"><i>Please leave your review here:</i></h3>
+                <h3 class="review-title mb-4"><i>Please Edit your review here:</i></h3>
 
                 <form method="post">
                     {% csrf_token %}
 
-                    {{ form.review }}
-                    <input type="hidden" name="review_writer" value="{{ request.user.id }}" id="review_writer">
-                    <div class="form-outline">
-                        <label><i>Add Your rating here : </i></label>
-                        <input class="rounded text-center ml-2 mt-4 mb-4" type="number" name="rating" step="0.1"
-                            value="0" min="0" max="5" aria-label="Add Your rating here :" id="id_rating">
-                    </div>
+                    {{ form|crispy }}
+
                     <input class="save-button btn-purple rounded border-0 pl-2 pr-2 pb-1 mb-4" type="submit"
                         value="Save">
                 </form>

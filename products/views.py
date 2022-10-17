@@ -7,15 +7,14 @@ from django.db.models.functions import Lower
 from django.urls import reverse_lazy
 
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.views.generic import UpdateView
-from django.views.generic.edit import CreateView, DeleteView
+from django.views.generic.edit import CreateView, DeleteView, UpdateView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib import messages
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
 from .models import Product, Category, Review
 
-from . forms import ReviewForm
+from .forms import ReviewForm
 from .forms import ProductForm
 
 
@@ -218,7 +217,11 @@ class ReviewUpdateView(LoginRequiredMixin, UpdateView):
     """
     model = Review
     context_object_name = 'Review'
-    form_class = ReviewForm
+    template_name_suffix = '_update_form'
+    fields = [
+        'review',
+        'rating'
+    ]
 
     def get_success_url(self):
         """Redirect to product Detail page
