@@ -217,11 +217,7 @@ class ReviewUpdateView(LoginRequiredMixin, UpdateView):
     """
     model = Review
     context_object_name = 'Review'
-    template_name_suffix = '_update_form'
-    fields = [
-        'review',
-        'rating'
-    ]
+    form_class = ReviewForm
 
     def get_success_url(self):
         """Redirect to product Detail page
