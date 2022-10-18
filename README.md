@@ -776,6 +776,14 @@ Remove suggested closing P tags.
 Remove item from wishlist button was getting cut off slightly on mid size screens
 ## Fix: ~ 
 Move button into description area and it looks much better too.
+## Bug: ~ 
+When editing an existing review the rating resets.
+## Fix: ~ 
+Created an update review form with crispy forms and passed info from updated view.
+## Bug: ~ 
+When using Crispy forms some of the data was lost like maximum input amount and increment arrows in input box.
+## Fix: ~ 
+Remove Crispy forms and revert back to original view layout. If the user wants to edit the review then they can change the rating too.
 
 ---
 
@@ -852,22 +860,22 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
 ## Add Stripe Details for payments
 
 4. Payment details in Setting.py:
-- FREE_DELIVERY_THRESHOLD = 20
-- STANDARD_DELIVERY_PERCENTAGE = 10
-- STRIPE_CURRENCY = 'gbp'
-- STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
-- STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
-- STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+    - FREE_DELIVERY_THRESHOLD = 20
+    - STANDARD_DELIVERY_PERCENTAGE = 10
+    - STRIPE_CURRENCY = 'gbp'
+    - STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
+    - STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+    - STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
 ## Add the INSTALLED_APPS in settings.py file:
 
-5.Installed APPS in Settings.py: 
-- 'home',
-- 'products',
-- 'bag',
-- 'checkout',
-- 'profiles',
-- 'wishlist',
+5. Installed APPS in Settings.py: 
+    - 'home',
+    - 'products',
+    - 'bag',
+    - 'checkout',
+    - 'profiles',
+    - 'wishlist',
 
 ## Override Static and Media files to be stored in AWS and Deploy to Heroku:
 
@@ -885,10 +893,11 @@ To deploy this page to Heroku from its GitHub repository, the following steps we
     - After linking your app to your workspace, you can then deploy new versions of the app by running the command **git push heroku main** enter your app name and Heroku API Key when prompted and your app will be deployed to Heroku.
     - Then go to Heroku and click on your new app and then click open app. 
 
-## Finally create a robots.txt file 
-- To control search engine bot crawling.
 ## A sitemap.xml file
 - To allow search engine bot crawling.
+
+## Finally create a robots.txt file 
+- To control search engine bot crawling.
 
 ---
 
