@@ -228,7 +228,7 @@ i {
 
 .dropdown-menu {
     background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
-    width: 230px;
+    width: 280px;
 }
 
 a.dropdown-item {
@@ -550,10 +550,11 @@ input[name='q']::placeholder {
 /* footer */
 
 .footer {
+    margin-top: 400px;
     text-align: center;
     width: 100%;
     position: sticky;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0);
     padding: 20px;
 }
 
@@ -573,8 +574,8 @@ input[name='q']::placeholder {
     text-align: center;
     padding: 10px;
     font-size: 18px;
-    border: 30px rgba(0, 0, 0, 0.9) !important;
     border-style: solid;
+    border-width: 30px;
 }
 
 b {
@@ -791,8 +792,9 @@ a img.rounded {
         padding-top: 164px;
     }
 
-    #delivery-banner h4 {
-        font-size: .7rem;
+
+    #delivery-banner {
+        font-size: .6rem;
     }
 
     .review-title {
@@ -890,7 +892,7 @@ a img.rounded {
 
     .dropdown-menu {
         font-size: 14px;
-        width: 190px;
+        width: 230px;
     }
 
     #products-title h1 {
