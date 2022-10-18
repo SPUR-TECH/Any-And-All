@@ -593,7 +593,7 @@ b {
     }
 
     .header-container {
-        padding-top: 200px;
+        padding-top: 300px;
     }
 
     #small-title {
@@ -689,13 +689,14 @@ a img.rounded {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .container {
         max-width: 80%;
     }
 
+
     .header-container {
-        padding-top: 200px;
+        padding-top: 300px;
     }
 
     #small-title {
@@ -719,10 +720,6 @@ a img.rounded {
         left: 0;
         z-index: 1030;
     }
-
-    .header-container {
-        padding-top: 164px;
-    }
 }
 
 /* Pad the top a bit when navbar is collapsed on mobile */
@@ -739,10 +736,6 @@ a img.rounded {
 
     #page-blurb-text h3 {
         font-size: 15px;
-    }
-
-    .header-container {
-        padding-top: 116px;
     }
 
     .nav-link {
@@ -788,10 +781,6 @@ a img.rounded {
         z-index: 1030;
     }
 
-    .header-container {
-        padding-top: 164px;
-    }
-
 
     #delivery-banner {
         font-size: .6rem;
@@ -802,7 +791,7 @@ a img.rounded {
     }
 
     .header-container {
-        padding-top: 150px;
+        padding-top: 250px;
     }
 
     #small-title {
