@@ -189,6 +189,7 @@ User stories where built in an Agile methodology Kanban board using the MoSCoW t
 ![User stories](documentation/readme/any-and-all-agile-method1.jpg)
 ![User stories](documentation/readme/any-and-all-agile-method2.jpg)
 ![User stories](documentation/readme/any-and-all-agile-method3.jpg)
+![User stories](documentation/readme/any-and-all-agile-method6.jpg)
 
 ---
 
