@@ -785,6 +785,10 @@ Created an update review form with crispy forms and passed info from updated vie
 When using Crispy forms some of the data was lost like maximum input amount and increment arrows in input box.
 ## Fix: ~ 
 Remove Crispy forms and revert back to original view layout. If the user wants to edit the review then they can change the rating too.
+## Bug: ~ 
+New user was unable to register for no known reason as it all worked fine before submission.
+## Fix: ~ 
+I followed the email section of the Boutique Ado walk through again and set up a new password and this seemed to work.
 
 ---
 
