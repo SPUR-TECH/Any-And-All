@@ -14,6 +14,25 @@
 {% endblock %}
 
 {% block content %}
+
+<div class=" container h-100">
+    <div class="row h-100">
+        <div class="col-7 col-md-6 my-auto">
+            <h1 class="display-4 logo-font" id="main-header">
+                Don't miss these great deals!
+            </h1>
+            <div class="my-5">
+
+                <a href="{% url 'products' %}"
+                    class="shop-now-button btn btn-lg btn-purple border-0 rounded text-uppercase"
+                    id="shop-button">Explore
+                    Shop</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="page-blurb" class="col-8 col-lg-4 ml-5 mt-5 bg-color p-3">
     <header>
         <section id="page-blurb-header" class="text-light">
@@ -36,23 +55,6 @@
                 so have a look around and happy shopping.</h3>
         </section>
     </header>
-</div>
-<div class=" container h-100">
-    <div class="row h-100">
-        <div class="col-7 col-md-6 my-auto">
-            <h1 class="display-4 logo-font" id="main-header">
-                Don't miss these great deals!
-            </h1>
-            <div class="my-5">
-
-                <a href="{% url 'products' %}"
-                    class="shop-now-button btn btn-lg btn-purple border-0 rounded text-uppercase"
-                    id="shop-button">Explore
-                    Shop</a>
-
-            </div>
-        </div>
-    </div>
 </div>
 {% endblock %}
 
